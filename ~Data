@@ -1,0 +1,742 @@
+Age,Gender,Nationality,Education,Employment,Psychedelic_naive,N_of_PE,N_PE_6month,All_drug_naive,N_all_drug_use,PAT,MDD,Bipolar_disorder,Schizophrenia,Anxiety_disorder,Substance abuse disorder,Alcohol_dependence,Hallucinogen_persisting_perception_disorder,Psychotic_disorder,Personality_disorder,ADHD,OCD,Eating_disorder,Mental_health,Treatment,Medication,Birth_difficulty_knowledge,Easy_birth,Difficult_birth,ID,Intended_drug_use,Intended_drug_use_other,Confidence_in_long_lasting_effect_PE
+23,Male,GB - United Kingdom,4,Student,No,2,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,21,79,0BywrMoxyK4CqTMrfzhRpBuPGt96G3J4',LSD/1P-LSD,NA,60
+37,Male,CA - Canada,4,Student,No,5,2,NA,7,Never,No,No,No,Anxiety disorder,Substance abuse disorder,No,No,No,Personality disorder,No,No,No,Diagnosed,Yes,No,No,NA,NA,0Ck8CVM19UcALyJD3GJeBIGFZfhobzUG',Psilocybin/magic mushrooms/truffles,NA,100
+37,Male,US - United States,5,Full-time job,No,7,4,NA,3,21-50 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,72,28,0GDq2cqvb1Oc9JXfbVHLsgMmKKrriJnb',Psilocybin/magic mushrooms/truffles,NA,91
+31,Male,GB - United Kingdom,4,Unemployed,No,5,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,0HKfQ1NminfmleDTrLGAOupENvFCOScy',Psilocybin/magic mushrooms/truffles,NA,80
+23,Male,IT - Italy,4,Student,No,3,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,0HhrbLWHE8U4H89IuzKMG57pDS6ThiMD',LSD/1P-LSD,NA,88
+54,Female,GB - United Kingdom,4,Full-time job,No,4,1,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,40,40,0SpbK7oeEQ8T44lLx289zovExNYwyHo7',Other - Write In,Ecstasy,100
+19,Male,SE - Sweden,3,Student,No,4,2,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,No,NA,NA,0T29g5nEseP9NnyAzVlJnAhZBFdBmrhK',LSD/1P-LSD,NA,80
+27,Male,GR - Greece,5,Part-time job,No,5,2,NA,21-50 times,2,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,No,No,Yes,12,12,0WgOJ6TzPevthhgYwBiGIYUVTRLK4U14',Psilocybin/magic mushrooms/truffles,NA,100
+35,Male,CA - Canada,5,Full-time job,No,1,1,NA,NA,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,50,50,0d2Ei33sA5FI6lPfSvj2Cd6WI74Mz8Kn',Psilocybin/magic mushrooms/truffles,NA,80
+25,Male,NL - Netherlands,4,Student,No,1,1,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,90,10,0igONbW1D9ACJMpdvBjfUl1gXnO9HEXY',Ayahuasca,NA,80
+26,Male,NL - Netherlands,4,Full-time job,No,4,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,0r5CtVxhWhwXxkD5joYACGRTsrDp5SW6',LSD/1P-LSD,NA,73
+24,Male,AU - Australia,3,Full-time job,No,4,1,NA,21-50 times,Never,No,No,No,Anxiety disorder,No,No,Hallucinogen persisting perception disorder,No,No,No,No,No,Diagnosed,No,No,Yes,86,0,0xl9aOn443FPoO5fIYx1ViAJNHU2oQ2b',LSD/1P-LSD,NA,100
+28,Female,US - United States,5,Student,No,5,2,NA,2,2,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,Obsessive compulsive disorder,Eating disorder,Diagnosed,No,No,Yes,11,90,110MeSYj51z2UIBlqEEfrXfnu8P8YDNf',Psilocybin/magic mushrooms/truffles,NA,75
+24,Male,DE - Germany,3,Student,No,2,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,13V1wFDWkZZCsltVC3qMt3UTXOcSRLJR',Ayahuasca,NA,68
+29,Male,RO - Romania,4,Full-time job,Yes,0,NA,None of the above,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,79,21,1EpRrx2iT1BMaXW0teIro7Gjk4YJwb4H',Psilocybin/magic mushrooms/truffles,NA,90
+20,Male,US - United States,3,Student,No,2,2,NA,7,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,0,80,1Kazn001wB9m6dC0uYsqYLUctkkBOZFv',LSD/1P-LSD,NA,45
+54,Female,DK - Denmark,4,Full-time job,No,2,1,None of the above,NA,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,1,100,1MpYOQXSVeyxc0C3WJeEUoZaCNyeVLzk',Ayahuasca,NA,90
+21,Male,US - United States,3,Student,No,2,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,1RE89CQYnsQsIN08789lxSPvZGQ0kVqJ',LSD/1P-LSD,NA,40
+38,Male,DE - Germany,5,Part-time job,No,6,3,NA,7,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,1cnHJBMSIBxMgEseqRbyJyyzgAno6Bl4',Psilocybin/magic mushrooms/truffles,NA,81
+34,Male,US - United States,3,Full-time job,No,4,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,1eeIUMSgRV2zDdiu3G90U6BdwvttbKVz',LSD/1P-LSD,NA,50
+21,Female,CA - Canada,4,Part-time job,No,2,2,NA,2,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,22,79,1gRiXpxtr4t0XnQaT2XhIKegrs5vJzPc',LSD/1P-LSD,NA,100
+29,Male,SE - Sweden,4,Full-time job,No,4,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,0,67,1nLZULE2CrMqTxWoWWmYIJufyXFjxvaV',Ayahuasca,NA,40
+56,Female,US - United States,4,Unemployed,No,2,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,1vuNPFqPZnHeCiILSZojwyITU0yzrDPb',Psilocybin/magic mushrooms/truffles,NA,50
+23,Female,DK - Denmark,3,Unemployed,Yes,0,NA,NA,Once,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,60,20,1w7i6Q30URyIGDs0g9VuLjtokyfdiixv',Ayahuasca,NA,100
+19,Male,US - United States,3,Student,No,1,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,13,84,27OvjWexPn0bNYCgjRu70T3nawjDl8XO',LSD/1P-LSD,NA,60
+28,Male,GB - United Kingdom,3,Student,No,7,3,NA,NA,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,2BAXde40CfihxgkRudGSWixte0TwFBqP',Psilocybin/magic mushrooms/truffles,NA,75
+35,Male,GB - United Kingdom,2,Full-time job,No,2,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,2BDqoH7io0IN3oOqlFphFmuysZdz8x3o',Iboga / ibogaine,NA,100
+67,Female,GB - United Kingdom,4,Retired,No,7,2,NA,21-50 times,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,2D0nZNVq5FIzwEjTOm297LuMAryGuCZ8',LSD/1P-LSD,NA,36
+43,Female,CA - Canada,5,Full-time job,No,5,2,NA,Once,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,86,8,2HrQhsToZSsMnpJV4yXl43jDH41x7bW0',Psilocybin/magic mushrooms/truffles,NA,66
+22,Male,GB - United Kingdom,4,Full-time job,No,5,3,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,30,45,2QV00nJf0TVNXvmwsKxadP2Xe0vaf4Rh',LSD/1P-LSD,NA,90
+24,Male,US - United States,2,Full-time job,No,5,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,65,35,2RDAuUvnarz7ToFa2bShZ0CISClWBhxX',LSD/1P-LSD,NA,85
+44,Male,GB - United Kingdom,4,Student,No,7,1,NA,11-20 times,21-50 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,31Ar1y9TcVWgJSB1yMG9W4w9hVOsEWjB',LSD/1P-LSD,NA,67
+35,Male,US - United States,5,Full-time job,No,4,2,NA,51-100 times,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,322HT44ysh8vnvKgaExcdlMgZYVSwmPn',DMT / 5-MeO-DMT,NA,1
+38,Male,GB - United Kingdom,5,Full-time job,No,3,1,NA,Once,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,19,83,3BvEDI7sCLinJSTh3DgvPDPzqh2wxkiw',LSD/1P-LSD,NA,70
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,3CvCNhVceRSUPr7ztMTZpMz80LmY4X68',NA,NA,NA
+24,Male,GB - United Kingdom,4,Full-time job,No,1,1,NA,Once,Never,No,No,No,Anxiety disorder,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,No,NA,NA,3EBloCeOPih6wMKBEMY7hm3CtWxkxKGa',LSD/1P-LSD,NA,67
+23,Male,MX - Mexico,4,Student,No,3,3,NA,2,Never,Major depressive disorder,No,No,No,No,No,No,No,Personality disorder,No,No,No,Diagnosed,Yes,No,No,NA,NA,3PJEPEamQ1aZ1Bv4PfcXunRnEPYa3VsZ',LSD/1P-LSD,NA,70
+20,Female,US - United States,4,Student,No,4,2,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,3UJ0EWxDyW1JfMKtsCh9rhafFWqiZ1IB',LSD/1P-LSD,NA,70
+24,Male,AT - Austria,2,Part-time job,No,5,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,1,80,3W5t8CrqfYpU4vPBzUrAUHwzWkSMyTTZ',Psilocybin/magic mushrooms/truffles,NA,70
+26,Female,IN - India,4,Full-time job,No,2,2,NA,7,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,3aPNeFg0HTX0q7QXKxvzMB9gLyZT21rJ',LSD/1P-LSD,NA,100
+23,Male,MX - Mexico,3,Student,No,2,2,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,3crgbgnDTPRzWtRxNz7TwONq9mBLU0Qt',LSD/1P-LSD,NA,89
+25,Male,TN - Tunisia,5,Student,No,3,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,3dRUfNHiMWLi7bWoJLVrN6U9W0fJDgvM',LSD/1P-LSD,NA,90
+32,Female,DK - Denmark,5,Part-time job,No,4,2,NA,2,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,82,25,3eb0P5noEX390iKO06vGuPkAnNd6tvEP',LSD/1P-LSD,NA,77
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,3rYmltq7WXSvqqMv4hiwewaf7FJjCVN6',NA,NA,NA
+47,Female,NZ - New Zealand,3,Part-time job,No,6,2,NA,21-50 times,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,51,71,3sQKFmTZlUfI0xjVOex1UumNR6DeouR4',Psilocybin/magic mushrooms/truffles,NA,73
+26,Male,DE - Germany,4,Student,No,5,2,NA,Once,11-20 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,70,14,3xepI9aneBpzJidxSmazlfBXGZDzoOOu',"Mescaline (Peyote, San Pedro)",NA,78
+35,Male,AR - Argentina,5,Full-time job,No,3,1,NA,2,Never,Major depressive disorder,Bipolar disorder,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,42QQLkNPGI3H3uXFGTMVMsubHSHvWbJk',Other - Write In,ketamine,80
+35,Female,GB - United Kingdom,2,Part-time job,No,3,1,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,45WfRJ6dFFDP3yzjxRCUDtMvzFUzMD19',Psilocybin/magic mushrooms/truffles,NA,80
+45,Male,LT - Lithuania,5,Full-time job,No,6,5,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,45YyRDDkQd1pBYo8lAGfsZckZGq5xWpt',LSD/1P-LSD,NA,100
+26,Female,CA - Canada,4,Part-time job,No,1,1,NA,21-50 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,22,73,45ttCFTruieC9PJunBGEXnC7F6YutnuG',LSD/1P-LSD,NA,91
+28,Female,GB - United Kingdom,5,Part-time job,No,2,1,NA,Once,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,47s6hmBXoyO6afPvKeyTKBl0dGj7lexq',LSD/1P-LSD,NA,70
+44,Female,NO - Norway,3,Unemployed,No,1,1,NA,Once,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,94,7,497v5DNNWakOhnGD0eicRS3yLtPTeWjK',Ayahuasca,NA,100
+41,Male,US - United States,3,Full-time job,No,5,5,NA,Once,Never,Major depressive disorder,Bipolar disorder,No,Anxiety disorder,Substance abuse disorder,No,No,No,Personality disorder,ADHD,No,No,Diagnosed,Yes,No,Yes,51,48,4BHYj9aKg4rqU12nPaRjKwBN0u4bUYQm',Psilocybin/magic mushrooms/truffles,NA,95
+45,Male,GB - United Kingdom,5,Full-time job,No,6,1,NA,7,21-50 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,10,64,4EELkWkdS7lQ5NXK11guxlCCTZxrXk9V',Ayahuasca,NA,85
+22,Female,SI - Slovenia,2,Student,No,2,1,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,4Pg9LrTYdX1Er2qFhNTBZFTYbszSC3MU',Psilocybin/magic mushrooms/truffles,NA,78
+37,Female,DE - Germany,5,Full-time job,No,5,1,NA,51-100 times,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,4RjLOZNPaUuxGIda2Dv3bBb8znfIPjv4',Ayahuasca,NA,100
+36,Female,US - United States,3,Full-time job,No,2,1,NA,Once,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,4dkN6xxHeKSIbywRXetWU2UHCtBzMxIH',Psilocybin/magic mushrooms/truffles,NA,61
+29,Male,AR - Argentina,4,Part-time job,No,5,2,NA,2,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,0,70,4tjm2EgDA30sl73kEytv2mPOYjwGLEd3',LSD/1P-LSD,NA,0
+25,Other,US - United States,3,Full-time job,No,5,3,NA,7,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,Obsessive compulsive disorder,No,Diagnosed,Yes,No,Yes,78,21,4ud2ZrJVsGl08XdcclpvdK5XhFAutSHR',LSD/1P-LSD,NA,86
+18,Male,US - United States,2,Unemployed,No,3,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,4vxWy0ZL83FDRJBViYDq5o4Y17jzZ2jb',Psilocybin/magic mushrooms/truffles,NA,70
+23,Male,US - United States,4,Full-time job,No,2,1,NA,7,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,5083eeuZqUmhXinzETdBWwQJxILAtBdy',LSD/1P-LSD,NA,81
+18,Female,US - United States,3,Student,No,4,3,NA,7,Never,No,No,No,No,No,No,No,No,Personality disorder,No,No,Eating disorder,Diagnosed,No,No,Yes,65,20,50mzWV5g3SFoP37j4x85oYhRA60MCCji',LSD/1P-LSD,NA,95
+30,Female,GB - United Kingdom,4,Full-time job,No,2,2,NA,3,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,No,NA,NA,54FkzpHbG0Hlhc6fN5cOJ7POf7JIVHk3',Psilocybin/magic mushrooms/truffles,NA,60
+43,Male,IE - Ireland,4,Student,No,4,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,5DJTsUo9hwyym99TcCP94ybqnw6UZUgE',Psilocybin/magic mushrooms/truffles,NA,70
+26,Male,US - United States,3,Full-time job,No,3,1,NA,2,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,No,NA,NA,5ERFpoIcBJFWeuxumTvS1jI4k3GYhVxN',LSD/1P-LSD,NA,25
+18,Male,GB - United Kingdom,3,Student,No,2,2,NA,3,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,No,No,No,NA,NA,5F4VAT1iIJTT62nddwiCjuRpmuKUx20E',LSD/1P-LSD,NA,75
+22,Male,IL - Israel,2,Part-time job,No,1,2,NA,3,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,5KnLi8KDT7dEXLN879ogqf626LYiM9rQ',Psilocybin/magic mushrooms/truffles,NA,78
+19,Male,US - United States,3,Student,Yes,0,NA,NA,11-20 times,NA,No,No,No,Anxiety disorder,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,Yes,No,NA,NA,5Kw98tAVIREqFBpo38G1N0rSfUNfEQuj',LSD/1P-LSD,NA,70
+16,Female,DE - Germany,2,Student,Yes,0,NA,None of the above,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,33,31,5MOruuCnFhICpw13QCx0sSS7gj24u4pd',Psilocybin/magic mushrooms/truffles,NA,37
+32,Male,AU - Australia,5,Student,No,1,2,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,5NaVG89Wv9ZQGkkKJOE7ZbvOIHR5ThKN',LSD/1P-LSD,NA,50
+54,Male,GB - United Kingdom,4,Full-time job,No,3,1,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,51,57,5Ob62HnyiBFJBuJWol7bRjV8jMDtgq1Y',Psilocybin/magic mushrooms/truffles,NA,74
+30,Male,US - United States,4,Full-time job,No,4,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,20,70,5Rg6dK4woWQxXZYX12yhvytKR71me4TY',Psilocybin/magic mushrooms/truffles,NA,90
+62,Male,GB - United Kingdom,3,Part-time job,No,1,1,NA,Once,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,5RxmafqQXsBocpQBhtK4r32lMkf3ikP7',Psilocybin/magic mushrooms/truffles,NA,66
+30,Male,US - United States,3,Full-time job,Yes,0,NA,NA,11-20 times,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,5TFoZcTerQ3ciuHMVJPFIvWNImlKRnLU',LSD/1P-LSD,NA,50
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,5W2i29T9mckBtxQ0hKnj0VrKElTdnciI',NA,NA,NA
+27,Male,IE - Ireland,4,Student,No,5,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,5XAVyXgXTrf98jCMG3iDvVwzPwAuKxey',LSD/1P-LSD,NA,68
+24,Male,ZA - South Africa,4,Full-time job,No,4,3,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,5i90xstVoVwfvQAnk1xkjODlTyvZhZAG',LSD/1P-LSD,NA,100
+37,Female,CA - Canada,5,Full-time job,No,7,4,NA,21-50 times,11-20 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,47,44,5lvdjQcdPoExyWREqdAMlWSR5hxFDlyf',Ayahuasca,NA,100
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,5xbuwzF0NaN7sDrxj3VGa1OCgahEUZd7',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,5zU9zcNBFB4qcjoxaZwkiQAlDSYFgFMo',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,5zvmrn00l81vXktfBfQu5Rpt5Uw90NnS',NA,NA,NA
+43,Male,GB - United Kingdom,4,Full-time job,No,4,1,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,61ijlttHo5zzAkroVzPjfhvJUGG7v3XF',Psilocybin/magic mushrooms/truffles,NA,50
+18,Male,US - United States,3,Student,No,2,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,66xOM0wMyWx3k93leP7quwJ9suOPOoP4',LSD/1P-LSD,NA,90
+21,Male,GB - United Kingdom,5,Student,No,2,1,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,70,30,6KG50D5imSbwge9AbNs60HMmiVfpaiOa',Psilocybin/magic mushrooms/truffles,NA,90
+27,Male,NO - Norway,3,Student,No,6,3,NA,51-100 times,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,No,NA,NA,6KTbRS93GexqHVVziXO49DT6g1QbzE77',Other - Write In,Psilocybin (Psilocybe semilanceata)  and Mescaline (San Pedro - Echinopsis pachanoi),84
+21,Male,DK - Denmark,2,Student,No,2,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,80,20,6N9SaheBTy6QWqlE4h8gpte3gLfX8Vq2',Ayahuasca,NA,75
+33,Male,CA - Canada,5,Full-time job,No,2,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,6Yf6RLQKvc2eLqVC598B9tU0rmhBa6L1',Psilocybin/magic mushrooms/truffles,NA,100
+49,Male,GB - United Kingdom,5,Student,No,3,2,NA,2,Once,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,6cfI3j63mrgSfNu50TJWgy5LtoU9P0xq',LSD/1P-LSD,NA,65
+39,Male,US - United States,1,Unemployed,No,7,3,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,50,50,6zJVk6PStjC5fq4TpipKImVwA63KyBqU',"Mescaline (Peyote, San Pedro)",NA,100
+24,Male,GB - United Kingdom,2,Part-time job,No,4,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,70Q9qKrSWK5X7GHW8eBR352ldKaHrFWn',Psilocybin/magic mushrooms/truffles,NA,71
+42,Female,US - United States,3,Part-time job,No,4,2,NA,2,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,Yes,59,30,72OsmpnWY4ais6UUGjEe1TSahgLKNB4H',Psilocybin/magic mushrooms/truffles,NA,76
+42,Male,GB - United Kingdom,4,Full-time job,No,1,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,770bkENtKzAgjNBmo0HNLdaeTv2a0Oql',Psilocybin/magic mushrooms/truffles,NA,50
+18,Male,US - United States,3,Part-time job,No,5,3,None of the above,NA,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,77bgvoogFFd8kVbnP6byjYFhTdMWJIEJ',LSD/1P-LSD,NA,100
+25,Other,DK - Denmark,4,Student,No,3,2,NA,7,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,Yes,80,20,7CdDUHwb8Z4uygOmd4aWd5EDiczfXdWb',LSD/1P-LSD,NA,95
+23,Female,GB - United Kingdom,4,Student,No,3,2,NA,11-20 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,80,80,7JephJbmOnRJ5WyAEsNuT15WO2PLGU16',"Mescaline (Peyote, San Pedro)",NA,99
+50,Female,US - United States,5,Full-time job,No,4,2,NA,3,3,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,Eating disorder,Diagnosed,Yes,No,Yes,3,73,7Lm1jc8oCGmajkPjIrcam3jxvo6oYNPY',Psilocybin/magic mushrooms/truffles,NA,70
+55,Male,DK - Denmark,1,Part-time job,No,2,1,None of the above,NA,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,90,10,7Q7zagACQtAdpoiTtHokQZqqEFRXQx1M',Ayahuasca,NA,87
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,7UJ2iEcvOo6CidI159N95e3ZQSIqGr6o',NA,NA,NA
+31,Female,US - United States,4,Full-time job,No,3,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,7btxsniiOgorpWAH4HijMdwbd8zmFbrF',LSD/1P-LSD,NA,100
+23,Male,GB - United Kingdom,3,Student,No,2,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,7cbzTndrxUIeykzLM4VlU0jLAbjp7w3P',Psilocybin/magic mushrooms/truffles,NA,51
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,7ltD978kU6ExxJEHgJcbRZEFVRkXYNqc',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,7rx5N1VyUftP0ADaliqcXlS9TKP9MDGy',NA,NA,NA
+22,Female,US - United States,3,Student,No,3,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,7tm9YyNzGNd4GuvU2MJNKXFBcg8Saaj2',LSD/1P-LSD,NA,100
+26,Female,DE - Germany,5,Full-time job,No,5,3,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,73,6,84kYa11qIAXaFbM93JfFgVLMxpkX27a2',Psilocybin/magic mushrooms/truffles,NA,80
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,88HGv1GzpXK1AKWEG2d1fzYE5K8RcDCd',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,8ANgbKuTPWmSoDIROmSy0V199wvDkrOQ',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,8JSvshdxjjkE6pm73yjdUJ99R7pgw3Nf',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,8Npf6IMKga9ge1guwLogp47IzKPC8Anu',NA,NA,NA
+33,Male,US - United States,2,Full-time job,No,4,3,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,100,0,8RdgiXqj9li6qSTDDdMbsGzO8fC00stP',LSD/1P-LSD,NA,69
+28,Male,FR - France,5,Unemployed,No,5,2,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,80,20,8cT55fMiLLYLtQ9OKl8EgDGVJvwLRi45',LSD/1P-LSD,NA,75
+16,Male,US - United States,1,Part-time job,No,2,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,8jm1tXfhTnXSfwnbmdN77JOEQhbiZZQD',LSD/1P-LSD,NA,100
+28,Male,US - United States,4,Full-time job,No,4,3,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,8oe6BYZsAwmkOrYz0uUi0mgml8GZsVOX',LSD/1P-LSD,NA,70
+18,Male,GB - United Kingdom,2,Student,No,3,3,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,8paLJ4Y1xN2kLJRGkoLM9do9z3kf0KEC',LSD/1P-LSD,NA,80
+32,Male,GB - United Kingdom,4,Full-time job,No,3,1,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,8uA4a6TwlBSJhOrN987U3v7IOd5kt6Js',Psilocybin/magic mushrooms/truffles,NA,60
+18,Male,US - United States,3,Student,No,4,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,8vS0Jdk5hnvt7fyWeWFolDMyCZJnhn3Z',LSD/1P-LSD,NA,70
+43,Female,US - United States,4,Unemployed,Yes,0,NA,NA,Once,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,99,0,8z1szf6SaS87DDOBAZ31n6jW9Gz2ufba',Psilocybin/magic mushrooms/truffles,NA,74
+35,Female,US - United States,5,Part-time job,No,5,3,NA,7,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,97FRaFPDpdCdJi6YL9vxDJ9zj2q5LhJf',LSD/1P-LSD,NA,90
+18,Male,IN - India,3,Student,Yes,0,NA,NA,51-100 times,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,9Gk7hHApyljfCrDkggLuwP6fnUbWXOVC',LSD/1P-LSD,NA,85
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,9IGP7fYgGGMzqK7DfCJquIMtGH9xi044',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,9NKjuLbXaJG67L0JkrFcvgjAiAveX2pk',NA,NA,NA
+22,Female,HK - Hong Kong,4,Student,No,2,2,NA,11-20 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,42,15,9SVA6lB9UZJ8CqmqlxP9tR2hWJQlm4wR',LSD/1P-LSD,NA,95
+37,Male,AU - Australia,4,Full-time job,No,5,3,NA,7,3,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,9fbYPqlaMxbxDTLu5PKMgw9sJFlt1v3d',Psilocybin/magic mushrooms/truffles,NA,70
+30,Female,US - United States,3,Full-time job,No,3,1,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,84,5,9gWoqbXXzsLzFJwWhWbBuqE76BBk9ity',LSD/1P-LSD,NA,67
+21,Female,IE - Ireland,3,Student,No,6,4,NA,2,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,Hallucinogen persisting perception disorder,No,No,No,Obsessive compulsive disorder,No,Diagnosed,No,No,Yes,19,65,9iI6DKRoCjEQZcWG8YGntGvt4BZlHRWr',LSD/1P-LSD,NA,100
+36,Female,GB - United Kingdom,4,Full-time job,No,3,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,0,72,9iPQTEGp3bjruDjC46J9luOIhC7J3WMx',LSD/1P-LSD,NA,63
+25,Male,GB - United Kingdom,0,Unemployed,No,2,2,None of the above,NA,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,9pjoS0TLagdfR0QUKwDhsCPmvjx0FPY1',Psilocybin/magic mushrooms/truffles,NA,50
+42,Male,CZ - Czech Republic,2,Part-time job,No,3,1,NA,3,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,9wjxXaFTB8rF5AHK2DFZQpYsvLtzKmB4',Psilocybin/magic mushrooms/truffles,NA,50
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,A531hwThAGYacN1Z00YgAhymi3KfZ3os',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,ACPqqYBAVVpbrbuvaOU82n3JrT5uYV10',NA,NA,NA
+40,Male,GB - United Kingdom,1,Full-time job,No,4,2,NA,3,Never,Major depressive disorder,Bipolar disorder,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,AEOrEWNGE5x2JjZN3b334BoSoTZNlj1X',LSD/1P-LSD,NA,77
+23,Male,GB - United Kingdom,4,Student,No,3,2,NA,2,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,81,5,AMkHsibUG8klMI6BQKMSGp61DPNAXF6F',LSD/1P-LSD,NA,51
+18,Male,US - United States,2,Student,No,4,2,NA,21-50 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,Yes,Yes,0,100,AOZ7kOAvf6JcIKSiTxPY9rHj9wemkLuP',LSD/1P-LSD,NA,70
+31,Female,GB - United Kingdom,5,Unemployed,No,5,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,60,29,APoT6uRdw7kHZnMrjF4Px09NlPcF4FKp',Other - Write In,"GP Perscribed Morphoine sulphate, and equal thc /cbd hashish",93
+30,Female,IE - Ireland,5,Full-time job,No,2,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,AeSLE4e9KOmuNxTIyOdSuDQ8J1CEri3h',Psilocybin/magic mushrooms/truffles,NA,81
+31,Female,DK - Denmark,4,Student,Yes,0,NA,None of the above,NA,NA,No,No,No,No,No,No,No,No,No,No,No,Eating disorder,Diagnosed,No,No,Yes,95,5,AiMxzi9jXXuWzPBb4qNjI3zutiL9yFRk',Ayahuasca,NA,50
+48,Male,US - United States,5,Full-time job,No,5,1,NA,Once,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,AoBrH0wKoCUKZLbvHsU6VJFAKaJXrjVV',Psilocybin/magic mushrooms/truffles,NA,70
+28,Female,PT - Portugal,4,Unemployed,No,2,1,NA,7,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,15,80,Ap6tgyd2S0u4fHoxIIzU4AukoY5F7SH8',LSD/1P-LSD,NA,100
+35,Male,US - United States,4,Part-time job,No,6,2,NA,2,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,39,51,Aw4FDm6XxUJiRuwC8L3Zonwm9RQyxG15',Other - Write In,"several, over a few days. lsd, and dmt(smoked)",23
+33,Male,SE - Sweden,2,Full-time job,No,4,3,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,65,25,AxyZSDsBAwxUBMDttWJDizEygjPFYpuv',Other - Write In,4-ACO-MET,81
+28,Female,DK - Denmark,2,Full-time job,No,4,1,NA,Once,3,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,B6hyMy6Gbl3ztHoPu69Ti8nyOsduReYK',DMT / 5-MeO-DMT,NA,31
+19,Other,GB - United Kingdom,2,Student,No,5,3,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,BSHjYIU6H4qNI7Ohra3GogfV8W9VuI36',LSD/1P-LSD,NA,76
+23,Male,GB - United Kingdom,4,Full-time job,No,3,2,NA,21-50 times,Never,No,Bipolar disorder,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,30,70,BTA86viQTK5FVck4rtzZByIKOrgH0zd2',LSD/1P-LSD,NA,60
+26,Male,DK - Denmark,3,Student,No,3,1,NA,Once,3,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,BWcJYFPD4RlzOSyyjtk1zz2S5XOz7yTj',Psilocybin/magic mushrooms/truffles,NA,70
+32,Male,GB - United Kingdom,3,Full-time job,No,2,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,BZAbXJeYvT2s5btS2rilCO6XcNDicZd1',Psilocybin/magic mushrooms/truffles,NA,35
+21,Male,US - United States,3,Student,No,3,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,Bahoe8xF2l1WSQgwSQJl2ZFssXUh2mfb',Psilocybin/magic mushrooms/truffles,NA,56
+20,Male,US - United States,3,Student,No,5,4,NA,7,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,No,NA,NA,BeZfY3pIYBXK7u8bH1x3MPjdJv5djFki',LSD/1P-LSD,NA,98
+20,Male,TR - Turkey,2,Student,No,5,3,NA,2,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,75,25,BpdI1K9s7MhY2wZW66s7UXedutBuNK7b',LSD/1P-LSD,NA,80
+23,Male,GB - United Kingdom,4,Student,No,2,1,NA,2,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,59,23,BqnqZZ5tcap0Z5HI0L5XXyLPp7ysc5Hu',LSD/1P-LSD,NA,47
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,BtsOuwEPzJOiYAT3WGF5OpfZG056U4cI',NA,NA,NA
+36,Male,CA - Canada,4,Part-time job,No,7,3,NA,7,Never,No,No,No,No,Substance abuse disorder,Alcohol dependence,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,BxBgPz8KhViaucgpEqBDrkiQQL1RRHgS',Other - Write In,O-acetylpsilocin,40
+20,Male,US - United States,3,Student,No,1,1,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,By9rMDGiESgBCEpJjKsFKnVs0weWmHxH',Psilocybin/magic mushrooms/truffles,NA,85
+20,Male,DE - Germany,3,Student,No,1,1,NA,7,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,C6jeDJXvHpaOmejxLzUv2162DhRrpIhk',LSD/1P-LSD,NA,76
+16,Male,US - United States,1,Student,Yes,0,NA,NA,2,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,C7VKvfnvvHi0EA7sN59ZWtiH8aCTV4Y0',LSD/1P-LSD,NA,40
+30,Female,GB - United Kingdom,5,Full-time job,No,3,2,NA,2,2,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,CALxcCvxQuZUHe4NUU8D0ARZyK1BAvAW',Psilocybin/magic mushrooms/truffles,NA,100
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,CDe6ECU8sKYyWTnWu4BZyHHEtEtyjOC6',NA,NA,NA
+21,Male,GB - United Kingdom,2,Student,No,3,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,CKJC0hp8pAjLB4JMkkPgJKp3xMaVtvXa',Psilocybin/magic mushrooms/truffles,NA,75
+20,Male,US - United States,2,Student,No,4,4,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,CX6w02qIpQTSnKRuID0xYcajbJQJXKjg',LSD/1P-LSD,NA,75
+23,Male,AU - Australia,3,Full-time job,No,3,2,NA,Once,3,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,8,74,CYpl6V5sSvS8RW1HUUN8vBUpWKgYPaXI',"Mescaline (Peyote, San Pedro)",NA,100
+22,Female,AR - Argentina,3,Part-time job,No,4,3,NA,2,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,85,12,CZtSaoh9TEPPRizf0lxQudtqfjZWOKzH',LSD/1P-LSD,NA,65
+25,Male,GE - Georgia,4,Unemployed,No,3,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,CckrE2AKMHfzDxrzMoLDnwl8zuCDzWYe',Psilocybin/magic mushrooms/truffles,NA,70
+20,Male,US - United States,3,Student,No,3,1,NA,7,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,CiC0Ird1YFHAIMcBKiropcrMXKWSTTF3',LSD/1P-LSD,NA,43
+17,Male,US - United States,3,Part-time job,No,4,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,Cr5wtgffzqwNsjl2A1kD25oWsqVtD9dv',LSD/1P-LSD,NA,82
+28,Male,US - United States,4,Full-time job,No,6,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,CrKaKXldVNbWdrObJCsfSbDF9kyRcVto',LSD/1P-LSD,NA,100
+42,Male,GB - United Kingdom,4,Full-time job,No,0,1,NA,Once,NA,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,Yes,35,60,D2MPZDvra3sqll6FjOHjjKbD7P89fQzk',LSD/1P-LSD,NA,76
+24,Male,DK - Denmark,1,Student,No,3,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,38,62,D2rPkHHO6MxdZFC3Ev7lS6E1rHEazgE1',LSD/1P-LSD,NA,49
+40,Male,GB - United Kingdom,4,Full-time job,No,4,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,60,54,D9cOElgjC3faKATqByrtfKN2M3bKJh19',LSD/1P-LSD,NA,94
+18,Male,US - United States,1,Student,No,1,2,None of the above,NA,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,35,35,DKPi6J4BBQlUPYb9dy2IQOiKe1WamG2q',LSD/1P-LSD,NA,70
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,DS6kZTKzgsHMtHv0TjSN0fuajoem005n',NA,NA,NA
+33,Male,DK - Denmark,5,Unemployed,No,4,3,NA,2,3,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,DnbL0JIvjAfcv6B4vUROjTOFQvtA69Tz',Psilocybin/magic mushrooms/truffles,NA,72
+30,Male,IE - Ireland,3,Student,No,5,2,NA,Once,Never,No,Bipolar disorder,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,E29X1jWxveXkOF1QWumgXyHwFgwzcuCF',LSD/1P-LSD,NA,53
+42,Female,GB - United Kingdom,3,Part-time job,No,4,2,NA,51-100 times,Never,No,No,No,Anxiety disorder,No,No,No,No,Personality disorder,No,No,No,Diagnosed,Yes,Yes,Yes,76,84,E8EEJFSu8RRD0OD0mlZI1PaYvlhQmy2g',Other - Write In,NA,100
+22,Male,DO - Dominican Republic,3,Student,No,4,3,NA,51-100 times,Once,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,75,25,EGStigF2v8Eg89EM5pQKOIy1oDOClc9X',LSD/1P-LSD,NA,100
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,EfiyPqINOzJCdwqhxrsgHhpQo8Q6IYG8',NA,NA,NA
+21,Female,GB - United Kingdom,4,Student,No,2,2,NA,21-50 times,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,EgLshHALpo6eaw3dZOtzrwL9g3FxG15M',Psilocybin/magic mushrooms/truffles,NA,65
+22,Male,US - United States,3,Full-time job,No,3,1,NA,11-20 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,90,10,Eh2iNcD71uYPiWIWaibbC61j2QytCNkm',Psilocybin/magic mushrooms/truffles,NA,85
+18,Male,US - United States,2,Student,No,5,5,NA,7,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,EiFs6S0Vsbe2NTvb00GgXBNEC1Kl1Zxw',"Mescaline (Peyote, San Pedro)",NA,70
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,EiXp1Q7fu811KvUhK2vyEm2QmDjDFqlB',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,EylCQvhrC43q3Xh36ElQcUSghXy1Gost',NA,NA,NA
+40,Male,GB - United Kingdom,0,Full-time job,No,3,2,NA,2,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,6,50,F48Bo5mkS1uugro00Z0Dkbh0xJc7UMbg',Psilocybin/magic mushrooms/truffles,NA,100
+18,Male,US - United States,3,Student,No,3,3,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,89,14,FRCWnbaR0aPuRnJOv95KmhqFzCcFYW43',LSD/1P-LSD,NA,100
+29,Male,GB - United Kingdom,5,Full-time job,No,3,4,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,FS4DNLffkhNx0BE1BHGPU055lWH2B3tD',LSD/1P-LSD,NA,60
+16,Female,AU - Australia,1,Student,No,2,2,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,FTwPeGYAN0zclmtzby9El32eZYmT1FNP',LSD/1P-LSD,NA,70
+45,Female,DK - Denmark,5,Full-time job,No,4,4,None of the above,NA,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,75,25,FlqTPrzOtQF59hfVzCP1D68tOtPAuHUN',Ayahuasca,NA,100
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,FnVREh5faoqPlIdYRShDii8EzSYGFoS8',NA,NA,NA
+21,Male,US - United States,3,Student,No,4,3,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,30,70,FrYxPqGhz6rkdrgY64AnWPImzK50nOWU',LSD/1P-LSD,NA,60
+32,Male,AU - Australia,5,Full-time job,No,4,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,54,53,Fz9LbG6vPEGOhTUo0olBgNd0Q8LAFMkO',"Mescaline (Peyote, San Pedro)",NA,60
+17,Female,MX - Mexico,1,Part-time job,No,2,1,NA,7,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,FzTOs5Oc6gwbGLmwATQhYmze0Bneq2Gm',Other - Write In,Acid tabs,45
+18,Male,GB - United Kingdom,1,Full-time job,No,3,2,NA,21-50 times,Never,Major depressive disorder,Bipolar disorder,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,G5JPYChOlRyutVy3UePCFeHGFDVJ6LGN',LSD/1P-LSD,NA,100
+30,Male,US - United States,4,Part-time job,No,5,1,NA,11-20 times,Once,No,No,No,No,Substance abuse disorder,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,GBUeoVj8uTUOxarRGdo1zKdnNcton4YZ',Psilocybin/magic mushrooms/truffles,NA,60
+46,Female,DK - Denmark,4,Full-time job,No,1,1,NA,2,Once,No,No,No,No,No,No,No,No,No,No,Obsessive compulsive disorder,No,Diagnosed,Yes,No,Yes,27,58,GDSpGwJvyYnRtoCRawOm1MSbzhK19lQa',Ayahuasca,NA,91
+19,Male,US - United States,2,Part-time job,No,2,2,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,25,55,GH7lanmplKJvKX5Q5ECDCvLEKsZopWs3',LSD/1P-LSD,NA,71
+39,Female,US - United States,5,Full-time job,Yes,0,NA,None of the above,NA,NA,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,GHZWvfiI227rvqLm0TfJlXpzCo8AlruP',Other - Write In,MDMA,75
+26,Male,NO - Norway,4,Student,No,4,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,GNlHQwRlAieV4deMudzkIFObHnNqlUP1',LSD/1P-LSD,NA,70
+17,Male,FI - Finland,1,Student,No,1,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,GOxg7HL8KwjTVqqnTrYaNTiWclFXNA8G',LSD/1P-LSD,NA,85
+24,Male,PT - Portugal,5,Student,No,1,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,10,80,GSOwe3aDfLVSmAKUCbaPxeHwhR1iaUOS',LSD/1P-LSD,NA,50
+23,Male,GB - United Kingdom,4,Full-time job,No,2,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,GYLrONKgAcGe1eCxxXaXu9T5z7UyHldS',Psilocybin/magic mushrooms/truffles,NA,80
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,GdlmaBqqfRBzCT85FFJT7fa4Y3gmKgat',NA,NA,NA
+37,Male,IT - Italy,5,Part-time job,Yes,0,NA,NA,Once,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,79,14,GkNxRSL93ZAtU4mmJ1cuE2QIGUlK5S95',Psilocybin/magic mushrooms/truffles,NA,60
+19,Male,US - United States,3,Student,No,6,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,GrEaULadBlxT20SwI2WyhKreXYfhgeRn',LSD/1P-LSD,NA,100
+28,Male,FR - France,5,Full-time job,No,5,4,NA,7,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,Gtpalx65klgaxzq9WGJOf7K6X61WulJ4',LSD/1P-LSD,NA,71
+22,Female,FR - France,4,Part-time job,No,4,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,92,1,GvUYiJvx3e96rv1awu4VOkRL4NWbMReI',LSD/1P-LSD,NA,87
+43,Male,DK - Denmark,5,Full-time job,No,0,1,NA,Once,NA,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,GwOMxH1xoixt7vOOu0KeilL4ftVuoaCP',LSD/1P-LSD,NA,92
+30,Male,GB - United Kingdom,3,Student,No,4,2,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,H9Ayrn5PBYDjHGVxpEnAA76dafeGsZlt',LSD/1P-LSD,NA,25
+40,Male,GB - United Kingdom,3,Full-time job,No,1,1,NA,2,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,H9V924KsYK6Ny2ECK3WwgCh9FSpD0QvS',LSD/1P-LSD,NA,100
+20,Female,US - United States,3,Student,No,3,1,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,50,50,HEMYwKE565EOVVDqBk7tmBlk6FF4wBAe',LSD/1P-LSD,NA,85
+23,Female,SI - Slovenia,2,Student,No,3,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,90,0,HNOyhAKJ7IacWyHC6rHNPxcIGUDiuhnA',Psilocybin/magic mushrooms/truffles,NA,75
+25,Male,DK - Denmark,2,Student,No,4,3,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,HPZv5I7GElUTUNDhePnqotfhf7SrIBbJ',LSD/1P-LSD,NA,48
+29,Male,DE - Germany,4,Student,No,5,3,None of the above,NA,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,74,34,HSG5nnD1U6Ch3xfIzQe2OrsRmaC2BL31',LSD/1P-LSD,NA,71
+22,Female,NO - Norway,3,Part-time job,No,4,4,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,HVFzYDuUVbitFExhATwZowUT75D3rJXi',Ayahuasca,NA,67
+31,Female,GB - United Kingdom,4,Full-time job,No,3,1,NA,3,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,75,16,HapyhwvEOAZDxFZN5H8z1eQLEm8u8PZg',LSD/1P-LSD,NA,75
+46,Male,DK - Denmark,4,Part-time job,No,3,1,NA,Once,Once,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,90,10,HbYTyT7SxXABSeQgjJzuk9BLzEE2mhGu',Ayahuasca,NA,75
+19,Female,FI - Finland,1,Student,No,5,3,NA,51-100 times,Never,Major depressive disorder,No,No,No,Substance abuse disorder,No,No,No,No,No,No,No,Diagnosed,No,No,Yes,84,10,HiEQjZD5gvs3DePiPGVPu9lS52Zx5mnB',Other - Write In,Psilocybin and LSD,52
+29,Male,IE - Ireland,5,Full-time job,No,2,1,NA,3,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,Obsessive compulsive disorder,No,Diagnosed,Yes,No,No,NA,NA,HqtTzwljFN3LvyimpHfWDyHWlaGeEhjl',LSD/1P-LSD,NA,60
+20,Male,DK - Denmark,2,Part-time job,No,1,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,Hy86TzQMOWbQhaxoaS47M48E7fwkQxYL',Psilocybin/magic mushrooms/truffles,NA,80
+37,Male,RS - Serbia,4,Full-time job,No,5,3,NA,2,3,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,23,45,I35N91djYvrxKTL0NdpwyJaomQebLIsP',"Mescaline (Peyote, San Pedro)",NA,80
+21,Male,DK - Denmark,1,Student,No,7,2,NA,7,Never,Major depressive disorder,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,No,No,Yes,6,72,IHLx8zK6buLVtAcEoSycycINBQD5wVlZ',Other - Write In,cannabis,73
+34,Male,GB - United Kingdom,5,Full-time job,No,6,3,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,IIDlj56aj4qVjJSDrv5ZY6WEUzFQ5Ydh',Psilocybin/magic mushrooms/truffles,NA,81
+22,Male,US - United States,3,Student,No,2,1,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,IJEDTmtk6QC9hf6Uu3lc0l4TbrOtf2ty',Psilocybin/magic mushrooms/truffles,NA,81
+20,Male,US - United States,3,Student,No,2,2,NA,51-100 times,Never,Major depressive disorder,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,No,NA,NA,IKBgteZVkyfVwwjDsb5Ag9Jzt30ooE5I',LSD/1P-LSD,NA,60
+26,Male,DK - Denmark,4,Student,No,5,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,57,38,IN6vMTzxhQrPCFkVKMuzkh6LmAecDzU1',Psilocybin/magic mushrooms/truffles,NA,100
+32,Male,US - United States,5,Full-time job,No,6,3,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,IQo2VaQ2w2Ve8gztCSKH4WuqoIqwCuVJ',Psilocybin/magic mushrooms/truffles,NA,74
+38,Female,US - United States,5,Part-time job,No,7,2,NA,Once,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,11,73,IWKk9Z4OsnLwVG4HFUyaNfvu9FmRB6EQ',Psilocybin/magic mushrooms/truffles,NA,50
+28,Male,CL - Chile,5,Full-time job,No,3,1,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,IWgoGHJIZ5ixGvTv2i5B0SfvXlpTI1Zd',Psilocybin/magic mushrooms/truffles,NA,80
+26,Male,IT - Italy,4,Student,No,2,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,35,61,IXoQP8ztA98TxnmwiLThdlHF47qZLjuT',LSD/1P-LSD,NA,65
+27,Female,CH - Switzerland,5,Full-time job,No,6,6,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,3,90,IdvPcD7fSYX8yOBcTm3IfipnRbloXezU',LSD/1P-LSD,NA,50
+27,Male,US - United States,3,Full-time job,No,3,3,NA,51-100 times,Never,No,No,No,Anxiety disorder,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,No,NA,NA,IlY5HLjqnrYRSJlvsS3YbDAqaCZs9jHI',LSD/1P-LSD,NA,72
+49,Male,SE - Sweden,5,Full-time job,No,7,4,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,0,68,IojKm8KIK5LLDxHtYPx4WSnn3MqEwVJi',Other - Write In,ald-52 or 2c-t-21,55
+19,Male,CA - Canada,1,Unemployed,No,6,6,NA,2,2,Major depressive disorder,No,No,Anxiety disorder,Substance abuse disorder,No,No,No,No,ADHD,No,No,Diagnosed,Yes,Yes,Yes,40,25,Iuyz27xrdfR0LWh416MAhRK9YBMEZhp8',LSD/1P-LSD,NA,95
+46,Male,CH - Switzerland,3,Part-time job,No,7,2,NA,51-100 times,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,Iw7CVtuiQMTnJXcsT7K8NO3obE2kbRoV',LSD/1P-LSD,NA,86
+19,Male,GB - United Kingdom,2,Student,No,2,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,J0IlT1KPU4knUFYnsi4h0a5k7FyLqKCh',LSD/1P-LSD,NA,25
+43,Male,GB - United Kingdom,5,Full-time job,No,5,4,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,J2P33KZAzE9qP2axuPF9ls7wdCuu712L',LSD/1P-LSD,NA,73
+38,Male,NO - Norway,4,Part-time job,No,4,5,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,J34irWkTnXALV2Bn9REPrjAhVWKiFDjr',Other - Write In,NA,95
+29,Male,DE - Germany,4,Unemployed,No,5,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,JFom9INkyEyc8G6h3ciO6tLFezBwLWk1',LSD/1P-LSD,NA,100
+40,Female,DK - Denmark,5,Part-time job,Yes,0,NA,None of the above,NA,NA,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,JIn8IggAqoZP0umGUeZ2pm621b2K6aBs',Ayahuasca,NA,17
+63,Female,DK - Denmark,5,Full-time job,Yes,0,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,JZxfCt6P0QDzBVd0ePGhbrIHx30AZipM',Ayahuasca,NA,60
+21,Female,GB - United Kingdom,4,Student,No,1,1,NA,21-50 times,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,Jc8uHcFSUjuCWoA79aaeg40NPJ4MmMoM',Psilocybin/magic mushrooms/truffles,NA,50
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,JjZK95EZPZECeQZsHMdKspYEf8lAqsxF',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,JmJB2NcTmxufDEdf0PaSyR665Nwmkzwf',NA,NA,NA
+45,Female,EC - Ecuador,4,Student,No,5,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,Jn8hsgfIaaxsv0OvOPm4C7hoQYJt1CHj',Psilocybin/magic mushrooms/truffles,NA,100
+46,Female,DK - Denmark,4,Full-time job,Yes,0,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,JthKqmx5SW2h24MBbXWNdXUuupWTSM01',Ayahuasca,NA,80
+18,Male,CH - Switzerland,1,Full-time job,No,5,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,34,55,JwM2ugys03ALOwV4n5c8Uk797eHrq98R',LSD/1P-LSD,NA,100
+36,Female,US - United States,5,Full-time job,No,6,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,K1NQjrZBZa3YaI0s2VshyHMFMTXK2kBV',LSD/1P-LSD,NA,99
+42,Male,GB - United Kingdom,4,Full-time job,No,2,1,None of the above,NA,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,KEz5vSVWdEvCGYXf4StfkqvfSkOP8jjj',Psilocybin/magic mushrooms/truffles,NA,68
+35,Male,DK - Denmark,5,Part-time job,No,5,2,NA,51-100 times,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,KJAjuBXshdZ7RgEX3But9c9wOMmEb4RL',Ayahuasca,NA,75
+36,Male,DK - Denmark,5,Student,No,5,2,None of the above,NA,3,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,83,17,KKSm5IlyLGkFJ08fCbxbAch1Bm4whiCP',LSD/1P-LSD,NA,50
+36,Male,FI - Finland,2,Full-time job,No,5,3,NA,Once,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,KQpEbjFMInGYd6ZVbcb7fwFIGrOzdR0E',Psilocybin/magic mushrooms/truffles,NA,86
+18,Male,NL - Netherlands,3,Student,No,5,3,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,KUGQrRf2ZU7KiQixfJKElwR22Ni7clbk',Other - Write In,AL-LAD (LSD analogue),69
+24,Female,LT - Lithuania,3,Student,No,2,1,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,30,70,KWhAWe5l0dCkzxYZDzdSVKphGzbcsPFJ',DMT / 5-MeO-DMT,NA,85
+41,Male,CA - Canada,4,Full-time job,No,4,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,KjwfvEtqGnI1dwdab21u1lxO504EFp8F',Psilocybin/magic mushrooms/truffles,NA,65
+23,Male,CY - Cyprus,2,Student,No,2,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,KkwWsSlUvKFADcYRSeaSObAd9NAaFGMO',LSD/1P-LSD,NA,84
+28,Male,SE - Sweden,4,Student,No,5,2,NA,11-20 times,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,KorNfBbSX3kEhPw2TY63hY0bF9CPgYo2',Psilocybin/magic mushrooms/truffles,NA,50
+49,Female,DE - Germany,3,Student,No,6,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,72,30,L23VXsschQXjqTVDVffUL26d4fXAVsKa',Psilocybin/magic mushrooms/truffles,NA,89
+48,Male,US - United States,4,Full-time job,No,7,7,NA,11-20 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,3,93,L2MTmWHkFyr7gIG7BFsvmPmC24W66enr',Psilocybin/magic mushrooms/truffles,NA,72
+35,Male,NO - Norway,0,Unemployed,No,6,2,NA,Once,Never,No,No,No,No,Substance abuse disorder,Alcohol dependence,No,No,No,No,No,No,Diagnosed,No,No,Yes,73,11,L2MVwSrYLPRpboz9THCkmcQyb9jQ7SKB',Psilocybin/magic mushrooms/truffles,NA,50
+27,Male,US - United States,5,Full-time job,No,3,1,NA,7,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,27,52,LQVOOq3x3gIzPNgWocc8cX8rzaEQOtcO',LSD/1P-LSD,NA,65
+19,Male,US - United States,3,Student,No,5,1,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,LSYA6LhpKYTq79YtcZZtN5wTG30m3cEg',LSD/1P-LSD,NA,80
+17,Male,DE - Germany,1,Full-time job,No,2,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,LSqsdpwkREba5wfY6qvnS2FLLMqFAnGj',LSD/1P-LSD,NA,80
+33,Male,US - United States,4,Full-time job,No,5,1,NA,51-100 times,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,LVB8K8CqNOZPD18coQOfmBL3vCs7Dk9n',Psilocybin/magic mushrooms/truffles,NA,75
+30,Female,SK - Slovakia,4,Student,No,7,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,LbZBLKw5dDxuuL5SmkyQg3Ah8eBRb5Ss',LSD/1P-LSD,NA,5
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,LnevfZaMPAQfOHan1nO2V4yXEDQK0Prx',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,LqSKoStfNUpBJNihaMEfuqkhmLmiZ8zT',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,LvjQkFnfjdYcf97QHCNBvYleMtYRakPg',NA,NA,NA
+21,Male,GB - United Kingdom,5,Student,Yes,0,NA,NA,51-100 times,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,30,70,M1YvdX5uBbeEgtr6EuO7du0CeITpgSHn',LSD/1P-LSD,NA,70
+31,Male,NO - Norway,5,Full-time job,No,2,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,MCqePg2JwPJ2GQTCKw2VzrF16NecePng',Psilocybin/magic mushrooms/truffles,NA,29
+23,Male,AU - Australia,2,Full-time job,No,5,3,NA,21-50 times,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,MF2FXUkYohh2wOy92PZyGcVRpSkiFd1L',LSD/1P-LSD,NA,80
+23,Male,GB - United Kingdom,5,Student,No,4,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,MMh3lavmrsENXEjCf9jdREKIBvM9ofOt',LSD/1P-LSD,NA,36
+19,Male,US - United States,3,Student,No,1,1,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,MQ1a8gCgUGZ7rtJdNKMjcLH7SpoigonN',LSD/1P-LSD,NA,79
+19,Male,US - United States,3,Student,No,4,1,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,MSxxU9Ti4GoTKtADUUzFVCAA47TjtpcP',Psilocybin/magic mushrooms/truffles,NA,89
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,MTJFBbhezCLaRyW38hHyeoUfjGUBFhjZ',NA,NA,NA
+32,Female,IE - Ireland,5,Full-time job,No,3,NA,NA,NA,Never,No,No,No,No,No,No,No,No,No,No,No,Eating disorder,Diagnosed,No,No,Yes,85,3,MVG4q5zA03G0ZCuEwWfthPQtukRmvGND',Ayahuasca,NA,83
+16,Male,US - United States,1,Student,No,2,1,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,MZErjMYAroRZzEcQiGAXqgeCUtW3eb09',Psilocybin/magic mushrooms/truffles,NA,50
+48,Male,NL - Netherlands,5,Full-time job,No,3,NA,NA,NA,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,35,31,McGSN5b7hc8E91nBYPzgtTSjnWbpNAtt',Ayahuasca,NA,70
+18,Male,AU - Australia,1,Student,No,2,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,MdEZmuXivuFCCsw3TYMRBUqe293HNi1j',LSD/1P-LSD,NA,77
+16,Male,US - United States,1,Part-time job,No,5,4,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,MdrCMlzfaJeYEbEKtGlWWj84CZfejZfZ',LSD/1P-LSD,NA,100
+20,Male,US - United States,3,Student,No,3,3,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,Moia3yzcUDx67Kbn5cI9LlEXA0RaDIuB',LSD/1P-LSD,NA,72
+31,Female,US - United States,5,Student,No,3,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,19,77,Mp3NsiLHwrmxpm2zdUK6wSysPbjATWcM',LSD/1P-LSD,NA,32
+26,Male,GB - United Kingdom,5,Student,No,5,4,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,100,0,MuzBTRUGeaSO8vzRk2Upw8ggaGvrUWrT',Other - Write In,2C-B,70
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,N1ciUTs37zpyaMfJ6MLuAAR4aUlgQOQO',NA,NA,NA
+46,Male,NL - Netherlands,5,Part-time job,No,5,4,NA,Once,21-50 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,75,25,N5LFX0fYCSaIhPa5SWCKIr4opSWEfoRa',Salvia divinorum,NA,90
+25,Female,DK - Denmark,4,Student,Yes,0,NA,NA,3,NA,No,No,No,No,No,No,No,No,No,No,No,Eating disorder,Diagnosed,No,No,Yes,24,70,N5vcLhplprbvXgSWUEXibBA3Mh3ZvAbf',Ayahuasca,NA,40
+24,Female,US - United States,3,Student,No,2,1,NA,21-50 times,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,95,1,N9kY1GW364nY8ZNP43xJbzmptHbxb5La',LSD/1P-LSD,NA,95
+48,Male,GB - United Kingdom,4,Full-time job,No,5,2,NA,Once,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,Yes,19,52,NBYA6IbMyRF6E8AosNApB0bjLlsD2qgR',Psilocybin/magic mushrooms/truffles,NA,69
+28,Male,SE - Sweden,2,Full-time job,No,4,1,NA,Once,21-50 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,NF62IsPC2Rcd43KIs1sPPEJsMCwnl0d4',Psilocybin/magic mushrooms/truffles,NA,80
+22,Male,GB - United Kingdom,3,Student,No,3,1,NA,3,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,73,29,NGjJQ0bw4FGthzl2X3xs4B9tKWflAVYZ',LSD/1P-LSD,NA,31
+25,Male,CA - Canada,4,Student,No,7,4,NA,21-50 times,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,NIIDqRo70UabJ6bzaB5zihQcAC4In5IO',LSD/1P-LSD,NA,75
+20,Male,US - United States,3,Part-time job,No,2,2,NA,2,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,NRi2Fn3Lzg9w0up2lKxVDx0KnkWfi20i',LSD/1P-LSD,NA,30
+20,Male,MX - Mexico,3,Student,No,2,1,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,35,65,Na4cZi9hLIIJnyJ9VNr6XVwgkwTbX1g3',LSD/1P-LSD,NA,60
+18,Male,GB - United Kingdom,1,Student,Yes,0,NA,NA,7,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,NbzjuIkbuPDLpuGTqiaQhPINWigIODN5',LSD/1P-LSD,NA,40
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,NkJFUyqJfXi0lCcY8G4oz6LH9XFCsdR3',NA,NA,NA
+27,Male,GB - United Kingdom,2,Full-time job,No,3,1,NA,11-20 times,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,33,77,NqTN8Q0JoV3RurnFscdUPRYa0ggBSTbL',DMT / 5-MeO-DMT,NA,80
+22,Male,DK - Denmark,3,Student,No,2,2,NA,2,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,NreK0znYBqvAcCBS85VeAXggsnejVZbU',LSD/1P-LSD,NA,89
+37,Male,US - United States,5,Full-time job,No,4,1,NA,3,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,NtojBq0Kyh5uw28vTPQvH05o8sygIrHv',DMT / 5-MeO-DMT,NA,100
+18,Male,US - United States,2,Student,No,2,2,None of the above,NA,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,81,20,O8KDvimA0JkSMc25SFFO0ltNsg02JIYZ',LSD/1P-LSD,NA,70
+31,Male,CA - Canada,3,Full-time job,No,4,1,NA,7,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,OJfWLF3bTmkoNjoAPbUOXcxGwkx1Vjm2',Psilocybin/magic mushrooms/truffles,NA,100
+34,Male,IE - Ireland,4,Full-time job,Yes,0,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,OOJgQEEUjBRkW9YwRI5KWXK3yFE3cMAM',Psilocybin/magic mushrooms/truffles,NA,77
+39,Male,DK - Denmark,4,Part-time job,No,1,NA,NA,NA,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,70,0,OUV4xwNcnQkSmliEv1yg6gm7y4Tf7kBY',Ayahuasca,NA,75
+33,Male,IL - Israel,5,Student,No,6,5,NA,2,21-50 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,21,77,OV6LrFcSZQWxs4OdHuIPvaX4B6unM5xh',Ayahuasca,NA,100
+26,Male,US - United States,3,Student,No,4,2,NA,21-50 times,Never,Major depressive disorder,No,No,Anxiety disorder,Substance abuse disorder,Alcohol dependence,No,No,Personality disorder,ADHD,No,No,Diagnosed,Yes,No,No,NA,NA,OVv4353iTk3ST7W15epo8eVkVXlos0Oh',LSD/1P-LSD,NA,80
+23,Male,DE - Germany,4,Student,No,4,2,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,OdmFt4A0mDhOobfIZfHj5J6Crdhrq62N',LSD/1P-LSD,NA,80
+19,Male,CA - Canada,3,Part-time job,No,0,2,NA,21-50 times,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,88,0,OjPBsL78TZM3afSqlVSCg2C8IAGo73dN',LSD/1P-LSD,NA,63
+21,Male,GB - United Kingdom,2,Part-time job,No,4,NA,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,65,55,OnUvIdiwCTAsbbtwXWO5cuJlTXabGr2L',LSD/1P-LSD,NA,90
+21,Male,HU - Hungary,2,Student,Yes,0,NA,NA,21-50 times,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,Op6o6Vux5theGsAAdaAKiHzBpevIcmbW',Psilocybin/magic mushrooms/truffles,NA,80
+30,Female,US - United States,3,Full-time job,No,3,1,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,OqT9VxZrUPHQR5yK67I1CHneLuxrUEE9',LSD/1P-LSD,NA,28
+43,Male,PL - Poland,5,Full-time job,No,4,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,OrhdpGVGhFNzR1dcn8AxEBl6y3IZV2ST',LSD/1P-LSD,NA,49
+20,Male,PL - Poland,3,Student,No,3,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,OuKHSRXUW4jF3PbRA2t3UPdeuuwsHYqg',LSD/1P-LSD,NA,100
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,PAKwwGawLvcWn6N1tvq0o5ao3ZRZBIqN',NA,NA,NA
+45,Male,DK - Denmark,5,Retired,No,7,5,NA,11-20 times,More than 50 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,69,3,PH80Mvdl301qY5sb46QzsR3utuMfh0XI',Ayahuasca,NA,100
+29,Male,IN - India,5,Student,No,3,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,PQSrj2qglApWv6Ria8GV5N3u4RXOcBlf',LSD/1P-LSD,NA,70
+55,Male,IT - Italy,5,Part-time job,No,7,4,NA,11-20 times,21-50 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,PVzdAivwBFa1RPScicI11Eqca6aQnGES',LSD/1P-LSD,NA,100
+36,Female,CL - Chile,5,Student,Yes,0,NA,NA,2,NA,Major depressive disorder,Bipolar disorder,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,20,75,PaGohDbRGiEtwYkL9mz4DUIcqc747AJj',Psilocybin/magic mushrooms/truffles,NA,85
+24,Female,NO - Norway,0,Unemployed,No,5,2,NA,3,Never,Major depressive disorder,No,No,Anxiety disorder,Substance abuse disorder,No,No,No,Personality disorder,ADHD,No,No,Diagnosed,Yes,No,Yes,91,7,PcWoKXoMS7C4qhNiJfmUsMux2CxsCHny',Other - Write In,San Pedro AND Psilocybin,79
+24,Female,IT - Italy,4,Full-time job,No,2,2,NA,Once,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,Personality disorder,No,No,No,Diagnosed,Yes,No,Yes,20,80,QHVkJ6t1bDPQ6Y3VdIEHrnyY4CEPRzSk',LSD/1P-LSD,NA,33
+30,Male,SE - Sweden,4,Student,No,4,2,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,0,80,QNlpY2Xm564NHurFxIQSPGIfUxSuA2NE',Psilocybin/magic mushrooms/truffles,NA,50
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,QOUKvfS9dzT3uJmBUPgfNqg9lD0U0FNf',NA,NA,NA
+25,Male,US - United States,4,Full-time job,No,6,3,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,QPI1TYRklq4vZyaN06ldXgbvdCsdZcXP',LSD/1P-LSD,NA,70
+27,Female,AU - Australia,2,Student,No,3,2,NA,7,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,57,33,QPNaubazemKmSQTOJWitivgjQyPQCvjq',Psilocybin/magic mushrooms/truffles,NA,70
+25,Male,CA - Canada,5,Student,No,2,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,QR5XLWiiBNTD3BG2Cxq0xLsAPOJYImM3',LSD/1P-LSD,NA,60
+23,Male,US - United States,4,Full-time job,No,2,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,QXTu3kRzEhBIMEJGsYnarxKXbQPXfLNW',Psilocybin/magic mushrooms/truffles,NA,75
+27,Female,US - United States,3,Full-time job,No,5,1,NA,2,Never,No,Bipolar disorder,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,24,29,QhAzb6ORHpWk9O26kinyfDhrXkHOI7ig',LSD/1P-LSD,NA,70
+33,Male,DE - Germany,5,Unemployed,No,2,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,Ql8ajdOOJxfeiio69XUadtOSQkN2lwCC',LSD/1P-LSD,NA,31
+26,Male,IT - Italy,4,Unemployed,No,7,5,NA,3,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,QmOps66ORi82mjBDNnv76xypSB2Qf6XB',Ayahuasca,NA,100
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,QnNula4tNIdZA8MlkgxqjuixQ72ZXYRI',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,QqVCgG0J3bhX1oIRn1gXt4arymt6i5sM',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,QrM6ZOPCfz9vpts1IpTfAkF28WApUsWV',NA,NA,NA
+22,Male,US - United States,3,Student,No,2,1,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,Qu8vxLSCigqhoXcgwvDlxLwa8L2TVfOM',Psilocybin/magic mushrooms/truffles,NA,70
+40,Male,DE - Germany,5,Full-time job,No,4,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,100,0,RBmIEGur4ob9xHDdtTLY1YvyU7nhRTHo',Psilocybin/magic mushrooms/truffles,NA,80
+20,Male,US - United States,3,Part-time job,No,6,4,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,RClM9xcvfwNKoVlVHdt7HnzUX5CqFuck',DMT / 5-MeO-DMT,NA,53
+20,Male,US - United States,3,Student,No,2,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,RIccJ8z1WT1kxcEIRlWwIbNjB4dbPoiL',LSD/1P-LSD,NA,90
+19,Male,DE - Germany,1,Part-time job,No,0,2,NA,11-20 times,NA,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,No,NA,NA,RMtiL5yOizBbhn04B7EgaZqNTMKKZG0w',LSD/1P-LSD,NA,70
+40,Male,US - United States,5,Full-time job,No,4,3,NA,Once,2,No,No,No,No,Substance abuse disorder,Alcohol dependence,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,RS0hTqr1b3DuwqNWyQ2fcjzWPxowfG5A',Ayahuasca,NA,86
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,RXGL2lo1WTBBLuIZl87YMFHVKKQmFmv7',NA,NA,NA
+32,Male,NL - Netherlands,3,Full-time job,No,5,4,NA,3,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,29,54,RaPE0JK8OxXbdGGOxX5eN6uEJ1l02q59',Psilocybin/magic mushrooms/truffles,NA,71
+28,Male,US - United States,5,Part-time job,No,5,4,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,RikCIEqLOCQzn8Qb1voeIqg5RWrt9cFl',Psilocybin/magic mushrooms/truffles,NA,70
+19,Male,US - United States,3,Student,No,2,2,NA,21-50 times,Never,Major depressive disorder,Bipolar disorder,No,Anxiety disorder,No,No,No,No,No,ADHD,Obsessive compulsive disorder,No,Diagnosed,No,No,No,NA,NA,Rkxsxpublgnoo0EQmRxgWzNQUyqGfoxN',LSD/1P-LSD,NA,25
+26,Male,US - United States,5,Student,No,2,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,RsmFKIw5UgTqZ0oCBiYQXAIFppciAHbb',LSD/1P-LSD,NA,43
+26,Female,CA - Canada,3,Full-time job,No,2,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,21,66,RtDmyfSYD9eEtn65jRAGaAKbt7UwKtEa',Psilocybin/magic mushrooms/truffles,NA,82
+21,Male,US - United States,3,Student,No,1,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,80,0,RtnNqvMhWjOEOhKreohRfdaFCep8WqNm',LSD/1P-LSD,NA,72
+35,Male,GB - United Kingdom,4,Full-time job,No,2,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,S0L9M3dwusvrTy2gXZMJluOr9ZNfq9G5',Psilocybin/magic mushrooms/truffles,NA,75
+37,Male,GB - United Kingdom,5,Full-time job,No,2,1,NA,Once,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,75,25,S1NxRkV4AoYS8LcMP01Pl3KoYB12cfkD',LSD/1P-LSD,NA,75
+19,Male,US - United States,1,Part-time job,No,4,2,NA,2,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,32,49,S1VE0f7aTaKdVrZqexym76t7VLQmEZVR',LSD/1P-LSD,NA,90
+61,Male,GB - United Kingdom,5,Retired,No,2,2,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,0,100,SHNOIOnqGSvaongTkJDktofw4eHzvvrc',LSD/1P-LSD,NA,47
+24,Male,US - United States,4,Student,No,4,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,50,50,SI3PVaUcJ5WcWzEv4PKru0DzgZYGacQY',LSD/1P-LSD,NA,100
+37,Female,DK - Denmark,4,Full-time job,No,4,3,NA,3,11-20 times,No,No,No,No,No,No,No,No,No,No,No,Eating disorder,Diagnosed,No,No,Yes,91,9,SLErDGc22htBDIm4yRLxi4UsEoWkKl0l',Psilocybin/magic mushrooms/truffles,NA,99
+30,Male,AU - Australia,2,Full-time job,No,5,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,72,30,SLKxMZQPpMZAUCZBr4WxWAGrdKoXPX5S',LSD/1P-LSD,NA,50
+18,Male,US - United States,2,Student,No,3,2,NA,7,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,SPslRxB8NiQAQvzVK791YtHqDiXaHS5z',LSD/1P-LSD,NA,100
+38,Female,NL - Netherlands,5,Unemployed,No,1,1,None of the above,NA,Once,No,No,No,No,No,No,No,No,No,ADHD,No,Eating disorder,Diagnosed,Yes,No,No,NA,NA,SUgkGqKzfX3Yty5fX0ZmWtK2JAvfsA5O',Ayahuasca,NA,80
+22,Male,US - United States,3,Student,No,2,1,NA,7,Never,Major depressive disorder,No,Schizophrenia,Anxiety disorder,No,No,No,Psychotic disorder,Personality disorder,ADHD,No,No,Diagnosed,Yes,No,No,NA,NA,SVZhiUKYH6kikRkBQnXy1ViZMSARk2MQ',LSD/1P-LSD,NA,75
+36,Female,GB - United Kingdom,4,Full-time job,No,4,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,2,94,SpIYgLG6ZKYbmSuOlK1doX69EDMauHs6',LSD/1P-LSD,NA,60
+20,Male,BR - Brazil,2,Unemployed,No,2,2,NA,Once,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,30,60,SqCVNkUbSCs5tPbNDIghnNAhd23gQnq6',LSD/1P-LSD,NA,70
+23,Male,GB - United Kingdom,2,Student,No,6,3,NA,3,Never,No,Bipolar disorder,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,95,5,SsByh3v575fMtbiyRDf41apdHzTstvJd',Other - Write In,al-lad / 2cc,50
+17,Male,US - United States,2,Student,No,3,3,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,93,5,SsktWPOjPUGiYSnaKsTPmujUfBiIHE2e',Psilocybin/magic mushrooms/truffles,NA,73
+58,Male,US - United States,3,Full-time job,No,6,3,NA,7,Never,Major depressive disorder,No,No,No,Substance abuse disorder,Alcohol dependence,Hallucinogen persisting perception disorder,No,No,No,No,No,Diagnosed,Yes,No,Yes,77,23,St2UMKknaFwsCEcnbaaP2RrNKVSF1BSM',Psilocybin/magic mushrooms/truffles,NA,75
+30,Female,GB - United Kingdom,4,Full-time job,No,4,2,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,82,22,T4MVVrs849CBsIz8vHVBEQjNtbKtOQnJ',Psilocybin/magic mushrooms/truffles,NA,90
+21,Male,US - United States,4,Student,No,5,2,NA,51-100 times,Never,Major depressive disorder,No,No,No,No,No,No,No,No,ADHD,Obsessive compulsive disorder,No,Diagnosed,Yes,No,Yes,30,64,T5zviwZPsr4yZnnldi5tBTFIf3gfqSb9',LSD/1P-LSD,NA,75
+48,Male,DK - Denmark,5,Full-time job,Yes,0,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,TF0VGnQ4Xw7dXoflRrvpYjIq5Brzbc8P',Ayahuasca,NA,80
+48,Male,DK - Denmark,5,Full-time job,No,4,2,NA,11-20 times,3,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,30,49,TGWXkdFdNxf0snDvrHRmeurwySfOTai6',Other - Write In,Cocaineinfused weed,53
+24,Male,US - United States,5,Student,No,2,2,NA,7,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,Yes,No,NA,NA,TKaddl0oEmJKVTepF9SUGWYFwQorWioj',LSD/1P-LSD,NA,100
+25,Male,GB - United Kingdom,4,Full-time job,No,1,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,20,75,TO6eVwNy4EtR6nWhei1yRw4sOvS9RnwX',Psilocybin/magic mushrooms/truffles,NA,75
+26,Male,HU - Hungary,2,Full-time job,No,5,3,NA,7,Never,No,No,No,No,No,No,No,No,Personality disorder,No,No,No,Diagnosed,Yes,No,No,NA,NA,TXgQzkSPRRIoC3Y0uUhmxURKMS14ukPT',Other - Write In,"We will go hiking for 4 days. We\'re planning to take MDMA, 2C-B, LSD and mushrooms",74
+35,Male,NO - Norway,3,Part-time job,No,4,2,NA,2,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,TbzR56gNJQDqlmk2lDkmuXpjDTqNp7qA',LSD/1P-LSD,NA,100
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,TdsifIT5hafWhl13JrP8WvqdCfv9altF',NA,NA,NA
+23,Male,CH - Switzerland,4,Student,Yes,0,NA,NA,2,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,20,55,TkVYZN6vaIufN0QmCuEW9ojjC9MlQGMP',LSD/1P-LSD,NA,40
+25,Male,GB - United Kingdom,0,Unemployed,No,1,1,None of the above,NA,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,Yes,16,70,Tp5hYeBRW73oZZpzz5HgNhc51ZSNvNVF',Psilocybin/magic mushrooms/truffles,NA,41
+44,Male,AR - Argentina,1,Part-time job,No,7,2,NA,Once,11-20 times,No,No,No,No,No,No,No,No,No,No,Obsessive compulsive disorder,No,Diagnosed,Yes,No,No,NA,NA,Tr1elhAbPurkVDW6F65ghwlhnncmJGmu',Psilocybin/magic mushrooms/truffles,NA,99
+34,Male,LB - Lebanon,4,Unemployed,No,5,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,U069ecgaWLwo98MXsBrGV4QUowrrgVzX',Psilocybin/magic mushrooms/truffles,NA,50
+20,Male,US - United States,3,Part-time job,No,3,3,NA,7,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,10,43,URspkmUkXt2h1oB8GtttKSg9E5CMLYfI',LSD/1P-LSD,NA,100
+23,Male,GB - United Kingdom,5,Unemployed,No,2,1,NA,2,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,USeux3crkubtU9T687ucfJkHzDbly7mj',Psilocybin/magic mushrooms/truffles,NA,85
+31,Male,US - United States,4,Full-time job,No,2,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,UT27cwsRaJEeBF1vA3RgtVGA4UQ4y9aP',Ayahuasca,NA,51
+24,Male,ES - Spain,5,Unemployed,No,2,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,UTDo9o2GZZgbtLcWD65p8nR6hYRgwLQ5',Psilocybin/magic mushrooms/truffles,NA,20
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,UVpJhQCKaTP9zmnsU9FKnoNGNUsh3zul',NA,NA,NA
+27,Male,US - United States,4,Part-time job,No,6,4,NA,7,Never,No,No,No,No,Substance abuse disorder,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,UbGGu3niRMyaXu8X8xTUlq7mibPOfcI9',Psilocybin/magic mushrooms/truffles,NA,40
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,UeLqaQ8khDWxPeR7WQxp2DMqFBvZAJHZ',NA,NA,NA
+27,Male,DE - Germany,5,Student,No,5,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,UkSjugvbtgHMbOW9MCv2ovtzmRDtCSNu',DMT / 5-MeO-DMT,NA,62
+23,Male,CA - Canada,3,Full-time job,No,2,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,No,NA,NA,UqL6rPGscj0io7sKabUU804wZIWv3Por',Other - Write In,2C-E,50
+27,Male,DE - Germany,3,Student,No,6,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,55,45,Uqyjd45e8un7Atvfnthn4e61HqUgTIUI',Psilocybin/magic mushrooms/truffles,NA,50
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,UrUS79my0p8nHdt4bFr5qCaEzDpmd1wa',NA,NA,NA
+26,Male,US - United States,4,Full-time job,No,7,4,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,79,11,Uru0YgCG4FwHqR58YIi25vDVZVATof1Q',LSD/1P-LSD,NA,10
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,UwBNoQrI6vnpKgNw5tNrLrzvdV3zne9C',NA,NA,NA
+23,Male,AU - Australia,3,Full-time job,No,2,3,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,UzqeETHg7q7PqoL1QyH7t5JXhVrbaeb1',LSD/1P-LSD,NA,77
+38,Female,GB - United Kingdom,4,Full-time job,No,4,1,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,75,25,V11qgFThW2SmAWFMYR4cyVwgMBWThe1v',Iboga / ibogaine,NA,86
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,V8FTE8zGvqaYrBo8U1XI0DOak5wCwIue',NA,NA,NA
+21,Male,GB - United Kingdom,3,Part-time job,No,4,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,VF9qXldeokOCwHyc9IsExB427mHUUT3e',LSD/1P-LSD,NA,40
+27,Male,US - United States,3,Part-time job,No,5,1,NA,2,3,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,75,25,VL3sSdWR3EznUPKZUaIOnT9iWog6umSC',Psilocybin/magic mushrooms/truffles,NA,100
+22,Male,DE - Germany,4,Student,No,2,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,VNX5fU4JaAJ3RIKPtTk2sK7lec2GounY',LSD/1P-LSD,NA,75
+25,Male,RO - Romania,5,Full-time job,No,1,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,VZO8UnY9C8y17SLBHQCJER7hBa4FY0VC',LSD/1P-LSD,NA,33
+28,Male,DK - Denmark,5,Unemployed,No,4,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,VZoULpkBPipYZznjM3wW2adsJ6ksHGrx',Other - Write In,2-CB,50
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,VgLY1NRrLFyA6SsNmVfpldFyhKLtx62p',NA,NA,NA
+34,Female,US - United States,4,Part-time job,Yes,0,NA,NA,Once,NA,Major depressive disorder,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,No,NA,NA,VoegYZoiiTrVy4lZ7voC8IUm6ImCur34',Psilocybin/magic mushrooms/truffles,NA,73
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,Vt2NN7IPU5uYXgYr6i68Yg9BGycQUCGr',NA,NA,NA
+29,Male,US - United States,3,Full-time job,No,2,1,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,20,30,Vwt0JY5c97XvnlRJ2n6BkOLLjL1Hu2mQ',Psilocybin/magic mushrooms/truffles,NA,51
+16,Male,US - United States,1,Student,No,2,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,W1GWEnbWqnp2GstUgDNSakLDDvczWL0w',LSD/1P-LSD,NA,100
+19,Male,US - United States,3,Student,No,4,3,NA,7,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,Yes,Yes,80,15,W43twjJN2BLHPiGiT5C2AM4tttin3p7K',LSD/1P-LSD,NA,100
+25,Male,IE - Ireland,4,Part-time job,No,5,2,NA,51-100 times,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,Yes,81,20,WB7J4O6D7Rn42Gy6U1uuIuV4C0x5ji82',LSD/1P-LSD,NA,83
+23,Male,BR - Brazil,4,Full-time job,No,5,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,100,0,WMYuQzwOADJOPeTaRAgyuoQNVkDZlEWS',LSD/1P-LSD,NA,90
+44,Male,GB - United Kingdom,3,Part-time job,No,7,4,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,13,75,WP6ET9jT4Xnm0TRoucedk7jnpRY3JJjg',LSD/1P-LSD,NA,96
+21,Male,CA - Canada,4,Student,No,2,2,NA,21-50 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,WaSnVBzmP0pDbbnhAjgO2uLsexHsc1TA',LSD/1P-LSD,NA,75
+22,Female,CR - Costa Rica,3,Student,No,3,3,NA,3,3,No,No,No,Anxiety disorder,No,Alcohol dependence,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,0,80,Wbu9VgviwIHtwlhKsccCa5km33Zk9iJG',Other - Write In,"extasis, mdma y acidos",100
+18,Male,GB - United Kingdom,2,Part-time job,No,4,6,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,WivAgvMQlhsjFlTP47XM84IVkdSrAZQK',LSD/1P-LSD,NA,80
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,WpZlvPaJsmxpLwKFVwDz2u0fNH6dux9H',NA,NA,NA
+42,Male,IE - Ireland,5,Full-time job,Yes,0,NA,None of the above,NA,NA,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,WuMEUvDbsZqLnZJv4BsAUffGIiEnXhpg',Psilocybin/magic mushrooms/truffles,NA,60
+23,Male,US - United States,4,Unemployed,No,5,2,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,WxSH2CObcKwbthVn8al7xW9L4PTCfvdd',LSD/1P-LSD,NA,100
+33,Female,GB - United Kingdom,4,Full-time job,No,0,2,NA,2,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,XFkCAB1i0OMBO21E2xI4SVZkFMF4ZVHJ',LSD/1P-LSD,NA,66
+24,Male,IN - India,4,Unemployed,No,4,3,NA,2,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,XKD7lNXGYrJdbILnxo1RITf6SdjS5dtk',LSD/1P-LSD,NA,25
+60,Male,FR - France,3,Retired,No,5,2,NA,Once,Never,Major depressive disorder,No,No,No,No,No,No,No,Personality disorder,No,No,No,Diagnosed,No,No,Yes,85,100,XOPiQV887QO1a32wAyqEjxvi5tymSACI',Iboga / ibogaine,NA,100
+29,Male,US - United States,3,Student,No,2,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,XR1fTiQARZP4hutUXl67OIW3XMZn48kd',Psilocybin/magic mushrooms/truffles,NA,30
+38,Female,DK - Denmark,4,Full-time job,No,2,2,NA,3,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,XTmsetaxpu6D3DuvpHbxUITu7Ty1ss8d',Ayahuasca,NA,87
+20,Male,US - United States,3,Student,No,3,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,64,36,XbiXy78wtRBcmY5UJxEeeT5ldYQCh0c7',LSD/1P-LSD,NA,80
+21,Male,US - United States,3,Student,No,2,2,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,XkDJfvQsP1h4F0zP5DMCle5kv7IFrpRH',LSD/1P-LSD,NA,31
+28,Male,IT - Italy,3,Full-time job,No,2,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,Xt5N8CGsLcR0FVZLRhbH9RjjwYAkUiri',LSD/1P-LSD,NA,80
+26,Male,GB - United Kingdom,3,Full-time job,No,2,1,NA,21-50 times,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,Y7dRMyAfYWY4QfOJHS5JgNRYyqjKTech',LSD/1P-LSD,NA,70
+42,Female,US - United States,4,Part-time job,Yes,0,NA,None of the above,NA,NA,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,20,50,YDzwSAH7dngRdv2lf8bGMr5j26ZERaHt',Psilocybin/magic mushrooms/truffles,NA,70
+19,Male,LT - Lithuania,3,Student,No,1,1,NA,21-50 times,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,YHRlG3lQeCxD3vxLEi41Jglkz12RUXnW',LSD/1P-LSD,NA,55
+22,Male,GB - United Kingdom,4,Student,No,4,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,YYcKKFX0U4Ue5kIg1SI5aC84qREPHtEo',LSD/1P-LSD,NA,66
+25,Male,GB - United Kingdom,1,Unemployed,Yes,0,NA,None of the above,NA,NA,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,YgGshUowHyKvOzmaplwZgvB0NTVp9dNY',Psilocybin/magic mushrooms/truffles,NA,65
+28,Female,GB - United Kingdom,4,Unemployed,No,0,2,NA,21-50 times,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,90,5,YqTEPUgzNM9LFkAxnQHSXQW2zDd7ZFii',LSD/1P-LSD,NA,40
+36,Male,LT - Lithuania,3,Full-time job,No,5,2,NA,2,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,30,70,Yr5t5il2CkAq2V7xsEwvBRofDGCyiH4o',LSD/1P-LSD,NA,85
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,YwgRmeff8CeCGfpdhCXp5iyxzocIZwnJ',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,Z8iwdPzlrtdwpcdNa1vcU8tfI9Nwy2XY',NA,NA,NA
+20,Male,CA - Canada,3,Student,No,5,1,NA,2,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,100,0,Z9F8wJnFPhJ9DyvSsr5BcBmgHaJNHaU3',LSD/1P-LSD,NA,75
+20,Male,BG - Bulgaria,3,Student,No,2,1,NA,3,Never,No,No,No,No,No,No,Hallucinogen persisting perception disorder,No,No,No,No,No,Diagnosed,No,No,Yes,4,75,Z9iSevRRoYiMmsRjDJCDKuVT2vDG2HmD',Other - Write In,MDMA,45
+16,Male,US - United States,1,Part-time job,No,6,4,NA,3,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,Yes,70,15,ZBJjhsRu9psvfkC5ZXb611nBIz33vmnE',LSD/1P-LSD,NA,85
+23,Female,US - United States,3,Part-time job,No,4,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,30,70,ZBU4QP3RrqsaVHAf6wR3EHOhY6SyLCzm',LSD/1P-LSD,NA,95
+20,Male,GB - United Kingdom,2,Student,No,4,2,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,100,1,ZFCo0p2IrSDkUCS6gtBg5md3ObowFvGN',LSD/1P-LSD,NA,75
+19,Female,FI - Finland,1,Student,No,5,3,NA,51-100 times,Never,Major depressive disorder,No,No,No,Substance abuse disorder,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,ZOz1hPNbrDhzQJxrikoWo8t8nScn7eGY',Psilocybin/magic mushrooms/truffles,NA,50
+20,Male,US - United States,3,Part-time job,No,3,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,Obsessive compulsive disorder,No,Diagnosed,No,No,No,NA,NA,ZQijnRSvx2Tk6i0eKBkYcy7lAtwFtBnm',LSD/1P-LSD,NA,100
+45,Male,GB - United Kingdom,4,Full-time job,No,7,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,ZRg0LgEUarx6fuB8nMJKtAtMGijJ2sJh',LSD/1P-LSD,NA,100
+59,Female,US - United States,5,Retired,No,2,2,NA,21-50 times,2,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,ZRnMXSu161giU3MMtFBzHt3eDJjwWTRN',Psilocybin/magic mushrooms/truffles,NA,93
+48,Male,GB - United Kingdom,5,Unemployed,No,6,2,NA,7,Never,No,Bipolar disorder,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,13,75,ZVATKGJguNSlZiXtvAFrxhAy1ulvD2UE',Psilocybin/magic mushrooms/truffles,NA,79
+27,Female,US - United States,4,Student,No,4,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,ZWs2w7ptouQaVvJcsJMK1lDdXcQ7glHf',LSD/1P-LSD,NA,100
+20,Male,US - United States,3,Student,No,2,1,NA,7,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,No,No,No,NA,NA,ZXBILdpNxNQ29Wd7kL5jDPOPDLN8izmb',LSD/1P-LSD,NA,50
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,Zb4z2Z4W4U5CLRFYhOk9Jr67EcHUoFcx',NA,NA,NA
+21,Male,GB - United Kingdom,4,Student,Yes,0,NA,NA,3,NA,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,ZcZH9ZB1w9bd0AIOj8hFVX5mha0n4ckm',LSD/1P-LSD,NA,68
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,Zlib0eJ0dUim7RgkdvonOXBTK7bGqSaP',NA,NA,NA
+18,Male,US - United States,3,Student,No,4,2,NA,7,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,ZmTdNTO8MEdY686vh8ysEh0qw79d0zhy',LSD/1P-LSD,NA,40
+39,Male,DK - Denmark,4,Full-time job,No,5,1,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,aGbezp0k0fUnyc1j5h0i78ZAywRB6XDw',DMT / 5-MeO-DMT,NA,80
+21,Male,DE - Germany,2,Full-time job,No,1,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,63,19,aKCJ3GTWa40d5sbe4jySgbWpDaKKOFXe',LSD/1P-LSD,NA,85
+18,Male,DE - Germany,2,Student,No,3,2,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,88,7,aMRgsuPYWd68FlFu4WUEHhutXRRbWJ31',LSD/1P-LSD,NA,52
+32,Male,US - United States,4,Part-time job,Yes,0,NA,NA,21-50 times,NA,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,aTQ1a8G7poa6NFGuAs7Pq9Naw2QilCXr',Psilocybin/magic mushrooms/truffles,NA,100
+25,Female,BE - Belgium,4,Part-time job,No,3,1,NA,2,Never,No,No,No,Anxiety disorder,No,No,No,No,Personality disorder,No,Obsessive compulsive disorder,No,Diagnosed,Yes,No,No,NA,NA,ah9JzOH5U7UildU4hCShLeQlnxjz1Eab',Psilocybin/magic mushrooms/truffles,NA,85
+38,Male,ZA - South Africa,3,Full-time job,No,6,2,NA,2,3,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,19,82,aucu6295q1LShURat3ChO0WM5ZpeV5DF',LSD/1P-LSD,NA,79
+38,Male,MX - Mexico,5,Part-time job,No,2,2,NA,Once,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,auh7qyK6RkJ9iKIsTUL7mo9zEV9tUucL',Psilocybin/magic mushrooms/truffles,NA,98
+38,Male,SE - Sweden,3,Full-time job,No,7,6,NA,2,More than 50 times,No,No,No,Anxiety disorder,Substance abuse disorder,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,azoneDDGeohNhZvlqlpaccCm6FsAlhUa',Ayahuasca,NA,100
+43,Female,AU - Australia,4,Full-time job,No,4,1,None of the above,NA,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,91,4,b93GhG0ciYchGdzJqaZHEcLZVMLBqUJO',"Mescaline (Peyote, San Pedro)",NA,98
+24,Female,DK - Denmark,4,Student,No,2,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,bFOtUAqYhKWlziTQB9cIAzfkTHOE8QRm',Psilocybin/magic mushrooms/truffles,NA,30
+18,Male,GB - United Kingdom,2,Student,No,1,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,bLu18jS3I5V8qZk7TPwr9wRobpUHuuIq',LSD/1P-LSD,NA,76
+33,Male,GB - United Kingdom,4,Full-time job,No,5,2,None of the above,NA,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,10,80,bRFt0QQ7up2XCeheUKGRnvePZiIReAYQ',Psilocybin/magic mushrooms/truffles,NA,95
+20,Male,CA - Canada,2,Unemployed,No,3,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,bSUl3GCDbZu5x0iiArjtl2a4myQyWL1x',Psilocybin/magic mushrooms/truffles,NA,100
+26,Male,BE - Belgium,2,Full-time job,No,3,3,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,bcxzOTgdsyw2DKeDpdcDAE0lfZR2CXWp',LSD/1P-LSD,NA,60
+17,Female,GB - United Kingdom,2,Student,No,2,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,45,55,bsHJkkfySW39x936il9vBOOjpmzjiajg',LSD/1P-LSD,NA,50
+25,Female,DK - Denmark,4,Student,No,2,2,None of the above,NA,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,Yes,75,2,btkMMPRvGPaSG7Ry8Q6CoWJILHMGKPSA',Other - Write In,Ayahuasca and San Pedro in an 4 day retreat with 2x aya and 1x san pedro ceremonies,100
+20,Male,US - United States,3,Full-time job,No,2,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,c6ixoVjDWTgK8ezrhmt6wfN6Q72cGPbN',LSD/1P-LSD,NA,70
+25,Male,PR - Puerto Rico,5,Part-time job,No,7,1,NA,Once,Never,No,Bipolar disorder,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,cLbx9Mo31h5bJxyFWLDaISvxQgjIeUri',LSD/1P-LSD,NA,50
+16,Male,US - United States,2,Student,No,1,1,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,cMVZIQZ6G9Vs3mdTgXn1QFzsSr1PHaGM',LSD/1P-LSD,NA,70
+26,Male,FR - France,5,Full-time job,No,2,1,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,90,10,cNMkfj4a6vueLbirBq5rJpuMXLH8HTGa',DMT / 5-MeO-DMT,NA,70
+26,Male,NO - Norway,2,Full-time job,No,5,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,17,75,cWQIz2NoA0gXYpj8fHEqmfe9TiXtpij7',LSD/1P-LSD,NA,100
+18,Male,GB - United Kingdom,2,Student,No,3,3,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,cnWizVz3ACICw13eyFBLKF2AWczg54yP',LSD/1P-LSD,NA,86
+21,Male,BR - Brazil,2,Full-time job,No,2,2,NA,51-100 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,cpriSmIplOIo2SzXBX1bYk1UiIHdletT',LSD/1P-LSD,NA,57
+19,Female,FI - Finland,2,Student,No,5,3,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,crQ4vyD2FCpdBqOVtET7bv7S8QTtH6ja',Psilocybin/magic mushrooms/truffles,NA,33
+20,Male,GB - United Kingdom,2,Student,Yes,0,NA,NA,Once,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,csQVhdkHuGxSRcDZd3kOUGOACQoG9g80',LSD/1P-LSD,NA,30
+31,Male,US - United States,3,Full-time job,No,7,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,ctRhEA55qlbYRlMXaRaiaKLToL9B5eCR',LSD/1P-LSD,NA,78
+19,Male,US - United States,3,Student,No,5,4,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,23,58,d1g3o0XuJgdGphZmURiiLNcR7FL1QHuf',LSD/1P-LSD,NA,69
+20,Male,US - United States,2,Part-time job,No,3,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,d4mI7h1yPc8ZKSRqtDWFrXpHPiT72WmF',LSD/1P-LSD,NA,81
+36,Male,IT - Italy,1,Full-time job,No,4,3,NA,2,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,d5scUoLx0tXYPpRqR5axwF6uyfztWDl3',DMT / 5-MeO-DMT,NA,80
+30,Male,AU - Australia,5,Full-time job,No,5,2,NA,21-50 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,No,NA,NA,d5vaTRzGm0e3CD8JwcTOIq8VNc6I45xX',Psilocybin/magic mushrooms/truffles,NA,95
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,d8wjbOaBgFLESMZqqvnZCivdHt4NoHnr',NA,NA,NA
+26,Male,TW - Taiwan,5,Full-time job,No,6,6,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,dB8q90fXPRAJJxGpKijRsR1M4kH6v3YP',LSD/1P-LSD,NA,100
+19,Male,US - United States,3,Student,No,2,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,dFwA3mt1EGuXmcnZ540lq7piCkpnZno8',LSD/1P-LSD,NA,60
+22,Male,DK - Denmark,4,Student,No,1,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,31,32,dMY1u34A3VF84Du2zfuY6PibASXd2wN3',Psilocybin/magic mushrooms/truffles,NA,96
+63,Male,AU - Australia,5,Part-time job,No,6,4,NA,3,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,75,0,dV368YdnrEJPjvZI80lQ8ucoLQG5poat',Ayahuasca,NA,100
+21,Female,NL - Netherlands,4,Student,No,1,1,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,76,20,dVxC2Xo0SKoCyvgnmMQXFoPWH0duIncp',Psilocybin/magic mushrooms/truffles,NA,90
+21,Male,US - United States,3,Full-time job,Yes,0,NA,NA,Once,NA,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,dm2OMyr9ac6w10IwQe2Gbz4ygVChQAzK',Psilocybin/magic mushrooms/truffles,NA,50
+32,Male,GB - United Kingdom,5,Full-time job,No,2,1,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,34,66,dnvPfujA4oc4QEIjtOUcsFYhcxSgnK7n',LSD/1P-LSD,NA,70
+29,Male,CA - Canada,5,Full-time job,No,3,1,NA,2,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,30,78,eIA2cPDKnaMhN9HebUQuZkPodGHCyhGJ',Ayahuasca,NA,64
+22,Female,US - United States,3,Full-time job,No,2,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,11,12,eJWBQe1spwMJvBEsBuXDxnpwM7tds4ev',LSD/1P-LSD,NA,50
+19,Female,US - United States,3,Student,No,3,3,NA,2,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,Yes,70,30,eL9IU7ESfOcG2JwVUYgmDHnpyXXw8Tlg',LSD/1P-LSD,NA,80
+18,Male,IN - India,3,Student,Yes,0,NA,NA,11-20 times,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,eZHLckcPAsGdHnakW55r6hVYK77t6m6B',LSD/1P-LSD,NA,65
+28,Female,US - United States,4,Full-time job,No,4,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,85,8,ebg6RJokiV3Ylb58NnBOKnnprsLFlnsE',LSD/1P-LSD,NA,73
+20,Female,US - United States,3,Student,No,3,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,100,0,egWvMrx6s9SjOapmQzkLDOzs4ri9dWYk',LSD/1P-LSD,NA,95
+35,Male,US - United States,3,Full-time job,No,2,1,NA,Once,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,egXvFNaOlSgvYbdDn3DRLwRL84PdnpE0',Psilocybin/magic mushrooms/truffles,NA,80
+25,Male,GB - United Kingdom,5,Student,No,3,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,ekrh3giLe03jE3AWh5rHr9CqOw4UiaY0',Psilocybin/magic mushrooms/truffles,NA,66
+40,Female,US - United States,3,Full-time job,No,6,2,NA,2,11-20 times,No,No,No,Anxiety disorder,No,Alcohol dependence,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,eqdfoJaO5Hjp1UVOyjK9fNcCb9KH3RiZ',Psilocybin/magic mushrooms/truffles,NA,77
+33,Male,DE - Germany,2,Part-time job,No,3,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,36,29,etSTREG8SLAwJUKJpWsje89nImknjDHD',LSD/1P-LSD,NA,51
+30,Male,GB - United Kingdom,4,Full-time job,No,4,2,NA,Once,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,f7mZ9rhdb4Yw6rX1yyKwSfovhWxSAILy',Ayahuasca,NA,80
+57,Female,GB - United Kingdom,4,Full-time job,No,2,1,NA,Once,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,fAd7ed1ZaRlux2SUhdu0Qp7jRn5eE6ah',Psilocybin/magic mushrooms/truffles,NA,77
+20,Male,GB - United Kingdom,3,Student,No,3,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,27,70,fQnEK1b10u5ffzGMMPqFgsGMP7iwqSqY',LSD/1P-LSD,NA,72
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,fUQrDArRfeUG9wTPKhiH7wbRRx1495TA',NA,NA,NA
+19,Male,GB - United Kingdom,2,Student,No,3,3,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,0,70,fW3fT1fwzO0LevT1ZQ3WDMXamI5mildv',LSD/1P-LSD,NA,30
+18,Male,US - United States,3,Student,No,3,3,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,No,NA,NA,fY3rhopijWLsqt57frRE3TADCAquP2NV',LSD/1P-LSD,NA,52
+56,Male,GB - United Kingdom,1,Retired,No,4,2,NA,7,Never,No,Bipolar disorder,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,No,NA,NA,fdmQPvJNQq3jcq2DRpB9sGIDY3xMeyIS',LSD/1P-LSD,NA,100
+38,Female,NL - Netherlands,2,Full-time job,No,2,2,None of the above,NA,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,5,95,fikOtDxj9Ale89YkqvvQaBZtjcAM8hTV',Ayahuasca,NA,97
+25,Male,AU - Australia,3,Unemployed,No,2,1,NA,7,Never,No,No,No,No,Substance abuse disorder,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,fiquML3R6iWdy0deSe5Yl6jx5PQuWa5O',Psilocybin/magic mushrooms/truffles,NA,88
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,flZp60VhRz3fCLJsNA8OVkMDkumi5R4Z',NA,NA,NA
+21,Female,US - United States,3,Unemployed,No,4,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,fvNZDjMphxM3T7eVxQxquvOA3n0GJS08',Other - Write In,2C-B,31
+41,Female,DK - Denmark,4,Full-time job,No,2,2,None of the above,NA,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,85,17,fwjPvqqlQ8XKrMojSPwDfQOdBthjgKut',Ayahuasca,NA,85
+18,Male,DE - Germany,2,Student,No,0,3,NA,2,NA,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,g7iqihqq8ALd5YOEBbV6wmwWRSZYOyPC',LSD/1P-LSD,NA,85
+32,Female,DK - Denmark,3,Full-time job,Yes,0,NA,NA,Once,NA,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,53,38,gAU1YxyPbAVUPqPQ9TR4Md93sXwzzYDz',Ayahuasca,NA,100
+19,Male,US - United States,3,Student,No,3,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,0,100,gEYYmyElOFv6g6zYIW6NwBbiCBsh4OrP',LSD/1P-LSD,NA,69
+19,Male,BR - Brazil,3,Student,No,2,2,NA,7,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,72,10,gIHlcxbgxZeJPtYwTgnHu4UMTwU823pV',Other - Write In,25i-NBOMe,65
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,gSfPa3RF9eWo7AaPVtT2tdbsG09Tl2fr',NA,NA,NA
+42,Male,CZ - Czech Republic,5,Full-time job,No,7,2,NA,2,21-50 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,80,20,gTiewkDVlMS4qPSDwbSRjywjG0YC5UVZ',"Mescaline (Peyote, San Pedro)",NA,80
+26,Male,IE - Ireland,4,Full-time job,No,4,2,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,gnPVXZQl3GL4h4iHNuJkEXYEQkzDHtEG',LSD/1P-LSD,NA,100
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,gtqckTgnY4wRHBUzy8Ho4pAS51ZjQqqf',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,gutO3sYpSTAmZwxpZ7Xye5isFOmN62Fe',NA,NA,NA
+32,Female,GB - United Kingdom,4,Unemployed,Yes,0,NA,NA,2,NA,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,hCSDH64wisw5xfDoccrmqifzrxPWUIl9',Psilocybin/magic mushrooms/truffles,NA,70
+36,Male,PT - Portugal,5,Part-time job,No,6,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,hGZwURMSypBSz3v7jmHzHcCiG2DtvBKj',LSD/1P-LSD,NA,80
+22,Female,NL - Netherlands,4,Student,No,3,2,NA,2,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,Yes,Yes,100,0,hHlMIVJl8i0gW0Gau9vqn58la1IXPFF6',Other - Write In,AL-LAD,81
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,hIdGKKjImav4heNicr7oaQ2Izk6MokJW',NA,NA,NA
+23,Male,GB - United Kingdom,4,Full-time job,No,4,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,hJCXc65iohIigwJHn3KHlooObtPojCWl',LSD/1P-LSD,NA,60
+18,Male,DK - Denmark,1,Student,Yes,0,NA,NA,3,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,hJXkCtpT44QsPrdGLBiADkELtzz3GrLR',LSD/1P-LSD,NA,70
+25,Male,US - United States,4,Student,No,3,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,hRgJmhDZiRfIjJHAaZPmO6eMzOqd1zED',LSD/1P-LSD,NA,60
+48,Male,US - United States,4,Retired,No,7,1,NA,7,Never,No,Bipolar disorder,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,No,No,No,NA,NA,hU9EkzMytsKwOBx3vWHOvzkB3AsN90SF',Ayahuasca,NA,100
+17,Female,US - United States,1,Part-time job,No,3,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,20,51,hZJW5nNRhl8rsSye4ynsH17Le3zlKUDy',LSD/1P-LSD,NA,82
+17,Male,US - United States,1,Student,No,5,4,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,29,69,ha2J5azntzE5HOmi37SU361SQd2axaCY',LSD/1P-LSD,NA,94
+26,Male,NL - Netherlands,4,Full-time job,No,2,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,hjQlFTDBkwS9flJ5dPugXei6TidvOCM5',LSD/1P-LSD,NA,20
+43,Female,GB - United Kingdom,3,Full-time job,No,7,4,NA,21-50 times,3,No,No,No,No,No,No,No,No,No,ADHD,No,Eating disorder,Diagnosed,No,No,Yes,66,16,hmTrVuXrhJsrwHaZEGGypowDuI1ODNKO',Psilocybin/magic mushrooms/truffles,NA,100
+21,Female,GB - United Kingdom,4,Student,Yes,0,NA,NA,2,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,hrZJLA3zRNSW9i5Rr4eWDnL1yrofFW4u',Psilocybin/magic mushrooms/truffles,NA,100
+16,Female,US - United States,1,Student,Yes,0,NA,NA,11-20 times,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,ht8b5kGQmYUA05EkwSK0zT3wnHn4n3hl',LSD/1P-LSD,NA,50
+50,Male,DK - Denmark,1,Full-time job,No,2,1,NA,Once,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,51,28,hzY09QBdjQoDQEr5xfDCY0n2zoJI1jH6',Ayahuasca,NA,33
+46,Male,US - United States,3,Full-time job,No,5,3,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,i1oJmLg8xF5jq8YNcHBoRbPLCO7RgoFt',LSD/1P-LSD,NA,100
+47,Male,GB - United Kingdom,4,Unemployed,No,5,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,i2vbS9rU5QnaGURIaYHM6xyxAufb9odo',Psilocybin/magic mushrooms/truffles,NA,54
+71,Male,DK - Denmark,5,Retired,Yes,0,NA,None of the above,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,i3mWXd4jXYSRT3Rcag4Pl5EpuLADYRXT',Ayahuasca,NA,63
+20,Male,FI - Finland,3,Unemployed,No,3,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,i6MDp1TGaJfidha0I10Xa2B9jNbGgnCF',LSD/1P-LSD,NA,61
+27,Male,IE - Ireland,4,Full-time job,No,4,1,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,26,25,iF6pxHXJ5hobZ7QCJtUuWoxmbndREPEv',LSD/1P-LSD,NA,50
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,iVou4OzPiPBhEleR2Lv0xHXWGWum8xCm',NA,NA,NA
+35,Female,AU - Australia,4,Part-time job,No,5,4,NA,21-50 times,11-20 times,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,86,12,iXCfo7Z1B19dY9zklSfJUfozQGeh2zVE',Ayahuasca,NA,71
+18,Male,AU - Australia,2,Student,No,4,3,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,iaAeI0inHFDYUZDRg4wxc9J3Xek0573r',LSD/1P-LSD,NA,30
+25,Female,CA - Canada,4,Full-time job,No,2,1,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,50,45,iaUPhHtYpOTqBDPJuXi1XXQWm7egcf5F',LSD/1P-LSD,NA,80
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,iaxFEM4rxD5BVE25YYey23YU7PBRtE1R',NA,NA,NA
+19,Male,US - United States,3,Student,No,2,2,None of the above,NA,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,ihS5J1GFNdePBfiGBzean7hRaB1y2wWt',LSD/1P-LSD,NA,50
+21,Male,US - United States,3,Full-time job,No,2,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,iicP9uMvgCLmh2c67l31svtpDS8ERIVx',LSD/1P-LSD,NA,84
+21,Male,SE - Sweden,2,Full-time job,No,3,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,in1IjHTXeIucpOEUghDgASj352ApiBLV',LSD/1P-LSD,NA,73
+23,Male,CO - Colombia,2,Part-time job,Yes,0,NA,NA,Once,NA,No,No,No,No,No,No,No,No,No,No,No,Eating disorder,Diagnosed,No,No,Yes,25,76,iszQxcunTs8oBpMAwUmPQaFDDHlGz8V1',Psilocybin/magic mushrooms/truffles,NA,81
+18,Male,RU - Russia,2,Part-time job,Yes,0,NA,NA,11-20 times,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,0,60,iw8Y2pLWuiwfRuUW37RsHWGIH6eeB1dx',Other - Write In,"LSD, but in our country you never know if it\'s not DOB or NBOMe",74
+19,Female,US - United States,3,Student,No,2,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,iy0oB47Eix4pymFTQG27ObScRjUVBSV1',LSD/1P-LSD,NA,50
+19,Male,PL - Poland,2,Student,No,2,2,NA,Once,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,47,45,j0rz2VIXckMIujO7tAey673wUvuscXxP',LSD/1P-LSD,NA,32
+41,Male,PL - Poland,3,Full-time job,No,2,1,NA,NA,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,j7hUgB7cXV5oyAkulB9higRmorWaplat',Psilocybin/magic mushrooms/truffles,NA,50
+19,Male,NZ - New Zealand,3,Student,No,5,3,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,67,34,j8IYhIMsfL7fgP71hloQfDXs0eBMAVxN',Other - Write In,"LSD combined with MDMA, and possibly magic mushrooms depending on availability",74
+25,Male,NL - Netherlands,4,Full-time job,No,5,1,NA,7,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,Yes,70,30,jAR6ZGH8sUBcrM4RwbQgUY8sFVTudArk',LSD/1P-LSD,NA,30
+20,Male,RU - Russia,3,Student,No,5,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,69,11,jERI82brJse5HzS3pKSNkqp5cTgOsibJ',LSD/1P-LSD,NA,65
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,jFtb7bjpibw2KbR9yILuandY6bDYffzA',NA,NA,NA
+28,Male,CL - Chile,4,Full-time job,No,2,2,NA,51-100 times,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,jGg1lPvTfW0XMRqG5OvpsCDTbtmeUpbr',LSD/1P-LSD,NA,75
+41,Female,CA - Canada,3,Full-time job,No,5,1,None of the above,NA,2,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,83,58,jGs639Wsr5TuTGyD6mZm49fJ3BezmRRl',Ayahuasca,NA,61
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,jK2GdH8UJsIeGJUJrDQLonp4LRz0cbQ0',NA,NA,NA
+22,Male,US - United States,4,Student,Yes,0,NA,NA,2,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,75,65,jMqtj7UCFoboTkhWKp3cxIRg8Epq3iZN',Psilocybin/magic mushrooms/truffles,NA,90
+30,Female,FI - Finland,2,Unemployed,No,3,2,NA,2,2,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,Personality disorder,No,No,No,Diagnosed,Yes,No,Yes,90,0,jWVP8ktKVyFfYeRzWvKZTDGkV8ItR3y5',Psilocybin/magic mushrooms/truffles,NA,59
+18,Male,US - United States,2,Student,No,2,2,None of the above,NA,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,jfD6J6YLT5oN1nRUKk0NmQr1jsCSzB40',LSD/1P-LSD,NA,50
+27,Male,NL - Netherlands,5,Part-time job,No,2,2,NA,Once,2,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,jj459vq29L3OIM36W0V8ocaoOVXyHmfy',Ayahuasca,NA,80
+18,Male,US - United States,3,Student,Yes,0,NA,NA,21-50 times,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,jqrNts8MH7LyBTdxFIW75fkhW90PUjbD',LSD/1P-LSD,NA,0
+24,Male,CH - Switzerland,4,Student,No,2,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,39,57,jwwb02YJFuuXko0aUrstspTgw2GW8htI',LSD/1P-LSD,NA,77
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,jxmrD43x9eEgz7uq3TkILSHr6j0MTN3I',NA,NA,NA
+23,Female,GB - United Kingdom,3,Student,No,5,2,NA,2,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,Eating disorder,Diagnosed,Yes,Yes,Yes,92,0,k20nRXMCyFrEhCaNKNYArBYRwUfzgIRl',Psilocybin/magic mushrooms/truffles,NA,85
+22,Female,GB - United Kingdom,3,Unemployed,No,5,3,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,20,70,kLNIxSpkDuCA9Vz7J3Tc62Mqt2DQyz8s',LSD/1P-LSD,NA,95
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,kNFgQ70IkzBdBGDcwq5e5ayvQrU9dNsQ',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,kNsbz79A7jdzhppYS0kvgINi9B9H2Umx',NA,NA,NA
+43,Male,AU - Australia,4,Full-time job,No,7,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,69,0,kY9bvMfhbKELhwnl0VyQxSviv8hFfcDG',"Mescaline (Peyote, San Pedro)",NA,92
+19,Female,NL - Netherlands,2,Student,No,0,1,NA,2,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,25,70,kioX750MsZyJkal3itWX2HHzfr1Bx6nQ',Psilocybin/magic mushrooms/truffles,NA,70
+38,Female,CH - Switzerland,5,Full-time job,No,7,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,90,10,kkqVlZhVozX8uR7SgcxqW4eOaAdiYT4D',LSD/1P-LSD,NA,100
+23,Male,US - United States,3,Student,No,3,2,NA,Once,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,knC0gxAb2db7pqaM3eemQMBKg7wJ9B3Z',LSD/1P-LSD,NA,75
+33,Male,DK - Denmark,5,Part-time job,No,3,2,None of the above,NA,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,lGTAJmv6aOFmGH9yRs0ZZMWJRBLD29IV',Ayahuasca,NA,86
+33,Male,US - United States,4,Full-time job,No,3,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,29,50,lMepAr69dZ0a5XGLnc359Qs34dVDOxJx',Psilocybin/magic mushrooms/truffles,NA,90
+18,Female,AU - Australia,4,Student,No,3,2,NA,2,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,77,32,lTmgYQFNRzCChciqVL0uaB3ZKyigHQxJ',LSD/1P-LSD,NA,100
+21,Male,US - United States,3,Student,No,5,2,NA,7,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,Yes,No,NA,NA,lXxmEUEY7FhRSsZuqOhxP9XPmQLTTIgQ',LSD/1P-LSD,NA,82
+54,Female,US - United States,5,Full-time job,No,6,2,NA,3,More than 50 times,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,Yes,9,87,lghK5cZnUaQXqDLbYduAPnEP8TREUfEn',Ayahuasca,NA,100
+23,Male,DE - Germany,1,Unemployed,No,3,2,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,70,80,lh93MJLaw2S1RsIpLIadlS4TYUmKkMVE',Psilocybin/magic mushrooms/truffles,NA,95
+21,Female,DE - Germany,2,Student,No,3,2,NA,2,3,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,100,0,lpQquxxwf9Shu6GaSKPjMsr4OGj80JfD',Other - Write In,Meskalin and after a time LSD,95
+28,Male,US - United States,3,Unemployed,Yes,0,NA,None of the above,NA,NA,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,No,NA,NA,lqUqPoL35bR5nBQqFB1LVkrxAD4eFEGV',Psilocybin/magic mushrooms/truffles,NA,50
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,m3Je095nSb2YnWDKY4PwiEdFAJL27EIP',NA,NA,NA
+33,Female,PL - Poland,5,Full-time job,No,4,2,NA,7,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,mKNHEIPcH6aUyDGrz0LfzjJw0HayBYTF',LSD/1P-LSD,NA,100
+25,Male,US - United States,4,Full-time job,No,5,2,NA,7,2,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,35,50,mMcOhDabPWrnfHBFMeA2V9OgAc9JVxan',Other - Write In,Psilocybin/LSD 25,100
+22,Female,US - United States,3,Part-time job,No,2,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,mNeu6ZFAqzBD8iwxQXmtdRtwGUjvLduu',LSD/1P-LSD,NA,97
+19,Female,US - United States,3,Student,Yes,0,NA,NA,7,NA,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,50,60,mS9DIUAFt5lDri13TWZneNH5U4dzfpJw',LSD/1P-LSD,NA,80
+18,Male,US - United States,1,Student,No,2,2,None of the above,NA,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,mWlJQxCA6gGoXHwSH4Ie4bkvDFTwICr0',LSD/1P-LSD,NA,80
+35,Male,DE - Germany,4,Full-time job,No,7,2,NA,Once,11-20 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,76,21,mXMCQr2iNCUfyBSFVmrJbmDeWCHw06wu',LSD/1P-LSD,NA,91
+22,Male,CA - Canada,4,Student,No,2,1,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,mkVoRBpbeh0log6J51ePuFfZXRx8vI4u',LSD/1P-LSD,NA,43
+61,Male,CA - Canada,4,Retired,No,7,5,NA,21-50 times,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,mzRogPCRrDyttdIIhUTFk4PCQFmpX2xN',Ayahuasca,NA,58
+31,Female,GR - Greece,5,Full-time job,Yes,0,NA,NA,51-100 times,NA,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,No,NA,NA,n1YZjDtljwdZHobxRqun7V7LU4vsniQN',Psilocybin/magic mushrooms/truffles,NA,50
+21,Male,NO - Norway,2,Student,No,4,1,NA,11-20 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,n3miPDepY75LX4EnOFWyry5Lw7MlYu0i',LSD/1P-LSD,NA,70
+26,Female,CA - Canada,4,Full-time job,No,4,4,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,0,85,n5No0nIfrLGEv9q0aPN8CPmiO77nTCEC',Psilocybin/magic mushrooms/truffles,NA,50
+21,Male,CA - Canada,3,Student,No,2,3,NA,Once,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,n6q9u7cGrJyaJag12yXVq8O8QVG8KWDe',LSD/1P-LSD,NA,38
+20,Female,US - United States,3,Student,No,3,2,NA,11-20 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,nCDeTioHMeCbcoy0JCv9mTvsmQtl4COw',LSD/1P-LSD,NA,90
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,nEfXl2jxboQ5j8UG08dTv8036LoLA9hH',NA,NA,NA
+35,Male,US - United States,3,Student,No,5,3,NA,3,Never,No,Bipolar disorder,No,Anxiety disorder,Substance abuse disorder,Alcohol dependence,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,100,0,nTOY5Lt0BIyq10RAZ55mpXa444cX6wYz',LSD/1P-LSD,NA,53
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,nXRMIVn39T5T4VKtYdh1jpiuOFFVuamq',NA,NA,NA
+19,Male,NO - Norway,2,Student,No,0,7,NA,7,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,12,64,nYktj8MhVzhcqHe5abrvPRhobkf9Mzs4',Ayahuasca,NA,75
+22,Male,GB - United Kingdom,4,Unemployed,No,2,1,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,ncl9oJKGLhQUxANBdQWqJO4yDUkvqFu4',LSD/1P-LSD,NA,80
+42,Male,GB - United Kingdom,5,Full-time job,No,5,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,nevXURsu2NuUb46B4M3cEg3qhq6vfDQF',Psilocybin/magic mushrooms/truffles,NA,68
+18,Male,GB - United Kingdom,2,Student,No,2,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,81,19,nnjGLnLxunex561n7cl3kzj5rMEPRgsj',LSD/1P-LSD,NA,95
+62,Female,GB - United Kingdom,4,Full-time job,No,3,1,NA,2,2,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,Eating disorder,Diagnosed,Yes,No,No,NA,NA,npWAnWYAqr4A8wwMYR8MYg8YfF7EgvtM',DMT / 5-MeO-DMT,NA,100
+37,Female,GB - United Kingdom,4,Unemployed,No,5,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,25,75,nu0vUJ2Gaf1XxRGOLQeGsfU1HgNiBWI8',LSD/1P-LSD,NA,75
+18,Male,MX - Mexico,0,Student,No,2,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,nw855j1RgtzP5NyW6LxjFAZe1vFa5ICm',LSD/1P-LSD,NA,40
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,o1paQRHT2Dz7q5KvBQAK40qcvjAKHXgr',NA,NA,NA
+23,Female,MU - Mauritius,2,Full-time job,No,2,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,o2AzacF78pQq7xGiKd9hcvZ2hqBxuIQm',LSD/1P-LSD,NA,80
+19,Male,FR - France,2,Part-time job,No,1,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,o6wagXiA7LqDPVeZPpiKbQrHsUOklyEQ',LSD/1P-LSD,NA,65
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,o76xPOgODdKKUaFKVxyBQrZIiGLEaXZL',NA,NA,NA
+29,Male,VN - Vietnam,4,Part-time job,No,2,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,oLj7OK4LORsOFjbV1957ZtWzxQGBx1lB',Other - Write In,4-Ho-Met,80
+44,Male,DK - Denmark,4,Full-time job,No,2,2,NA,Once,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,oQep9lQhHiMUAOCs3s7Z9oQNHPebGD94',Psilocybin/magic mushrooms/truffles,NA,100
+22,Male,DE - Germany,3,Student,No,3,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,oT8tba9HcQPbrZ9LrMYvRrAuuN4o2G5T',Psilocybin/magic mushrooms/truffles,NA,85
+27,Female,GB - United Kingdom,4,Full-time job,No,2,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,90,10,oX4v04EjRmWqTZe22WAUGpnfJVrA5R68',Other - Write In,Psilocybin/ LSD,88
+22,Male,US - United States,4,Student,No,3,3,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,20,60,oiK4yXjCLt66fLT6dOXO2IKcYwJpW3ln',LSD/1P-LSD,NA,75
+19,Male,GB - United Kingdom,3,Student,No,5,3,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,70,30,oriv8KlM7XL9jxesxGdnhzgFECPqTthU',LSD/1P-LSD,NA,65
+27,Male,ZA - South Africa,4,Full-time job,No,5,3,NA,51-100 times,2,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,62,66,orrCoTG5YzVWR16TLOO1BRyZIo7SqQkf',LSD/1P-LSD,NA,61
+20,Male,US - United States,3,Part-time job,No,6,3,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,os7AV5nnEzCPpMd8q2wL5ifzxjNgcNGT',LSD/1P-LSD,NA,65
+20,Male,GB - United Kingdom,4,Student,No,3,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,osT8NaRNxymF4Dbutsa7THcz89qDvvgK',LSD/1P-LSD,NA,25
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,ow5OAcMkhjnsTrEQoG1p8xscE8MSUcYW',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,p4LMcldutIJaDTvEWvgTBaDd27LF1j36',NA,NA,NA
+41,Male,IE - Ireland,5,Full-time job,No,2,1,None of the above,NA,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,pDOUUoqboDqHHZYvV3J4r2MDBitobpNX',Psilocybin/magic mushrooms/truffles,NA,44
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,pHKCad7uWlqccWEhrJ6qwQ7qrBVu2WDR',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,pJV1nj6n4VhxvMLxRZWg2ubfXf44EHiH',NA,NA,NA
+42,Male,DK - Denmark,5,Part-time job,No,7,2,NA,2,3,No,No,No,No,No,No,No,Psychotic disorder,No,No,No,No,Diagnosed,Yes,No,Yes,35,57,pKhx8jRKtWvvGj3XmX2PYQQC3NeiAoDN',Psilocybin/magic mushrooms/truffles,NA,53
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,pKwMSCbNOGRrgVfCvMf7Zo32BlOnWLFz',NA,NA,NA
+28,Male,PT - Portugal,4,Full-time job,No,3,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,pM2pDWiTLTlyT62aGQFlqV3v5YPyBdar',Psilocybin/magic mushrooms/truffles,NA,63
+20,Male,GB - United Kingdom,3,Student,No,4,4,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,20,60,pOLZFqAJxfZE0ICkbYMb4gOUUZilODFt',LSD/1P-LSD,NA,80
+46,Male,DK - Denmark,5,Full-time job,No,2,2,NA,3,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,piGcAmElSq9D41z3kAauDKqMe4JAse3k',Ayahuasca,NA,80
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,pj8TWnIQpMUrceRiXYtlFTAuC6KiZHjQ',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,pl3gbA31eXfMfGkYalxCjWciLmGfYWwr',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,pl6DrmLz8JOne7UyEe1GGddj2LlwuHGA',NA,NA,NA
+22,Male,GB - United Kingdom,4,Unemployed,No,2,2,NA,Once,Once,No,No,No,Anxiety disorder,No,No,No,No,Personality disorder,No,No,No,Diagnosed,Yes,No,No,NA,NA,pmrT5QihYwK6Dso9B4Zs9MtIiBfpS8UW',LSD/1P-LSD,NA,60
+52,Female,DK - Denmark,2,Full-time job,No,2,2,NA,21-50 times,2,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,q9K2ZV0COe26GFJjknfdBtHvd2ZgOFP5',Ayahuasca,NA,100
+32,Female,DK - Denmark,4,Student,No,7,2,NA,2,3,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,qE2yyTWLMeWLg4vQGbWRUEeaKyIMYuHm',Ayahuasca,NA,50
+25,Male,GB - United Kingdom,4,Part-time job,No,2,1,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,qGKtXRr1hkHLpq1IPuBy3XYF5UMeDTuG',DMT / 5-MeO-DMT,NA,90
+20,Male,US - United States,3,Student,No,4,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,30,60,qJDYAooldWrTum4u1YFB8dn0xkBKJVZu',LSD/1P-LSD,NA,77
+49,Male,GB - United Kingdom,4,Full-time job,No,7,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,qJbHI0DvKzTrfoCFkHJEg5Y7Nb12Awzb',Psilocybin/magic mushrooms/truffles,NA,100
+32,Female,DK - Denmark,4,Student,No,7,2,NA,Once,11-20 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,qNPs44tI0jOR6HDfB3uQF2W3t6ZIHC8l',Ayahuasca,NA,70
+35,Male,FR - France,4,Full-time job,No,2,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,30,32,qX13pQuwjyrHqjVlqZosc1fGumdprJWd',Psilocybin/magic mushrooms/truffles,NA,60
+28,Male,US - United States,3,Full-time job,No,5,2,NA,3,Never,No,Bipolar disorder,No,Anxiety disorder,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,50,50,qYYC0yL4OT08uuUZfD24GCAltaYruC9m',LSD/1P-LSD,NA,50
+27,Male,DK - Denmark,2,Full-time job,No,5,4,NA,21-50 times,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,10,60,qYrgOcOAFNlg73CAtncMuYsrl1abIGW1',Ayahuasca,NA,95
+45,Female,DK - Denmark,5,Part-time job,Yes,0,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,100,0,qZJqLZ4omCtgjdyIi4jE5CzivnBxcsJK',Ayahuasca,NA,51
+18,Male,US - United States,3,Student,No,2,2,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,31,69,qerPdz9mAJ3qa23AphH7bWkqNSCjrnm3',LSD/1P-LSD,NA,100
+33,Female,GB - United Kingdom,4,Full-time job,No,1,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,qmMhp8Sv7nqoro12spyV1DZSpOD6kLbI',Psilocybin/magic mushrooms/truffles,NA,60
+17,Male,US - United States,2,Part-time job,No,2,1,NA,21-50 times,Never,Major depressive disorder,No,No,No,Substance abuse disorder,No,No,No,No,No,No,Eating disorder,Diagnosed,Yes,No,No,NA,NA,qtsVlXHrvz6ygm6CsahQ8lTwQXKQDJqP',Psilocybin/magic mushrooms/truffles,NA,41
+18,Male,US - United States,3,Student,No,2,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,30,70,qyNh6H8pCpEBFgPNde6oU2vEQSkLOcWR',LSD/1P-LSD,NA,81
+20,Male,GR - Greece,2,Student,No,2,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,qzJoIhlbr6ciM5Bc2QSQ6OoyWulCT8ih',LSD/1P-LSD,NA,50
+33,Male,US - United States,3,Full-time job,No,6,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,r2Mf7sg1XGQQQsw50gAhKByrJ9kYEpea',Psilocybin/magic mushrooms/truffles,NA,100
+27,Female,CA - Canada,3,Full-time job,Yes,0,NA,NA,21-50 times,NA,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,ADHD,Obsessive compulsive disorder,Eating disorder,Diagnosed,Yes,No,Yes,20,70,r3ObSeUqgUeLJxiOke9fdYK3Q6CQ9hyV',Ayahuasca,NA,66
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,r3a7bHuqHdbOZnhWnwyi9TqFmNXm2uAd',NA,NA,NA
+21,Male,US - United States,3,Student,No,2,1,NA,11-20 times,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,70,20,rAKokarKySDixHCJUdvwAXSvPZbkLc1L',LSD/1P-LSD,NA,100
+31,Female,GR - Greece,5,Part-time job,No,2,2,NA,2,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,30,31,rBCiVoPImITTlKipJ3y6KYvNrbXUXg1m',Psilocybin/magic mushrooms/truffles,NA,50
+25,Male,US - United States,3,Student,No,4,1,NA,Once,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,25,75,rNTLD7syp1hsbLegZu2lq3hKJyEZwecn',LSD/1P-LSD,NA,70
+53,Male,DK - Denmark,4,Full-time job,No,2,NA,NA,NA,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,60,40,rTencuLDg1Kmv5RvXlUH0BK8rwp8PbEb',Ayahuasca,NA,60
+28,Male,GB - United Kingdom,4,Part-time job,No,6,2,NA,51-100 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,rYKqNDOlwfabbFvRkFkLujyCVJFzpFsu',Psilocybin/magic mushrooms/truffles,NA,70
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,rcneLsGn4bSUWGl0W0iVa9TdAfQl9KRB',NA,NA,NA
+17,Male,US - United States,2,Student,Yes,0,NA,None of the above,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,rjzJQeIjS7KlkUbqkDZH3yCCvaJ88EsX',LSD/1P-LSD,NA,59
+19,Male,DE - Germany,1,Part-time job,No,0,2,NA,51-100 times,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,s34jzwbszjlAzG0135Na90lEgWUTtdGW',LSD/1P-LSD,NA,85
+35,Male,US - United States,4,Full-time job,No,7,3,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,sC1qlYWO3ha1ayRg1IMqgXGM78qJacd0',DMT / 5-MeO-DMT,NA,75
+22,Female,US - United States,3,Student,No,2,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,sF31lsG5NtvrBRnmmSI4a3lOqdHRLT2s',LSD/1P-LSD,NA,71
+32,Male,DK - Denmark,5,Full-time job,No,5,2,NA,2,11-20 times,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,sK4IgTaYbsjkbdy3yHXmoldQk8pAV5Cr',Psilocybin/magic mushrooms/truffles,NA,50
+26,Female,DE - Germany,4,Student,No,2,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,60,17,sL9YuRaadHoLWJv9OtuFdzrLIopteeIN',LSD/1P-LSD,NA,74
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,sXNjAKgu83Ec1F2VPUdp6feHDyDVnKfa',NA,NA,NA
+17,Male,DE - Germany,1,Full-time job,No,4,3,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,0,100,sZ5VMpOJQ4blJih81u9jKk78MbaMzzdy',LSD/1P-LSD,NA,50
+28,Male,GB - United Kingdom,5,Full-time job,No,4,2,NA,2,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,sm13ZRD1BFMIu89nL8FJfV2d7B4G4tnE',Psilocybin/magic mushrooms/truffles,NA,70
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,sn5VJSh5rPlbD9uAghJ6vZk9GYs2kHAr',NA,NA,NA
+31,Male,IT - Italy,1,Full-time job,No,5,2,NA,2,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,sqIrs45pw9rvaBqW3QLE9NQYNsWT4WEN',LSD/1P-LSD,NA,33
+35,Female,CZ - Czech Republic,5,Full-time job,No,3,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,20,71,tBx8lPPgtAakocORbYDiTOoM5AQ2kbiZ',Psilocybin/magic mushrooms/truffles,NA,92
+55,Male,GB - United Kingdom,0,Part-time job,No,5,2,NA,21-50 times,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,tLiR0XzQrRXPz7nXpyCKF9rIgkcHd2Xd',DMT / 5-MeO-DMT,NA,65
+19,Male,US - United States,3,Student,No,5,3,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,tXkw57noQhk5RRuwDqS897634o7zK02N',LSD/1P-LSD,NA,35
+21,Male,BG - Bulgaria,2,Student,No,1,NA,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,tlMqoEX1xOQFyTWGaa48tMyTCpWwxWix',LSD/1P-LSD,NA,70
+17,Male,CA - Canada,2,Student,No,2,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,0,80,tmGZiV2YTfvtNUTEznxQ9BWqiy9hXvUe',Psilocybin/magic mushrooms/truffles,NA,75
+25,Male,US - United States,4,Part-time job,No,4,2,NA,11-20 times,Never,No,Bipolar disorder,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,tmzmiv3kgpKC6WBUH6vtm0LkyPQxNGW8',LSD/1P-LSD,NA,76
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,tnOTG4WuiBLzhquHmJkJgnZoW0zG9OVM',NA,NA,NA
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,tuEkwiXT5B0dhhI6iqPzU66O8K36CYRo',NA,NA,NA
+36,Male,FR - France,5,Full-time job,No,4,2,NA,Once,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,100,0,u6lLTd7VuaMsPpu3yhFplXvyzqorx9yU',DMT / 5-MeO-DMT,NA,80
+48,Male,US - United States,3,Full-time job,No,5,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,uD9HSOcwsttyjMd1KgDFTGnYQaTTriRa',Psilocybin/magic mushrooms/truffles,NA,100
+28,Male,US - United States,4,Part-time job,No,6,3,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,uExj4FlSOfd0HGGRycloU5174zxRrmfU',Psilocybin/magic mushrooms/truffles,NA,76
+20,Male,US - United States,3,Student,No,4,3,NA,21-50 times,Never,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,44,33,uIBsL0rjktBbyfBslJRh3jxxuua1Agjk',LSD/1P-LSD,NA,75
+25,Male,GB - United Kingdom,3,Student,No,7,4,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,34,70,uL8bTL2zowxUtTtfzoPcG0lsWLbNwOmI',LSD/1P-LSD,NA,60
+27,Male,HK - Hong Kong,4,Unemployed,Yes,0,NA,NA,2,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,uSigu5rwQidhG2q2zczb6K4nFxdKDDDa',LSD/1P-LSD,NA,50
+25,Male,NL - Netherlands,1,Part-time job,No,3,5,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,ADHD,Obsessive compulsive disorder,No,Diagnosed,Yes,No,No,NA,NA,uSnhUEkVT7dhESuSD96lRVdtMRoq9xj3',LSD/1P-LSD,NA,70
+25,Male,NZ - New Zealand,1,Full-time job,No,3,1,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,ufq78MofBSQu6l8gMVbTPs95lAoP2kBO',Psilocybin/magic mushrooms/truffles,NA,70
+54,Female,US - United States,3,Full-time job,No,3,2,NA,Once,2,Major depressive disorder,No,No,No,Substance abuse disorder,Alcohol dependence,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,ujWqzr4GGrnGrAyfWx2OmopXbACVxURc',Ayahuasca,NA,72
+29,Male,PL - Poland,5,Full-time job,No,5,2,NA,Once,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,ujqytByVEMThElghKwDvs4Rfo74jNOKX',DMT / 5-MeO-DMT,NA,90
+49,Male,US - United States,5,Unemployed,No,5,1,NA,Once,Never,Major depressive disorder,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,Yes,No,NA,NA,unbHqIeg3CGuKIFON7bgBpKuffQBAcEX',LSD/1P-LSD,NA,47
+24,Male,CA - Canada,3,Full-time job,No,3,3,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,uoio1plOvijYnR5V2PtcljpVZ3zIVJQm',LSD/1P-LSD,NA,35
+38,Male,DK - Denmark,2,Full-time job,No,2,2,NA,2,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,uosawFiOlETRtRVpcVJ4ikdPVfo0WpBj',LSD/1P-LSD,NA,70
+27,Male,US - United States,3,Full-time job,No,1,1,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,utS1o6RGKrQxRjjUDw9nMrKWq0BzFVNq',LSD/1P-LSD,NA,50
+28,Female,US - United States,4,Part-time job,No,4,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,36,54,vTkWcKbJxOa0MLS7GVL0tlPvp9PHTlkO',LSD/1P-LSD,NA,67
+20,Male,HR - Croatia,2,Student,No,1,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,vZ47v9WF3ZoI6GAev7r5sNcK6pgEmGtS',LSD/1P-LSD,NA,48
+16,Female,GB - United Kingdom,2,Part-time job,No,2,2,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,vayMHtVfpoDa0wG4Z1G9zOkkHd0NiE9h',LSD/1P-LSD,NA,65
+29,Female,US - United States,3,Full-time job,No,4,2,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,vbz9C5QjjUemocKiJUz00fNysdd33qhc',LSD/1P-LSD,NA,97
+47,Male,US - United States,5,Part-time job,No,7,2,NA,2,3,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,100,1,vhqMHwobfnai5OzrwWxfsveho3Q7niow',Iboga / ibogaine,NA,84
+21,Male,US - United States,4,Student,No,2,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,vo0BYjHypuI3jk3y2MZMZ3aRiGciIolJ',LSD/1P-LSD,NA,60
+19,Male,GB - United Kingdom,2,Student,No,2,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,vo6uJ3XRz1CzuHq39g2AG5xW4JG42i1o',LSD/1P-LSD,NA,70
+19,Male,FR - France,3,Student,No,3,2,NA,51-100 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,vs8iFR12fbq7sOCvOWnRajFlfpKfaP3I',Other - Write In,AL-LAD (6-allyl-6-nor-LSD),75
+38,Male,GB - United Kingdom,0,Student,No,3,2,NA,7,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,vvHIVxw3joylhGRLf63pnAu8LjQrij5v',Psilocybin/magic mushrooms/truffles,NA,100
+32,Male,RO - Romania,4,Full-time job,No,4,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,vwEN7xBDe3j4D0QrCnW4CfhvNDqbHOOw',Psilocybin/magic mushrooms/truffles,NA,100
+26,Male,IS - Iceland,4,Student,No,4,3,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,94,2,w3qsoRyh2XNdvB4u0tHcGN1wRNDx5ZUJ',LSD/1P-LSD,NA,51
+45,Male,BE - Belgium,5,Unemployed,No,4,1,NA,Once,Never,Major depressive disorder,Bipolar disorder,No,No,No,No,No,No,Personality disorder,ADHD,No,No,Diagnosed,Yes,Yes,Yes,87,10,w71vzIVRi2QQ4n5UH5jteS7JB3QwRZq5',Psilocybin/magic mushrooms/truffles,NA,55
+32,Male,US - United States,2,Unemployed,No,2,2,NA,11-20 times,Never,Major depressive disorder,No,No,Anxiety disorder,Substance abuse disorder,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,20,73,w8FZqhOblDMlQNUajRKkCIX9HdKpd1Uh',LSD/1P-LSD,NA,70
+28,Male,IE - Ireland,3,Full-time job,No,1,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,wC6jWfsrXPYLqdzhR0x8d5PFGGkkYgtK',DMT / 5-MeO-DMT,NA,60
+25,Male,US - United States,2,Part-time job,No,5,2,NA,7,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,Yes,0,100,wU0nSWJ6X8QXXnxmUWqlelGkuLPDKaqf',LSD/1P-LSD,NA,100
+47,Male,US - United States,3,Full-time job,No,6,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,wVoz9cLoRVFnR96QVpMARzYmbH9ikykD',DMT / 5-MeO-DMT,NA,72
+26,Male,SE - Sweden,1,Student,No,4,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,26,37,wbecTEqnXZCAY7C3vMOhWteB8M0wLpwD',LSD/1P-LSD,NA,10
+29,Female,DK - Denmark,5,Full-time job,No,4,3,NA,11-20 times,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,70,30,whBtRUOpua5mRFCGwwPtLsYuhP47TUYc',Ayahuasca,NA,58
+23,Female,NO - Norway,2,Full-time job,No,3,2,NA,21-50 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,whbUEPFEkCxRFTEqxQHhJGOpbQhnOL7Q',Psilocybin/magic mushrooms/truffles,NA,50
+23,Female,SE - Sweden,4,Student,No,5,2,NA,Once,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,100,80,whwg0RtNbOSvK3xDAvP4v3CeYnUglDsz',LSD/1P-LSD,NA,60
+34,Male,GR - Greece,5,Student,No,2,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,wnErp9XIHh9kqlThJwQ9eWsrrv1NaTjr',LSD/1P-LSD,NA,78
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,wrsnToYthf66lBm7Mlmv2QxETLoWkG3u',NA,NA,NA
+19,Male,US - United States,2,Student,No,5,3,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,85,10,wvJ7zekBvl8NIaAa0Al0MxrwpgMjnwNx',LSD/1P-LSD,NA,75
+23,Other,SE - Sweden,4,Part-time job,No,4,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,x14xKxrX4F0TlxyV6uIpa8V9Wsb3Onc4',Psilocybin/magic mushrooms/truffles,NA,100
+38,Male,GB - United Kingdom,2,Full-time job,No,7,1,NA,NA,Never,No,No,No,No,Substance abuse disorder,No,No,No,No,No,No,No,Diagnosed,No,No,No,NA,NA,x5pTuz2l06dA2cjD3BFtSRbwr9aDsCle',Psilocybin/magic mushrooms/truffles,NA,80
+28,Male,DK - Denmark,5,Full-time job,No,6,3,NA,11-20 times,2,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,x6lE51iRDT3p1HXILddou1kN8VZRihMS',Ayahuasca,NA,65
+32,Male,DK - Denmark,5,Full-time job,No,3,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,xB0BoqyYzZYSJEff1Z1NHsXbK2UjUvil',Psilocybin/magic mushrooms/truffles,NA,30
+44,Male,US - United States,5,Full-time job,No,3,1,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,80,10,xI9FgRNXE64ED8HL1NqUhf8gx00iO1zU',Psilocybin/magic mushrooms/truffles,NA,97
+24,Female,CA - Canada,4,Student,No,5,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,40,51,xIqMEVlRS8ThVzMryHdLtieebivA9nZ9',Psilocybin/magic mushrooms/truffles,NA,100
+25,Male,CA - Canada,5,Student,No,4,1,NA,3,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,xJGeTGg0QdwiCoAXOWvrP310kVAjP8ji',LSD/1P-LSD,NA,80
+18,Male,US - United States,2,Student,No,5,3,NA,21-50 times,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,Hallucinogen persisting perception disorder,No,No,ADHD,No,No,Diagnosed,Yes,Yes,Yes,68,23,xM0PM8psEPMIRIzREog8tp0A8UIkHpAZ',LSD/1P-LSD,NA,69
+36,Female,PT - Portugal,2,Full-time job,No,5,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,20,70,xXBmGCfTxDZInYDjSiWTMhytNN9IOQ6y',Psilocybin/magic mushrooms/truffles,NA,75
+49,Female,AU - Australia,5,Student,No,3,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,xXjZoZGaH6a6FnoYquxq6MMO5nxD1PdB',Psilocybin/magic mushrooms/truffles,NA,37
+21,Male,DE - Germany,2,Full-time job,No,4,3,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,85,15,xfPzGIJs0zHEWS5VDM7xaS8AY8NCYssz',LSD/1P-LSD,NA,75
+NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,No,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,NA,NA,NA,xj7Pi4SC55jbyjKDrPPSRlHfJY6A4sso',NA,NA,NA
+30,Male,DK - Denmark,2,Unemployed,No,4,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,Personality disorder,ADHD,No,No,Diagnosed,Yes,No,Yes,85,24,xnirre5va0a0ilmA4gJdpl0SQWxdthlq',Ayahuasca,NA,95
+20,Male,PK - Pakistan,3,Student,No,6,3,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,25,76,xsDvA62p99YQx0iMfGGai3iy7EhkWcoE',LSD/1P-LSD,NA,50
+21,Male,DE - Germany,2,Student,No,3,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,70,30,xtwxyXInG9SVN8zbtbxc1fcCTApRqvl9',LSD/1P-LSD,NA,80
+59,Female,GB - United Kingdom,5,Unemployed,No,5,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,80,0,xyZayUeAr4Cc3JEoqGmvxr3xQOMBNTZ7',Psilocybin/magic mushrooms/truffles,NA,98
+21,Male,DK - Denmark,3,Student,No,2,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,Yes,No,NA,NA,y0CikGd4YUQytduRlOAumB7PfwDqbn1e',LSD/1P-LSD,NA,15
+25,Male,BE - Belgium,4,Full-time job,No,2,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,y0NvkJWviQwaIHSmzougM2hpVxN7VEJb',"Mescaline (Peyote, San Pedro)",NA,80
+42,Male,SE - Sweden,4,Student,No,7,2,NA,Once,21-50 times,No,No,No,No,No,Alcohol dependence,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,y5XdYIcEPqR5NsioBOOLBvkyZ3r8LN9m',Psilocybin/magic mushrooms/truffles,NA,100
+30,Male,AU - Australia,5,Full-time job,No,4,2,NA,Once,3,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,y6uTaOpnCzcl3N74MZWluNhjkKNTlAk9',Psilocybin/magic mushrooms/truffles,NA,100
+29,Male,GB - United Kingdom,5,Student,No,1,1,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,80,20,yEyucog6EDTYOzH7V5xptHtWtqcjYF50',Psilocybin/magic mushrooms/truffles,NA,75
+25,Male,US - United States,4,Full-time job,No,5,5,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,yGOrFYp3y4cw8M7sVy2PPg6nT6VqBeMT',LSD/1P-LSD,NA,75
+19,Male,DE - Germany,1,Student,No,3,3,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,yGzO8oqL8qlmx3DVfbKKqoqB47WbrHh6',LSD/1P-LSD,NA,68
+19,Male,US - United States,3,Student,No,2,2,NA,51-100 times,Never,Major depressive disorder,No,No,Anxiety disorder,Substance abuse disorder,No,No,No,No,No,No,No,Diagnosed,Yes,Yes,Yes,28,67,yHKQL2kfJosPyo7kVrZE7Il95UMsDT4O',LSD/1P-LSD,NA,50
+19,Male,US - United States,3,Student,No,5,3,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,100,0,yPXZz2WcNbFPxbafUrRShQup4ZO37knU',Other - Write In,I plan on using 4.5g of Psilocybin and one tab of lsd,100
+17,Male,US - United States,2,Student,No,3,3,NA,2,Never,Major depressive disorder,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,No,No,NA,NA,ybLIzO0Qj4Ya6q5ALxCoRSjKSbEixC5J',LSD/1P-LSD,NA,50
+26,Male,GB - United Kingdom,4,Full-time job,No,4,2,NA,Once,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,ydEW4ErK6iKYeFCQ2YhyRTrtJ9XWhbdO',LSD/1P-LSD,NA,60
+23,Male,HU - Hungary,4,Student,No,1,1,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,40,60,yda4ijUYds8VojuM08SP4pT6SY4rCqdv',LSD/1P-LSD,NA,76
+23,Male,CA - Canada,4,Unemployed,Yes,0,NA,NA,21-50 times,NA,Major depressive disorder,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,Yes,Yes,No,NA,NA,ydvKu3PIe9CM21bZnzBwjhYhnJAPdSMD',Psilocybin/magic mushrooms/truffles,NA,58
+17,Male,AU - Australia,1,Unemployed,No,2,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,yfdKdkYwHnzDtVu6DbE4RfifVPNLkX2p',LSD/1P-LSD,NA,28
+68,Male,US - United States,3,Retired,No,5,1,NA,21-50 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,ygJK6Fsq2dXCLnkB6rYDOlAteHjHlvjD',LSD/1P-LSD,NA,97
+23,Male,US - United States,4,Unemployed,No,0,2,NA,Once,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,ylqDPNkBZMKxvxIkeiDFnrm41BvJuyqi',LSD/1P-LSD,NA,75
+26,Male,US - United States,4,Student,No,4,2,NA,2,Never,No,No,No,No,No,No,No,No,No,ADHD,No,No,Diagnosed,No,No,Yes,100,2,ypM9qXLAHWOTGE1xb2v1N0utQC5tqi0q',LSD/1P-LSD,NA,83
+27,Female,IL - Israel,5,Student,No,4,2,NA,3,Once,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,35,63,yr3TOHuEdbS0T7NCRXN6CNVzHta1Kfak',Psilocybin/magic mushrooms/truffles,NA,92
+20,Male,GB - United Kingdom,4,Student,No,4,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,z90qiB9OG1o6lXJtJXCo8tu8RU7d1Yzr',LSD/1P-LSD,NA,55
+32,Female,FI - Finland,4,Part-time job,No,3,1,NA,2,Never,Major depressive disorder,No,No,Anxiety disorder,No,No,No,No,No,No,No,Eating disorder,Diagnosed,Yes,No,Yes,75,15,zF4i8iEnLDWBZkWpxN4gJcHWMGYvgDSp',LSD/1P-LSD,NA,70
+21,Female,US - United States,4,Student,Yes,0,NA,NA,2,NA,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,zJkN3voWNBAYpO89icy9HAkKvuonItaS',LSD/1P-LSD,NA,57
+37,Male,RS - Serbia,5,Full-time job,No,5,3,NA,3,3,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,zKGQqtfXPYTzCTYEoy9MnWpCfk71pHYO',Ayahuasca,NA,80
+59,Female,US - United States,5,Student,No,5,4,NA,11-20 times,21-50 times,Major depressive disorder,Bipolar disorder,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,No,NA,NA,zKJLsIkMdcqC02yFhMT2dqQR5zJai8Ta',DMT / 5-MeO-DMT,NA,99
+26,Female,US - United States,2,Full-time job,No,3,2,NA,7,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,zNtBquzAjkagnFfufpoTLTbksEvGP8I4',LSD/1P-LSD,NA,75
+20,Male,SE - Sweden,3,Student,No,5,2,NA,2,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,No,NA,NA,zS2VByw3hqpTbslZfdZs2AXgMDrYwXJy',LSD/1P-LSD,NA,72
+35,Female,US - United States,5,Full-time job,No,6,1,NA,3,Never,Major depressive disorder,No,No,No,No,No,No,No,No,No,No,No,Diagnosed,No,No,Yes,33,67,zY0zj8rOKS7BjsEK2uyYKme7FMlD2B25',LSD/1P-LSD,NA,73
+18,Male,GB - United Kingdom,1,Student,No,4,2,NA,11-20 times,Never,No,No,No,No,No,No,No,No,No,No,No,No,Healthy,No,No,Yes,28,76,zYjcKVsxATSbfg1qlfsunqItNckMWFsD',LSD/1P-LSD,NA,66
+42,Female,DK - Denmark,4,Part-time job,Yes,0,NA,NA,Once,NA,No,No,No,Anxiety disorder,No,No,No,No,No,No,No,No,Diagnosed,Yes,No,Yes,70,10,zzUHwCpiSx7jBwiYigOVMBtVwyvgHe6n',Ayahuasca,NA,80

@@ -1,0 +1,288 @@
+---
+title: "ManingPsychPart1"
+author: "JR"
+date: "3 5 2020"
+output: html_document
+---
+
+Data loading & packages
+```{r}
+pacman::p_load(ggplot2, brms, readxl, tidyverse, plyr, reader, ggpubr, psych, polycor, stats, ggfortify)
+
+## loading data
+ACS <- read_excel(path = "Data/ASC.xlsx", sheet = "Sheet3")
+CEQ <- read_excel(path = "Data/CEQ.xlsx", sheet = "Sheet4")
+EBI <- read_excel(path = "Data/EBI.xlsx")
+EDI <- read_excel(path = "Data/EDI.xlsx", sheet = "Sheet2")
+MEQ <- read_excel(path = "Data/MEQ.xlsx", sheet = "Sheet4")
+
+
+Demography <- read_excel(path = "Data/Demographics.xlsx")
+
+Drugtype_intention <- read_excel(path = "Data/Drugtype_intention.xlsx", sheet ="Sheet1")
+Drugtype_intention2 <- read_excel(path = "Data/Drugtype_intention.xlsx", sheet ="intention")
+
+MLQ_before <- read_excel(path = "Data/MLQ.xlsx", sheet = "Sheet1")
+MLQ_2w_after <- read_excel(path = "Data/MLQ.xlsx", sheet = "Sheet2")
+MLQ_4w_after <- read_excel(path = "Data/MLQ.xlsx", sheet = "Sheet3")
+
+```
+
+
+
+## Data cleaning
+```{r}
+### cleaning post PE acute state questionnaires (EDI, EBI, ACS, CEQ, MEQ)
+
+# EDI
+colnames(EDI)[13] <- "EDI_total"
+
+
+PostQues <- cbind.data.frame(EBI[,c(1,10)], EDI[,13], CEQ[,8], MEQ[,5], ACS)
+
+write_csv(PostQues, "Data/PostQues_clean.csv")
+
+
+### MLQ cleaning ###
+
+# MLQ before, selecting relevant columns
+MLQ_before <- MLQ_before[,1:10]
+
+# making integrer and reversin Q9 score
+MLQ_before[,1:10] <- lapply(MLQ_before[,1:10], as.integer)
+MLQ_before[,9] <- 8-MLQ_before[,9]
+
+
+#renaming columns
+colnames(MLQ_before)[1] <- "MLQ_b_p_Q1"
+colnames(MLQ_before)[2] <- "MLQ_b_s_Q1"
+colnames(MLQ_before)[3] <- "MLQ_b_s_Q2"
+colnames(MLQ_before)[4] <- "MLQ_b_p_Q2"
+colnames(MLQ_before)[5] <- "MLQ_b_p_Q3"
+colnames(MLQ_before)[6] <- "MLQ_b_p_Q4"
+colnames(MLQ_before)[7] <- "MLQ_b_s_Q3"
+colnames(MLQ_before)[8] <- "MLQ_b_s_Q4"
+colnames(MLQ_before)[9] <- "MLQ_b_p_Q5"
+colnames(MLQ_before)[10] <- "MLQ_b_s_Q5"
+
+MLQ_before$ID <- EBI$ID
+
+# making long format for both dimensions of MLQ
+MLQ_b_p_long <- gather(
+  MLQ_before, MLQ_b_p_ques, MLQ_b_p_score, MLQ_b_p_Q1, MLQ_b_p_Q2, MLQ_b_p_Q3, MLQ_b_p_Q4, MLQ_b_p_Q5, factor_key=TRUE)
+
+MLQ_b_s_long <- gather(
+  MLQ_before, MLQ_b_s_ques, MLQ_b_s_score, MLQ_b_s_Q1, MLQ_b_s_Q2, MLQ_b_s_Q3, MLQ_b_s_Q4, MLQ_b_s_Q5, factor_key = TRUE)
+
+# making a new variable for MLQ question (necessary to merge data)
+MLQ_b_p_long$MLQ_QN <- substr(
+  as.factor(MLQ_b_p_long$MLQ_b_p_ques), start = 9, stop = 10)
+
+MLQ_b_s_long$MLQ_QN <- substr(
+  as.factor(MLQ_b_s_long$MLQ_b_s_ques), start = 9, stop = 10)
+
+# merging
+
+MLQ_b_merg <- merge(MLQ_b_p_long, MLQ_b_s_long, by = c("ID", "MLQ_QN"))
+MLQ_b_merg <- MLQ_b_merg[,c(1,2,8:9,15:16)]
+
+
+## MLQ 2 weeks after
+MLQ_2w_after <- MLQ_2w_after[,1:10]
+
+# making integrer and reversin Q9 score
+MLQ_2w_after[,1:10] <- lapply(MLQ_2w_after[,1:10], as.integer)
+MLQ_2w_after[,9] <- 8-MLQ_2w_after[,9]
+
+
+#renaming columns
+colnames(MLQ_2w_after)[1] <- "MLQ_2wa_p_Q1"
+colnames(MLQ_2w_after)[2] <- "MLQ_2wa_s_Q1"
+colnames(MLQ_2w_after)[3] <- "MLQ_2wa_s_Q2"
+colnames(MLQ_2w_after)[4] <- "MLQ_2wa_p_Q2"
+colnames(MLQ_2w_after)[5] <- "MLQ_2wa_p_Q3"
+colnames(MLQ_2w_after)[6] <- "MLQ_2wa_p_Q4"
+colnames(MLQ_2w_after)[7] <- "MLQ_2wa_s_Q3"
+colnames(MLQ_2w_after)[8] <- "MLQ_2wa_s_Q4"
+colnames(MLQ_2w_after)[9] <- "MLQ_2wa_p_Q5"
+colnames(MLQ_2w_after)[10] <- "MLQ_2wa_s_Q5"
+
+MLQ_2w_after$ID <- EBI$ID
+
+# making long format for both dimensions of MLQ
+MLQ_2wa_p_long <- gather(
+  MLQ_2w_after, MLQ_2wa_p_ques, MLQ_2wa_p_score, MLQ_2wa_p_Q1, MLQ_2wa_p_Q2, MLQ_2wa_p_Q3, MLQ_2wa_p_Q4, MLQ_2wa_p_Q5, factor_key=TRUE)
+
+MLQ_2wa_s_long <- gather(
+  MLQ_2w_after, MLQ_2wa_s_ques, MLQ_2wa_s_score, MLQ_2wa_s_Q1, MLQ_2wa_s_Q2, MLQ_2wa_s_Q3, MLQ_2wa_s_Q4, MLQ_2wa_s_Q5, factor_key = TRUE)
+
+# making a new variable for MLQ question (necessary to merge data)
+MLQ_2wa_p_long$MLQ_QN <- substr(
+  as.factor(MLQ_2wa_p_long$MLQ_2wa_p_ques), start = 11, stop = 12)
+
+
+MLQ_2wa_s_long$MLQ_QN <- substr(
+  as.factor(MLQ_2wa_s_long$MLQ_2wa_s_ques), start = 11, stop = 12)
+
+# merge data
+MLQ_2wa_merg <- merge(MLQ_2wa_s_long, MLQ_2wa_p_long, by= c("ID", "MLQ_QN"))
+MLQ_2wa_merg <- MLQ_2wa_merg[,c(1,2,8:9,15:16)]
+
+
+## MLQ 4 weeks after
+
+MLQ_4w_after <- MLQ_4w_after[,1:10]
+
+# making integrer and reversin Q9 score
+MLQ_4w_after[,1:10] <- lapply(MLQ_4w_after[,1:10], as.integer)
+MLQ_4w_after[,9] <- 8-MLQ_4w_after[,9]
+
+
+#renaming columns
+colnames(MLQ_4w_after)[1] <- "MLQ_4wa_p_Q1"
+colnames(MLQ_4w_after)[2] <- "MLQ_4wa_s_Q1"
+colnames(MLQ_4w_after)[3] <- "MLQ_4wa_s_Q2"
+colnames(MLQ_4w_after)[4] <- "MLQ_4wa_p_Q2"
+colnames(MLQ_4w_after)[5] <- "MLQ_4wa_p_Q3"
+colnames(MLQ_4w_after)[6] <- "MLQ_4wa_p_Q4"
+colnames(MLQ_4w_after)[7] <- "MLQ_4wa_s_Q3"
+colnames(MLQ_4w_after)[8] <- "MLQ_4wa_s_Q4"
+colnames(MLQ_4w_after)[9] <- "MLQ_4wa_p_Q5"
+colnames(MLQ_4w_after)[10] <- "MLQ_4wa_s_Q5"
+
+MLQ_4w_after$ID <- EBI$ID
+
+# making long format for both dimensions of MLQ
+MLQ_4wa_p_long <- gather(
+  MLQ_4w_after, MLQ_4wa_p_ques, MLQ_4wa_p_score, MLQ_4wa_p_Q1, MLQ_4wa_p_Q2, MLQ_4wa_p_Q3, MLQ_4wa_p_Q4, MLQ_4wa_p_Q5, factor_key=TRUE)
+
+MLQ_4wa_s_long <- gather(
+  MLQ_4w_after, MLQ_4wa_s_ques, MLQ_4wa_s_score, MLQ_4wa_s_Q1, MLQ_4wa_s_Q2, MLQ_4wa_s_Q3, MLQ_4wa_s_Q4, MLQ_4wa_s_Q5, factor_key = TRUE)
+
+# making a new variable for MLQ question (necessary to merge data)
+MLQ_4wa_p_long$MLQ_QN <- substr(
+  as.factor(MLQ_4wa_p_long$MLQ_4wa_p_ques), start = 11, stop = 12)
+
+MLQ_4wa_s_long$MLQ_QN <- substr(
+  as.factor(MLQ_4wa_s_long$MLQ_4wa_s_ques), start = 11, stop = 12)
+
+# merging
+
+MLQ_4wa_merg <- merge(MLQ_4wa_p_long, MLQ_4wa_s_long, by = c("ID", "MLQ_QN"))
+MLQ_4wa_merg <- MLQ_4wa_merg[,c(1,2,8:9,15:16)]
+
+# final MLQ merging
+
+MLQ_b_2wa <- merge(MLQ_b_merg, MLQ_2wa_merg, by = c("ID", "MLQ_QN"))
+
+MLQ_long <- merge(MLQ_b_2wa, MLQ_4wa_merg, by = c("ID", "MLQ_QN"))
+
+
+write_csv(MLQ_long, "Data/MLQ_long_clean.csv")
+
+
+# counting n of participants at each stage
+sum(complete.cases(MLQ_before))
+sum(complete.cases(MLQ_2w_after))
+sum(complete.cases(MLQ_4w_after))
+
+```
+
+
+
+## Preparing demographic data for analysis
+```{r}
+## adding id, selecting relevant columns
+Demography <- mutate(Demography,
+              ID = EBI$ID)
+
+## selecting relevant variables, changing from char to fac
+Demography<- Demography[c(1:3,6,7,22, 24,25,35,48:50,60:63)]
+
+## adding drug type info, placebo effect
+Demography <- mutate(Demography,
+                     Intended_drug_use = Drugtype_intention$Intended_drug_use,
+                     Intended_drug_use_other = Drugtype_intention$Intended_drug_use_other,
+                     Confidence_in_long_lasting_effect_PE = Drugtype_intention$`How confident are you that the upcoming psychedelic experience will have a long-lasting positive effect?`)
+
+Demography[,c(4,6:12,14:15,17:18)] <- lapply(Demography[,c(4,6:12,14:15,17:18)], as.factor)
+
+# investigating type of drug used
+cont <- unique(Demography[,18])
+cont
+
+#### merging demography + questionnaires
+
+Demo_ques <- merge(Demography, PostQues, by = "ID")
+
+summary(Demo_ques)
+
+write_csv(Demo_ques, "Data/Demo_ques_clean.csv")
+
+## omitting respondents who didn'T endure till 2w post PE questionnaries
+Demo_clean <- na.omit(MLQ_2w_after)
+
+Demo_clean <- merge(Demo_clean, Demography, by = "ID")
+
+
+## omitting respondents who didn'T endure till 4w post PE questionnaries
+Demo_clean4w <- na.omit(MLQ_4w_after)
+
+Demo_clean4w <- merge(Demo_clean4w, Demography, by = "ID")
+
+```
+
+
+
+## BPCA Intentions
+```{r}
+## adding ID as rowname
+row.names(Drugtype_intention2) <- EBI$ID
+
+Drugtype_intention2[,1:10] <- lapply(Drugtype_intention2[,1:10], as.numeric)
+
+## omitting NA
+Drugtype_intention2 <- na.omit(Drugtype_intention2)
+
+### promising approach
+inten_poly <- polychoric(Drugtype_intention2, correct = FALSE)
+
+p3 <- principal(r = inten_poly$rho, nfactors = 3, rotate = "Promax") # works if you actually give it the matrix
+
+p3$scores <- factor.scores(Drugtype_intention2,p3)   #find the scores from the response data set with the p3 pca solution
+ biplot.psych(p3)
+ 
+## PCA
+inten_pca <- prcomp(inten_poly$rho, scale = TRUE)
+
+summary(inten_pca)
+
+autoplot(inten_pca$)
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jnknj
+
+
+
+
+

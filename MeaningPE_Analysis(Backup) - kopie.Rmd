@@ -1,0 +1,1309 @@
+---
+title: "MeaningPE_Analysis"
+author: "JR"
+date: "7 5 2020"
+output: html_document
+---
+
+
+## Packages, data
+```{r}
+## package
+pacman::p_load(ggplot2, brms, readxl, tidyverse, plyr, reader, brms, MASS, ggpubr, fitdistrplus, actuar, rethinking, viridis, bayesplot, vcd, rcompanion)
+
+color_scheme_set("viridis")
+
+
+## data
+demo_ques <- read_csv(file = "Data/Demo_ques_clean.csv")
+
+demo_ques[,c(3:13,15:18)] <- lapply(demo_ques[,c(3:13,15:18)], as.factor)
+
+MLQ <- read_csv(file = "Data/MLQ_long_clean.csv", col_types = cols(
+  ID = col_character(),
+  MLQ_QN = col_factor(),
+  MLQ_b_p_ques = col_factor(),
+  MLQ_b_p_score = col_integer(),
+  MLQ_b_s_ques = col_factor(),
+  MLQ_b_s_score = col_integer(),
+  MLQ_2wa_s_ques = col_factor(),
+  MLQ_2wa_s_score = col_integer(),
+  MLQ_2wa_p_ques = col_factor(),
+  MLQ_2wa_p_score = col_integer(),
+  MLQ_4wa_p_ques = col_factor(),
+  MLQ_4wa_p_score = col_integer(),
+  MLQ_4wa_s_ques = col_factor(),
+  MLQ_4wa_s_score = col_integer()
+))
+# making super df
+MLQ <- merge(MLQ, demo_ques, by = "ID")
+summary(MLQ)
+
+# scaling
+MLQ$Confidence_in_long_lasting_effect_PE <- scale(MLQ$Confidence_in_long_lasting_effect_PE)
+
+MLQ <- mutate(MLQ,
+              ASC_average = apply(MLQ[,37:47], 1, na.rm = TRUE, sum)/11)
+
+MLQ <- mutate(MLQ,
+              EBI_scale = scale(EBI_sum),
+              ASC_scale = scale(ASC_average),
+              EDI_scale = scale(EDI_total),
+              CEQ_scale = scale(CEQ_Total),
+              MEQ_scale = scale(MEQ_Total))
+
+MLQ$Intended_drug_use <- paste(MLQ$Intended_drug_use, MLQ$Intended_drug_use_other)
+### MEQ cleaning
+MEQ <- read_excel(path = "Data/MEQ.xlsx", sheet = "Sheet2")
+
+MEQ <- mutate(MEQ, ID = demo_ques$ID)
+
+
+MEQ <- merge(MLQ, MEQ, by = "ID")
+MEQ[,54:83] <- lapply(MEQ[,54:83], as.numeric)
+
+MEQ <- pivot_longer(
+  MEQ, c(MEQ_01,	MEQ_02,	MEQ_04,	MEQ_05,	MEQ_06,	MEQ_07,	MEQ_08,	MEQ_09,	MEQ_10,	MEQ_11,	MEQ_12,	MEQ_13,	MEQ_14,	MEQ_15,	MEQ_17,	MEQ_18,	MEQ_19,	MEQ_20,	MEQ_16,	MEQ_21,	MEQ_22,	MEQ_23,	MEQ_24,	MEQ_25,	MEQ_26,	MEQ_27,	MEQ_28,	MEQ_29,	MEQ_30,	MEQ_03), names_to = "MEQ_question", values_to = "MEQ_score")
+
+MEQ$MEQ_score <- as.integer(as.character(MEQ$MEQ_score))
+```
+
+
+
+## MLQ Pb2wa
+```{r}
+### MLQ PRESENT BEFORE VS 2 WEEKS AFTER
+
+#data transformation
+MLQ_p_b2wa <- pivot_longer(
+  MLQ, c(MLQ_b_p_score, MLQ_2wa_p_score), names_to = "MLQ_p_b2wa_type", values_to = "MLQ_p_b2wa_score")
+
+MLQ_p_b2wa <- MLQ_p_b2wa[,c(1:2, 13:47)]
+
+
+summary(MLQ_p_b2wa)
+# formula
+MLQ_p_b2wa_f <- bf (MLQ_p_b2wa_score ~ 1 +  MLQ_p_b2wa_type + (1 + ID|MLQ_QN))
+
+
+get_prior(MLQ_p_b2wa_f, MLQ_p_b2wa, family = cumulative())
+
+
+MLQ_p_b2wa_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, 1), class = b, coef = "MLQ_p_b2wa_typeMLQ_b_p_score"),
+  prior(normal(0, 1),   class = sd)
+)
+
+MLQ_p_b2wa_mp<- brm(
+  formula = MLQ_p_b2wa_f,
+  data = MLQ_p_b2wa,
+  family = cumulative("probit"),
+  prior = MLQ_p_b2wa_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 20, adapt_delta = 0.99))
+
+# better prior check, b2wa
+summary(MLQ_p_b2wa_mp)
+pp_check(MLQ_p_b2wa_mp, type = "bars", nsamples = 100) +
+  ggtitle("Before vs 2 weeks after prior predictive check")
+  
+## posterior model b2wa
+MLQ_p_b2wa_m<- brm(
+  formula = MLQ_p_b2wa_f,
+  data = MLQ_p_b2wa,
+  family = cumulative("probit"),
+  prior = MLQ_p_b2wa_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  inits = 0,
+  iter = 2000,
+  control = list(max_treedepth = 15, adapt_delta = 0.999),
+  file = "model_files/MLQ_p_b2wa_m_randslope")
+
+## pp checks b2wa
+pp_check(MLQ_p_b2wa_m, nsamples = 100, type = "bars")+
+  ggtitle("Before vs 2 weeks after Posterior predictive check")
+
+summary(MLQ_p_b2wa_m)
+
+plot(MLQ_p_b2wa_m)
+
+## chain check b2wa
+mcmc_trace(MLQ_p_b2wa_m, pars = c("b_Intercept[1]","b_Intercept[2]","b_Intercept[3]","b_Intercept[4]","b_Intercept[5]","b_Intercept[6]", "b_MLQ_p_b2wa_typeMLQ_b_p_score", "sd_ID__Intercept", "sd_MLQ_QN__Intercept" )) + theme_classic()
+
+mcmc_rank_overlay(MLQ_p_b2wa_m, pars = c("b_Intercept[1]","b_Intercept[2]","b_Intercept[3]","b_Intercept[4]","b_Intercept[5]","b_Intercept[6]", "b_MLQ_p_b2wa_typeMLQ_b_p_score", "sd_ID__Intercept", "sd_MLQ_QN__Intercept" )) + theme_classic()
+
+
+## hypothesis testing  b2wa
+hypothesis(MLQ_p_b2wa_m, "Other_PE_2waYes < 0")
+plot(hypothesis(MLQ_p_b2wa_m, "MLQ_p_b2wa_typeMLQ_b_p_score < 0"))
+
+
+summary((readRDS("model_files/MLQ_p_b2wa_m_probit_otherPE.rds")))
+marginal_effects()
+```
+
+## MLQ Pb4wa
+```{r}
+### MLQ PRESENT BEFORE VS 4 WEEKS AFTER
+
+#data transformation
+MLQ_p_b4wa <- pivot_longer(
+  MLQ, c(MLQ_b_p_score, MLQ_4wa_p_score), names_to = "MLQ_p_b4wa_type", values_to = "MLQ_p_b4wa_score")
+
+MLQ_p_b4wa <- MLQ_p_b4wa[,c(1:2, 13:47)]
+
+summary(MLQ_p_b4wa)
+#MLQ_p_b4wa <- na.omit(MLQ_p_b4wa )
+
+# formula
+MLQ_p_b4wa_f <- bf (MLQ_p_b4wa_score ~ 1 +  MLQ_p_b4wa_type + Other_PE_4wa +(1|ID)+ (1|MLQ_QN))
+
+
+get_prior(MLQ_p_b4wa_f, MLQ_p_b4wa, family = cumulative())
+
+
+MLQ_p_b4wa_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, 1), class = b, coef = "MLQ_p_b4wa_typeMLQ_b_p_score"),
+  prior(normal(0, 1), class = b, coef = "Other_PE_4waYes"),
+  prior(normal(0, 1),   class = sd)
+)
+
+
+MLQ_p_b4wa_mp<- brm(
+  formula = MLQ_p_b4wa_f,
+  data = MLQ_p_b4wa,
+  family = cumulative("probit"),
+  prior = MLQ_p_b4wa_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 20, adapt_delta = 0.99),
+  file = "model_files/MLQ_p_b4wa_mp4")
+
+# better prior check, b4wa
+summary(MLQ_p_b4wa_mp)
+pp_check(MLQ_p_b4wa_mp, type = "bars", nsamples = 100) +
+  ggtitle("Before vs 4 weeks after prior predictive check")
+  
+## posterior model b4wa
+MLQ_p_b4wa_m<- brm(
+  formula = MLQ_p_b4wa_f,
+  data = MLQ_p_b4wa,
+  family = cumulative("probit"),
+  prior = MLQ_p_b4wa_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  control = list(max_treedepth = 15, adapt_delta = 0.999),
+  file = "model_files/MLQ_p_b4wa_m_probit_other2")
+
+## pp checks b4wa
+pp_check(MLQ_p_b4wa_m, nsamples = 100, type = "bars")+
+  ggtitle("Before vs 4 weeks after Posterior predictive check")
+
+summary(MLQ_p_b4wa_m)
+
+plot(MLQ_p_b4wa_m)
+
+## chain check b4wa
+mcmc_trace(MLQ_p_b4wa_m, pars = c("b_Intercept[1]")) + theme_classic()
+mcmc_rank_overlay(MLQ_p_b4wa_m, pars = c()) + theme_classic()
+
+
+## hypothesis testing  b4wa
+hypothesis(MLQ_p_b4wa_m, "MLQ_p_b4wa_typeMLQ_b_p_score < 0")
+plot(hypothesis(MLQ_p_b4wa_m, "MLQ_p_b4wa_typeMLQ_b_p_score < 0"))
+
+summary(readRDS(file = "model_files/MLQ_p_b4wa_m_prob_consprior.rds"))
+
+
+filter(d, Other_PE_4wa != "No")
+
+summary(d)
+```
+
+
+##MLQ Sb2wa
+```{r}
+### MLQ SEARCH BEFORE VS 2 WEEKS AFTER
+
+#data transformation
+MLQ_s_b2wa <- pivot_longer(
+  MLQ, c(MLQ_b_s_score, MLQ_2wa_s_score), names_to = "MLQ_s_b2wa_type", values_to = "MLQ_s_b2wa_score")
+
+MLQ_s_b2wa <- MLQ_s_b2wa[,c(1:2, 13:47)]
+
+MLQ_s_b2wa <- na.omit(MLQ_s_b2wa )
+
+# formula
+MLQ_s_b2wa_f <- bf (MLQ_s_b2wa_score ~ 1 +  MLQ_s_b2wa_type + Other_PE_2wa +(1|ID) + (1|MLQ_QN))
+
+
+get_prior(MLQ_s_b2wa_f, MLQ_s_b2wa, family = cumulative())
+
+
+MLQ_s_b2wa_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, 1), class = b, coef = "MLQ_s_b2wa_typeMLQ_b_s_score"),
+  prior(normal(0, 1), class = b, coef = "Other_PE_2waYes"),
+  prior(normal(0, 1),   class = sd)
+)
+
+MLQ_s_b2wa_mp<- brm(
+  formula = MLQ_s_b2wa_f,
+  data = MLQ_s_b2wa,
+  family = cumulative("probit"),
+  prior = MLQ_s_b2wa_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 15, adapt_delta = 0.99))
+
+# better prior check, SEARCH b2wa
+summary(MLQ_s_b2wa_mp)
+pp_check(MLQ_s_b2wa_mp, type = "bars", nsamples = 100) +
+  ggtitle("Before vs 2 weeks after prior predictive check of Search")
+  
+## posterior model: SEARCH b2wa
+MLQ_s_b2wa_m<- brm(
+  formula = MLQ_s_b2wa_f,
+  data = MLQ_s_b2wa,
+  family = cumulative("probit"),
+  prior = MLQ_s_b2wa_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  control = list(max_treedepth = 15, adapt_delta = 0.999),
+  file = "model_files/MLQ_s_b2wa_m_probit_other")
+
+## pp checks b2wa
+pp_check(MLQ_s_b2wa_m, nsamples = 100, type = "bars")+
+  ggtitle("Before vs 2 weeks after Posterior predictive check Search")
+
+summary(MLQ_s_b2wa_m)
+
+plot(MLQ_s_b2wa_m)
+## chain check b2wa
+mcmc_trace(MLQ_s_b2wa_m, pars = c("b_Intercept[1]")) + theme_classic()
+mcmc_rank_overlay(MLQ_s_b2wa_m) + theme_classic()
+
+
+## hypothesis testing  b2wa
+hypothesis(MLQ_s_b2wa_m, "MLQ_s_b2wa_typeMLQ_b_s_score < 0")
+plot(hypothesis(MLQ_s_b2wa_m, "MLQ_s_b2wa_typeMLQ_b_s_score < 0"))
+
+conditional_effects(MLQ_s_b2wa_m, categorical = TRUE)
+hypothesis(MLQ_s_b2wa_m, "Other_PE_2waYes > 0")
+```
+## MLQ Sb4wa
+```{r}
+### MLQ SEARCH BEFORE VS 4 WEEKS AFTER
+
+#data transformation
+MLQ_s_b4wa <- pivot_longer(
+  MLQ, c(MLQ_b_s_score, MLQ_4wa_s_score), names_to = "MLQ_s_b4wa_type", values_to = "MLQ_s_b4wa_score")
+
+MLQ_s_b4wa <- MLQ_s_b4wa[,c(1:2, 13:47)]
+
+MLQ_s_b4wa <- na.omit(MLQ_s_b4wa )
+
+# formula
+MLQ_s_b4wa_f <- bf (MLQ_s_b4wa_score ~ 1 +  MLQ_s_b4wa_type + Other_PE_4wa + (1|ID) + (1|MLQ_QN))
+
+
+get_prior(MLQ_s_b4wa_f, MLQ_s_b4wa, family = cumulative())
+
+
+MLQ_s_b4wa_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, 1), class = b, coef = "MLQ_s_b4wa_typeMLQ_b_s_score"),
+  prior(normal(0, 1), class = b, coef = "Other_PE_4waYes"),
+  prior(normal(0, 1),   class = sd)
+)
+
+MLQ_s_b4wa_mp<- brm(
+  formula = MLQ_s_b4wa_f,
+  data = MLQ_s_b4wa,
+  family = cumulative("probit"),
+  prior = MLQ_s_b4wa_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 15, adapt_delta = 0.99),
+  file = "model_files/MLQ_s_b4wa_mp2")
+
+# better prior check, SEARCH b4wa
+summary(MLQ_s_b4wa_mp)
+pp_check(MLQ_s_b4wa_mp, type = "bars", nsamples = 100) +
+  ggtitle("Before vs 4 weeks after prior predictive check of Search")
+  
+## posterior model: SEARCH b4wa
+MLQ_s_b4wa_m<- brm(
+  formula = MLQ_s_b4wa_f,
+  data = MLQ_s_b4wa,
+  family = cumulative("probit"),
+  prior = MLQ_s_b4wa_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  control = list(max_treedepth = 15, adapt_delta = 0.999),
+  file = "model_files/MLQ_s_b4wa_m_probit_other")
+
+## pp checks  search b4wa
+pp_check(MLQ_s_b4wa_m, nsamples = 100, type = "bars")+
+  ggtitle("Before vs 4 weeks after Posterior predictive check Search")
+
+summary(MLQ_s_b4wa_m)
+
+plot(MLQ_s_b4wa_m)
+## chain check search b4wa
+mcmc_trace(MLQ_s_b4wa_m, pars = c("b_Intercept[1]","b_Intercept[2]","b_Intercept[3]","b_Intercept[4]","b_Intercept[5]","b_Intercept[6]", "b_MLQ_s_b4wa_typeMLQ_b_s_score", "sd_ID__Intercept", "sd_MLQ_QN__Intercept" )) + theme_classic()
+mcmc_rank_overlay(MLQ_s_b4wa_m, pars = c("b_Intercept[1]","b_Intercept[2]","b_Intercept[3]","b_Intercept[4]","b_Intercept[5]","b_Intercept[6]", "b_MLQ_s_b4wa_typeMLQ_b_s_score", "sd_ID__Intercept", "sd_MLQ_QN__Intercept" )) + theme_classic()
+
+
+MLQ_s_b4wa_m <- readRDS("model_files/MLQ_s_b4wa_m_logit.rds")
+## hypothesis testing  b2wa
+hypothesis(MLQ_s_b4wa_m, "MLQ_s_b4wa_typeMLQ_b_s_score < 0")
+plot(hypothesis(MLQ_s_b4wa_m, "MLQ_s_b4wa_typeMLQ_b_s_score < 0"))
+
+
+```
+
+## P2bwa Control
+```{r}
+d <- merge(MLQ, demo_ques, by= "ID")
+
+
+### Pb2wa 
+Pb2wa_othe_f <- bf (MLQ_2wa_p_score ~ 1 +   MLQ_b_p_score + Other_PE_2wa + (1|ID) + (1|MLQ_QN))
+
+
+get_prior(Pb2wa_othe_f, d, family = cumulative())
+
+
+Pb2wa_othe_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score"),
+  prior(normal(0, 1), class = b, coef = "Other_PE_2waYes"),
+  
+  prior(normal(0, 1),   class = sd)
+)
+
+Pb2wa_othe_mp<- brm(
+  formula = Pb2wa_othe_f,
+  data = d,
+  family = cumulative("probit"),
+  prior = Pb2wa_othe_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 15, adapt_delta = 0.99))
+
+# better prior check, Pb2wa_othe
+summary(Pb2wa_othe_mp)
+pp_check(Pb2wa_othe_mp, type = "bars", nsamples = 100)
+  
+## posterior model: Pb2wa_othe
+Pb2wa_othe_m<- brm(
+  formula = Pb2wa_othe_f,
+  data = d,
+  family = cumulative("probit"),
+  prior = Pb2wa_othe_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 15, adapt_delta = 0.999),
+  file = "model_files/Pb2wa_othe_m")
+
+## pp checks  Pb2wa_othe
+pp_check(Pb2wa_othe_m, nsamples = 100, type = "bars")+
+  ggtitle("Before vs 4 weeks after Posterior predictive check Search")
+
+summary(Pb2wa_othe_m)
+
+plot(MLQ_s_b4wa_m)
+
+
+## chain check Pb2wa_othe
+mcmc_trace(Pb2wa_othe_m, pars = c("b_Intercept[1]","b_Intercept[2]","b_Intercept[3]","b_Intercept[4]","b_Intercept[5]","b_Intercept[6]", "b_MLQ_b_p_score", "b_Other_PE_2waYes", "sd_ID__Intercept", "sd_MLQ_QN__Intercept" )) + theme_classic()
+
+mcmc_rank_overlay(Pb2wa_othe_m, pars = c("b_Intercept[1]","b_Intercept[2]","b_Intercept[3]","b_Intercept[4]","b_Intercept[5]","b_Intercept[6]", "b_MLQ_b_p_score", "b_Other_PE_2waYes", "sd_ID__Intercept", "sd_MLQ_QN__Intercept" )) + theme_classic()
+
+
+
+## hypothesis testing  Pb2wa_othe
+hypothesis(Pb2wa_othe_m, "Other_PE_2waYes < 0")
+plot(hypothesis(Pb2wa_othe_m, "Other_PE_2waYes < 0"))
+
+
+marginal_effects(Pb2wa_othe_m)
+
+
+
+Pb2wa_othe_m <- readRDS("model_files/MLQ_s_b4wa_m_logit.rds")
+```
+
+
+## Pb2wa Confounds
+```{r}
+########################################### null model ##############################################
+MLQ_2wa_null_f <- bf (MLQ_2wa_p_score ~ 1 +  MLQ_b_p_score + (1 | ID) + (1 | MLQ_QN))
+
+
+get_prior(MLQ_2wa_null_f, MLQ, family = cumulative())
+
+
+MLQ_2wa_null_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, .5), class = b, coef = "MLQ_b_p_score"),
+  prior(normal(0, .5),   class = sd)
+)
+
+MLQ_2wa_null_mp <- brm(
+  formula = MLQ_2wa_null_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_null_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 10, adapt_delta = 0.80))
+
+# prior check 
+summary(MLQ_2wa_null_mp)
+pp_check(MLQ_2wa_null_mp, type = "bars", nsamples = 100)
+  
+## posterior model b2wa
+MLQ_2wa_null_m<- brm(
+  formula = MLQ_2wa_null_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_null_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  inits = 0,
+  control = list(max_treedepth = 15, adapt_delta = 0.95),
+  file = "model_files/MLQ_2wa_null_ranIn")
+
+## pp checks b2wa
+pp_check(MLQ_2wa_null_m, type = "bars", nsamples = 100)
+
+summary(MLQ_2wa_null_m)
+
+plot(MLQ_2wa_null_m)
+
+## chain check b2wa
+mcmc_trace(MLQ_2wa_null_m, pars = "b_MLQ_b_p_score") + theme_classic()
+
+mcmc_rank_overlay(MLQ_2wa_null_m, pars = "b_MLQ_b_p_score") + theme_classic()
+
+
+## hypothesis testing  b2wa
+hypothesis(MLQ_p_b2wa_m2, "MLQ_b_p_score > 0")
+plot(hypothesis(MLQ_p_b2wa_m2, "MLQ_b_p_score > 0"))
+
+########################### Other Psychedelic experience #################################################
+
+# formula
+MLQ_2wa_oPE_f <- bf (MLQ_2wa_p_score ~ 1 +  MLQ_b_p_score + Other_PE_2wa +(1|ID) + (1|MLQ_QN))
+
+
+get_prior(MLQ_2wa_oPE_f, MLQ, family = cumulative())
+
+
+MLQ_2wa_oPE_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score"),
+  prior(normal(0, 1), class = b, coef = "Other_PE_2waYes"),
+  prior(normal(0, .5),   class = sd)
+)
+
+MLQ_2wa_oPE_mp <- brm(
+  formula = MLQ_2wa_oPE_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_oPE_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 10, adapt_delta = 0.80))
+
+# prior check 
+summary(MLQ_2wa_oPE_mp)
+pp_check(MLQ_2wa_oPE_mp, type = "bars", nsamples = 100)
+  
+## posterior model b2wa
+MLQ_2wa_oPE_m<- brm(
+  formula = MLQ_2wa_oPE_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_oPE_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  inits = 0,
+  control = list(max_treedepth = 15, adapt_delta = 0.95),
+  file = "model_files/MLQ_2wa_oPE")
+
+## pp checks b2wa
+pp_check(MLQ_2wa_oPE_m, type = "bars", nsamples = 100)
+
+summary(MLQ_2wa_oPE_m)
+
+plot(MLQ_2wa_oPE_m)
+
+## chain check b2wa
+mcmc_trace(MLQ_2wa_oPE_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes" )) + theme_classic()
+
+mcmc_rank_overlay(MLQ_2wa_oPE_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes" )) + theme_classic()
+
+
+## hypothesis testing  b2wa
+hypothesis(MLQ_2wa_oPE_m, "Other_PE_2waYes < 0")
+plot(hypothesis(MLQ_2wa_oPE_m, "Other_PE_2waYes < 0"))
+
+###################################### Placebo effect #################################################
+
+# formula
+MLQ_2wa_placebo_f <- bf (MLQ_2wa_p_score ~ 1 +  MLQ_b_p_score + Other_PE_2wa + Confidence_in_long_lasting_effect_PE + (1|ID) + (1|MLQ_QN))
+
+
+get_prior(MLQ_2wa_placebo_f, MLQ, family = cumulative())
+
+
+MLQ_2wa_placebo_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score"),
+  prior(normal(0, 1), class = b, coef = "Other_PE_2waYes"),
+  prior(normal(0, 1), class = b, coef = "Confidence_in_long_lasting_effect_PE"),
+  prior(normal(0, .5),   class = sd)
+)
+
+MLQ_2wa_placebo_mp <- brm(
+  formula = MLQ_2wa_placebo_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_placebo_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 10, adapt_delta = 0.80))
+
+# prior check 
+summary(MLQ_2wa_placebo_mp)
+pp_check(MLQ_2wa_placebo_mp, type = "bars", nsamples = 100)
+  
+## posterior model b2wa
+MLQ_2wa_placebo_m<- brm(
+  formula = MLQ_2wa_placebo_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_placebo_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  inits = 0,
+  control = list(max_treedepth = 15, adapt_delta = 0.95),
+  file = "model_files/MLQ_2wa_placebo")
+
+## pp checks b2wa
+pp_check(MLQ_2wa_placebo_m, type = "bars", nsamples = 100)
+
+summary(MLQ_2wa_placebo_m)
+
+plot(MLQ_2wa_placebo_m)
+
+## chain check b2wa
+mcmc_trace(MLQ_2wa_placebo_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE")) + theme_classic()
+
+mcmc_rank_overlay(MLQ_2wa_placebo_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE")) + theme_classic()
+
+
+## hypothesis testing  b2wa
+hypothesis(MLQ_2wa_placebo_m, "Confidence_in_long_lasting_effect_PE > 0")
+plot(hypothesis(MLQ_2wa_placebo_m, "Confidence_in_long_lasting_effect_PE > 0"))
+
+hypothesis(MLQ_2wa_placebo_m, "Other_PE_2waYes < 0")
+
+###################################### Mental health #################################################
+
+# formula
+MLQ_2wa_ment_heal_f <- bf (MLQ_2wa_p_score ~ 1 +  MLQ_b_p_score + Other_PE_2wa + Confidence_in_long_lasting_effect_PE + Mental_health +(1|ID) + (1|MLQ_QN))
+
+
+get_prior(MLQ_2wa_ment_heal_f, MLQ, family = cumulative())
+
+
+MLQ_2wa_ment_heal_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score"),
+  prior(normal(0, 1), class = b, coef = "Other_PE_2waYes"),
+  prior(normal(0, 1), class = b, coef = "Confidence_in_long_lasting_effect_PE"),
+  prior(normal(0, 1), class = b, coef = "Mental_healthHealthy"),
+  prior(normal(0, .5),   class = sd)
+)
+
+MLQ_2wa_ment_heal_mp <- brm(
+  formula = MLQ_2wa_ment_heal_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_ment_heal_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 10, adapt_delta = 0.80))
+
+# prior check 
+summary(MLQ_2wa_ment_heal_mp)
+pp_check(MLQ_2wa_ment_heal_mp, type = "bars", nsamples = 100)
+  
+## posterior model 
+MLQ_2wa_ment_heal_m<- brm(
+  formula = MLQ_2wa_ment_heal_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_ment_heal_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  inits = 0,
+  control = list(max_treedepth = 15, adapt_delta = 0.95),
+  file = "model_files/MLQ_2wa_mental_health")
+
+## pp checks b2wa
+pp_check(MLQ_2wa_ment_heal_m, type = "bars", nsamples = 100)
+
+summary(MLQ_2wa_ment_heal_m)
+
+plot(MLQ_2wa_ment_heal_m)
+
+## chain check b2wa
+mcmc_trace(MLQ_2wa_ment_heal_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy")) + theme_classic()
+
+mcmc_rank_overlay(MLQ_2wa_ment_heal_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy")) + theme_classic()
+
+
+## hypothesis testing  b2wa
+hypothesis(MLQ_2wa_ment_heal_m, "Mental_healthHealthy > 0")
+plot(hypothesis(MLQ_2wa_ment_heal_m, "Mental_healthHealthy > 0"))
+
+hypothesis(MLQ_2wa_ment_heal_m, "Confidence_in_long_lasting_effect_PE > 0")
+hypothesis(MLQ_2wa_ment_heal_m, "Other_PE_2waYes < 0")
+
+###################################### Psychedelic naive ###############################################
+
+# formula
+MLQ_2wa_psych_naive_f <- bf (MLQ_2wa_p_score ~ 1 +  MLQ_b_p_score + Other_PE_2wa + Confidence_in_long_lasting_effect_PE + Mental_health + Psychedelic_naive + (1|ID) + (1|MLQ_QN))
+
+
+get_prior(MLQ_2wa_psych_naive_f, MLQ, family = cumulative())
+
+
+MLQ_2wa_psych_naive_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score"),
+  prior(normal(0, 1), class = b, coef = "Other_PE_2waYes"),
+  prior(normal(0, 1), class = b, coef = "Confidence_in_long_lasting_effect_PE"),
+  prior(normal(0, 1), class = b, coef = "Mental_healthHealthy"),
+  prior(normal(0, 1), class = b, coef = "Psychedelic_naiveYes"),
+  prior(normal(0, .5),   class = sd)
+)
+
+MLQ_2wa_psych_naive_mp <- brm(
+  formula = MLQ_2wa_psych_naive_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_psych_naive_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 10, adapt_delta = 0.80))
+
+# prior check 
+summary(MLQ_2wa_psych_naive_mp)
+pp_check(MLQ_2wa_psych_naive_mp, type = "bars", nsamples = 100)
+  
+## posterior model 
+MLQ_2wa_psych_naive_m<- brm(
+  formula = MLQ_2wa_psych_naive_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_psych_naive_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  inits = 0,
+  control = list(max_treedepth = 15, adapt_delta = 0.95),
+  file = "model_files/MLQ_2wa_psych_naive")
+
+## pp checks b2wa
+pp_check(MLQ_2wa_psych_naive_m, type = "bars", nsamples = 100)
+
+summary(MLQ_2wa_psych_naive_m)
+
+plot(MLQ_2wa_psych_naive_m)
+
+## chain check b2wa
+mcmc_trace(MLQ_2wa_psych_naive_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy", "b_Psychedelic_naiveYes")) + theme_classic()
+
+mcmc_rank_overlay(MLQ_2wa_psych_naive_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy", "b_Psychedelic_naiveYes")) + theme_classic()
+
+
+## hypothesis testing  b2wa
+hypothesis(MLQ_2wa_psych_naive_m, "Psychedelic_naiveYes > 0")
+plot(hypothesis(MLQ_2wa_psych_naive_m, "Psychedelic_naiveYes > 0"))
+ 
+###  other variables
+hypothesis(MLQ_2wa_psych_naive_m, "Mental_healthHealthy > 0")
+hypothesis(MLQ_2wa_psych_naive_m, "Confidence_in_long_lasting_effect_PE > 0")
+hypothesis(MLQ_2wa_psych_naive_m, "Other_PE_2waYes < 0")
+
+######################################### comparing models #############################################
+
+## adding criterions
+MLQ_2wa_null_m <- add_criterion(MLQ_2wa_null_m, criterion = "loo")
+
+MLQ_2wa_oPE_m <- add_criterion(MLQ_2wa_oPE_m, criterion = "loo", reloo = TRUE)
+
+MLQ_2wa_placebo_m <- add_criterion(MLQ_2wa_placebo_m, criterion = "loo", reloo = TRUE)
+
+MLQ_2wa_ment_heal_m <- add_criterion(MLQ_2wa_ment_heal_m, criterion = "loo")
+
+MLQ_2wa_psych_naive_m <- add_criterion(MLQ_2wa_psych_naive_m, criterion = "loo")
+
+
+## comparison
+MLQ_2wa_loo <- loo_compare(MLQ_2wa_null_m, MLQ_2wa_oPE_m, MLQ_2wa_placebo_m, MLQ_2wa_ment_heal_m, MLQ_2wa_psych_naive_m)
+MLQ_2wa_loo
+
+MLQ_2wa_loo_weights <- loo_model_weights(MLQ_2wa_null_m, MLQ_2wa_oPE_m, MLQ_2wa_placebo_m, MLQ_2wa_ment_heal_m, MLQ_2wa_psych_naive_m)
+MLQ_2wa_loo_weights
+
+loo_model_weights(MLQ_2wa_null_m, MLQ_2wa_psych_naive_m)
+
+```
+
+
+## Pb2wa predicting
+```{r}
+MLQ_2wa_pred_f <- 
+  bf (MLQ_2wa_p_score ~ 1 +  MLQ_b_p_score + Other_PE_2wa + Confidence_in_long_lasting_effect_PE + Mental_health + Psychedelic_naive +  MEQ_scale + EDI_scale + EBI_scale + ASC_scale + CEQ_scale + (1|ID) + (1|MLQ_QN))
+
+
+get_prior(MLQ_2wa_pred_f, MLQ, family = cumulative())
+
+
+MLQ_2wa_pred_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score"),
+  prior(normal(0, 1), class = b, coef = "Other_PE_2waYes"),
+  prior(normal(0, 1), class = b, coef = "Confidence_in_long_lasting_effect_PE"),
+  prior(normal(0, 1), class = b, coef = "Mental_healthHealthy"),
+  prior(normal(0, 1), class = b, coef = "Psychedelic_naiveYes"),
+  prior(normal(0, .5),   class = sd),
+  prior(normal(0, 1), class = b, coef = "MEQ_scale"),
+  prior(normal(0, 1), class = b, coef = "EDI_scale"),
+  prior(normal(0, 1), class = b, coef = "EBI_scale"),
+  prior(normal(0, 1), class = b, coef = "ASC_scale"),
+  prior(normal(0, 1), class = b, coef = "CEQ_scale")
+)
+
+MLQ_2wa_pred_mp <- brm(
+  formula = MLQ_2wa_pred_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_pred_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 10, adapt_delta = 0.80))
+
+# prior check 
+summary(MLQ_2wa_pred_mp)
+pp_check(MLQ_2wa_pred_mp, type = "bars", nsamples = 100)
+  
+## posterior model 
+MLQ_2wa_pred_m<- brm(
+  formula = MLQ_2wa_pred_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_pred_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  inits = 0,
+  control = list(max_treedepth = 15, adapt_delta = 0.95),
+  file = "model_files/MLQ_2wa_pred1")
+
+## pp checks b2wa
+pp_check(MLQ_2wa_pred_m, type = "bars", nsamples = 100)
+
+summary(MLQ_2wa_pred_m)
+
+plot(MLQ_2wa_pred_m)
+
+## chain check b2wa
+mcmc_trace(MLQ_2wa_pred_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy", "b_Psychedelic_naiveYes")) + theme_classic()
+
+mcmc_rank_overlay(MLQ_2wa_pred_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy", "b_Psychedelic_naiveYes")) + theme_classic()
+
+
+## hypothesis testing  b2wa
+hypothesis(MLQ_2wa_pred_m, "MEQ_scale > 0")
+plot(hypothesis(MLQ_2wa_pred_m, "MEQ_scale > 0"))
+ 
+hypothesis(MLQ_2wa_pred_m, "EDI_scale > 0")
+plot(hypothesis(MLQ_2wa_pred_m, "EDI_scale > 0"))
+
+hypothesis(MLQ_2wa_pred_m, "EBI_scale > 0")
+plot(hypothesis(MLQ_2wa_pred_m, "EBI_scale > 0"))
+
+hypothesis(MLQ_2wa_pred_m, "ASC_scale < 0")
+plot(hypothesis(MLQ_2wa_pred_m, "ASC_scale < 0"))
+
+hypothesis(MLQ_2wa_pred_m, "CEQ_scale < 0")
+plot(hypothesis(MLQ_2wa_pred_m, "CEQ_scale < 0"))
+
+
+conditional_effects()
+################# Pb2wa predicting interaction #################
+
+MLQ_2wa_pred_Inter_f <- 
+  bf (MLQ_b_p_score ~ 1 +  Other_PE_2wa + Confidence_in_long_lasting_effect_PE + Mental_health + Psychedelic_naive + MLQ_b_p_score:MEQ_scale + MLQ_b_p_score:EDI_scale + MLQ_b_p_score:EBI_scale + MLQ_b_p_score:ASC_scale + MLQ_b_p_score:CEQ_scale + (1|ID) + (1|MLQ_QN))
+
+
+get_prior(MLQ_2wa_pred_Inter_f, MLQ, family = cumulative())
+
+
+MLQ_2wa_pred_Inter_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  #prior(normal(0, 1), class = b, coef = "MLQ_b_p_score"),
+  prior(normal(0, 1), class = b, coef = "Other_PE_2waYes"),
+  prior(normal(0, 1), class = b, coef = "Confidence_in_long_lasting_effect_PE"),
+  prior(normal(0, 1), class = b, coef = "Mental_healthHealthy"),
+  prior(normal(0, 1), class = b, coef = "Psychedelic_naiveYes"),
+  prior(normal(0, .5),   class = sd),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score:MEQ_scale"),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score:EDI_scale"),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score:EBI_scale"),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score:ASC_scale"),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score:CEQ_scale")
+)
+
+MLQ_2wa_pred_Inter_mp <- brm(
+  formula = MLQ_2wa_pred_Inter_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_pred_Inter_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 10, adapt_delta = 0.80))
+
+# prior check 
+summary(MLQ_2wa_pred_Inter_mp)
+pp_check(MLQ_2wa_pred_Inter_mp, type = "bars", nsamples = 100)
+  
+## posterior model 
+MLQ_2wa_pred_Inter_m<- brm(
+  formula = MLQ_2wa_pred_Inter_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_pred_Inter_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  inits = 0,
+  control = list(max_treedepth = 15, adapt_delta = 0.95),
+  file = "model_files/MLQ_2wa_pred_Inter_ques3Absurd")
+
+## pp checks b2wa
+pp_check(MLQ_2wa_pred_Inter_m, type = "bars", nsamples = 100)
+
+summary(MLQ_2wa_pred_Inter_m)
+
+plot(MLQ_2wa_pred_Inter_m)
+
+## chain check b2wa
+mcmc_trace(MLQ_2wa_pred_Inter_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy", "b_Psychedelic_naiveYes")) + theme_classic()
+
+mcmc_rank_overlay(MLQ_2wa_pred_Inter_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy", "b_Psychedelic_naiveYes")) + theme_classic()
+
+
+## hypothesis testing  b2wa
+hypothesis(MLQ_2wa_pred_Inter_m, "MLQ_b_p_score:MEQ_scale > 0")
+plot(hypothesis(MLQ_2wa_pred_Inter_m, "MLQ_b_p_score:MEQ_scale > 0"))
+ 
+hypothesis(MLQ_2wa_pred_Inter_m, "MLQ_b_p_score:EDI_scale > 0")
+plot(hypothesis(MLQ_2wa_pred_Inter_m, "MLQ_b_p_score:EDI_scale > 0"))
+
+hypothesis(MLQ_2wa_pred_Inter_m, "MLQ_b_p_score:EBI_scale > 0")
+plot(hypothesis(MLQ_2wa_pred_Inter_m, "MLQ_b_p_score:EBI_scale > 0"))
+
+hypothesis(MLQ_2wa_pred_Inter_m, "MLQ_b_p_score:ASC_scale < 0")
+plot(hypothesis(MLQ_2wa_pred_Inter_m, "MLQ_b_p_score:ASC_scale < 0"))
+
+hypothesis(MLQ_2wa_pred_Inter_m, "MLQ_b_p_score:CEQ_scale < 0")
+plot(hypothesis(MLQ_2wa_pred_Inter_m, "MLQ_b_p_score:CEQ_scale < 0"))
+
+conditional_effects(MLQ_2wa_pred_Inter_m, categorical = TRUE, conditions = MLQ$ASC_scale)
+
+
+
+```
+
+
+### Pb2wa MEQ
+```{r}
+MLQ_2wa_meq_f <- 
+  bf (MLQ_2wa_p_score ~ 1 +  MLQ_b_p_score + Other_PE_2wa + Confidence_in_long_lasting_effect_PE + Mental_health + Psychedelic_naive +  MEQ_score + EDI_scale + EBI_scale + ASC_scale + CEQ_scale + (1|ID) + (1|MLQ_QN) + (1 | MEQ_question))
+
+
+get_prior(MLQ_2wa_meq_f, MEQ, family = cumulative())
+
+
+MLQ_2wa_meq_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score"),
+  prior(normal(0, 1), class = b, coef = "Other_PE_2waYes"),
+  prior(normal(0, 1), class = b, coef = "Confidence_in_long_lasting_effect_PE"),
+  prior(normal(0, 1), class = b, coef = "Mental_healthHealthy"),
+  prior(normal(0, 1), class = b, coef = "Psychedelic_naiveYes"),
+  prior(normal(0, .5),   class = sd),
+  prior(normal(0, 1), class = b, coef = "MEQ_score"),
+  prior(normal(0, 1), class = b, coef = "EDI_scale"),
+  prior(normal(0, 1), class = b, coef = "EBI_scale"),
+  prior(normal(0, 1), class = b, coef = "ASC_scale"),
+  prior(normal(0, 1), class = b, coef = "CEQ_scale")
+)
+
+MLQ_2wa_meq_mp <- brm(
+  formula = MLQ_2wa_meq_f,
+  data = MEQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_meq_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 10, adapt_delta = 0.80))
+
+# prior check 
+summary(MLQ_2wa_meq_mp)
+pp_check(MLQ_2wa_meq_mp, type = "bars", nsamples = 100)
+  
+## posterior model 
+MLQ_2wa_meq_m<- brm(
+  formula = MLQ_2wa_meq_f,
+  data = MEQ,
+  family = cumulative("probit"),
+  prior = MLQ_2wa_meq_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  inits = 0,
+  control = list(max_treedepth = 15, adapt_delta = 0.95),
+  file = "model_files/MLQ_2wa_meq_long")
+
+## pp checks b2wa
+pp_check(MLQ_2wa_meq_m, type = "bars", nsamples = 100)
+
+summary(MLQ_2wa_meq_m)
+
+plot(MLQ_2wa_meq_m)
+
+## chain check b2wa
+mcmc_trace(MLQ_2wa_meq_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy", "b_Psychedelic_naiveYes")) + theme_classic()
+
+mcmc_rank_overlay(MLQ_2wa_meq_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy", "b_Psychedelic_naiveYes")) + theme_classic()
+
+
+## hypothesis testing  b2wa
+hypothesis(MLQ_2wa_meq_m, "MEQ_scale > 0")
+plot(hypothesis(MLQ_2wa_pred_m, "MEQ_scale > 0"))
+ 
+hypothesis(MLQ_2wa_meq_m, "EDI_scale > 0")
+plot(hypothesis(MLQ_2wa_pred_m, "EDI_scale > 0"))
+
+hypothesis(MLQ_2wa_meq_m, "EBI_scale > 0")
+plot(hypothesis(MLQ_2wa_pred_m, "EBI_scale > 0"))
+
+hypothesis(MLQ_2wa_meq_m, "ASC_scale < 0")
+plot(hypothesis(MLQ_2wa_pred_m, "ASC_scale < 0"))
+
+hypothesis(MLQ_2wa_meq_m, "CEQ_scale < 0")
+plot(hypothesis(MLQ_2wa_pred_m, "CEQ_scale < 0"))
+```
+
+
+
+
+
+## MLQ beforeOther
+```{r}
+MLQ_b_other_f <- bf (MLQ_b_p_score ~ 1 +  Other_PE_2wa + (1 | ID) + (1 | MLQ_QN))
+
+
+get_prior(MLQ_b_other_f, MLQ, family = cumulative())
+
+
+MLQ_b_other_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, .5), class = b, coef = "Other_PE_2waYes"),
+  prior(normal(0, .5),   class = sd)
+)
+
+MLQ_b_other_mp <- brm(
+  formula = MLQ_b_other_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_b_other_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 10, adapt_delta = 0.80))
+
+# prior check 
+summary(MLQ_b_other_mp)
+pp_check(MLQ_b_other_mp, type = "bars", nsamples = 100)
+  
+## posterior model b2wa
+MLQ_b_other_m<- brm(
+  formula = MLQ_b_other_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_b_other_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  inits = 0,
+  control = list(max_treedepth = 15, adapt_delta = 0.95),
+  file = "model_files/MLQ_b_other")
+
+## pp checks b2wa
+pp_check(MLQ_b_other_m, type = "bars", nsamples = 100)
+
+summary(MLQ_b_other_m)
+
+plot(MLQ_b_other_m)
+
+## chain check b2wa
+mcmc_trace(MLQ_b_other_m, pars = "Other_PE_2waYes") + theme_classic()
+
+mcmc_rank_overlay(MLQ_b_other_m, pars = "Other_PE_2waYes") + theme_classic()
+
+
+## hypothesis testing  b2wa
+hypothesis(MLQ_b_other_m, "Other_PE_2waYes < 0")
+plot(hypothesis(MLQ_b_other_m, "Other_PE_2waYes > 0"))
+
+
+```
+
+
+##Pb4wa confounds
+```{r}
+# formula
+MLQ_4wa_confound_f <- bf (MLQ_2wa_p_score ~ 1 +  MLQ_b_p_score + Other_PE_4wa+  Confidence_in_long_lasting_effect_PE + Mental_health + Psychedelic_naive +  (1|ID) + (1| MLQ_QN))
+
+
+get_prior(MLQ_4wa_confound, MLQ, family = cumulative())
+
+
+MLQ_4wa_confound_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score"),
+  prior(normal(0, 1), class = b, coef = "Other_PE_4waYes"),
+  prior(normal(0, 1), class = b, coef = "Confidence_in_long_lasting_effect_PE"),
+  prior(normal(0, 1), class = b, coef = "Mental_healthHealthy"),
+  prior(normal(0, 0.5), class = b, coef = "Psychedelic_naiveYes"),
+  prior(normal(0, .5),   class = sd)
+)
+
+MLQ_4wa_confound_mp <- brm(
+  formula = MLQ_4wa_confound_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_4wa_confound_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 10, adapt_delta = 0.80))
+
+# prior check 
+summary(MLQ_4wa_confound_mp)
+pp_check(MLQ_4wa_confound_mp, type = "bars", nsamples = 100)
+  
+## posterior model 
+MLQ_4wa_confound_m<- brm(
+  formula = MLQ_4wa_confound_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_4wa_confound_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  inits = 0,
+  control = list(max_treedepth = 15, adapt_delta = 0.95),
+  file = "model_files/MLQ_4wa_confound5")
+
+## pp checks b2wa
+pp_check(MLQ_4wa_confound_m, type = "bars", nsamples = 100)
+
+summary(MLQ_4wa_confound_m)
+
+plot(MLQ_4wa_confound_m)
+
+## chain check b2wa
+mcmc_trace(MLQ_4wa_confound_mp, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy", "b_Psychedelic_naiveYes")) + theme_classic()
+
+mcmc_rank_overlay(MLQ_4wa_confound_mp, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy", "b_Psychedelic_naiveYes")) + theme_classic()
+
+
+## hypothesis testing  b2wa
+hypothesis(MLQ_4wa_confound_mp, "Psychedelic_naiveYes > 0")
+plot(hypothesis(MLQ_4wa_confound_mp, "Psychedelic_naiveYes > 0"))
+ 
+###  other variables
+hypothesis(MLQ_4wa_confound_mp, "Mental_healthHealthy > 0")
+hypothesis(MLQ_4wa_confound_mp, "Confidence_in_long_lasting_effect_PE > 0")
+hypothesis(MLQ_4wa_confound_mp, "Other_PE_2waYes < 0")
+
+
+
+
+```
+
+## Pb4wa predicting
+```{r}
+MLQ_4wa_pred_f <- 
+  bf (MLQ_4wa_p_score ~ 1 +  MLQ_b_p_score + Mental_health + MEQ_scale + EDI_scale + EBI_scale + ASC_scale + CEQ_scale + (1|ID) + (1|MLQ_QN))
+
+
+get_prior(MLQ_4wa_pred_f, MLQ, family = cumulative())
+
+
+MLQ_4wa_pred_prior <- c(
+  prior(student_t(3, 0, 10), class = Intercept),
+  prior(normal(0, 1), class = b, coef = "MLQ_b_p_score"),
+  prior(normal(0, 1), class = b, coef = "Mental_healthHealthy"),
+  prior(normal(0, .5),   class = sd),
+  prior(normal(0, 1), class = b, coef = "MEQ_scale"),
+  prior(normal(0, 1), class = b, coef = "EDI_scale"),
+  prior(normal(0, 1), class = b, coef = "EBI_scale"),
+  prior(normal(0, 1), class = b, coef = "ASC_scale"),
+  prior(normal(0, 1), class = b, coef = "CEQ_scale")
+)
+
+MLQ_4wa_pred_mp <- brm(
+  formula = MLQ_4wa_pred_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_4wa_pred_prior,
+  sample_prior = "only",
+  chains = 3,
+  cores = 3,
+  control = list(max_treedepth = 10, adapt_delta = 0.80))
+
+# prior check 
+summary(MLQ_4wa_pred_mp)
+pp_check(MLQ_4wa_pred_mp, type = "bars", nsamples = 100)
+  
+## posterior model 
+MLQ_4wa_pred_m<- brm(
+  formula = MLQ_4wa_pred_f,
+  data = MLQ,
+  family = cumulative("probit"),
+  prior = MLQ_4wa_pred_prior,
+  sample_prior = T,
+  chains = 3,
+  cores = 3,
+  iter = 2000,
+  inits = 0,
+  control = list(max_treedepth = 15, adapt_delta = 0.95),
+  file = "model_files/MLQ_4wa_pred1")
+
+## pp checks b2wa
+pp_check(MLQ_4wa_pred_m, type = "bars", nsamples = 100)
+
+summary(MLQ_4wa_pred_m)
+
+plot(MLQ_4wa_pred_m)
+
+## chain check b2wa
+mcmc_trace(MLQ_4wa_pred_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy", "b_Psychedelic_naiveYes")) + theme_classic()
+
+mcmc_rank_overlay(MLQ_4wa_pred_m, pars = c("b_MLQ_b_p_score", "b_Other_PE_2waYes", "b_Confidence_in_long_lasting_effect_PE", "b_Mental_healthHealthy", "b_Psychedelic_naiveYes")) + theme_classic()
+
+
+## hypothesis testing  b2wa
+hypothesis(MLQ_4wa_pred_m, "MEQ_scale > 0")
+plot(hypothesis(MLQ_4wa_pred_m, "MEQ_scale > 0"))
+ 
+hypothesis(MLQ_4wa_pred_m, "EDI_scale > 0")
+plot(hypothesis(MLQ_4wa_pred_m, "EDI_scale > 0"))
+
+hypothesis(MLQ_4wa_pred_m, "EBI_scale > 0")
+plot(hypothesis(MLQ_4wa_pred_m, "EBI_scale > 0"))
+
+hypothesis(MLQ_4wa_pred_m, "ASC_scale < 0")
+plot(hypothesis(MLQ_4wa_pred_m, "ASC_scale < 0"))
+
+hypothesis(MLQ_4wa_pred_m, "CEQ_scale < 0")
+plot(hypothesis(MLQ_4wa_pred_m, "CEQ_scale < 0"))
+
+```
+
+
+
+## Identifying distribution
+```{r}
+# identifying outcome distribution
+
+my_data <- MLQ_2wa$Present_b
+
+descdist(MLQ_2wa$Present_b, boot = 1000)
+
+
+
+fit_ln <- fitdist(my_data, "lnorm", discrete = TRUE)
+fit_norm <- fitdist(my_data, "norm", discrete = TRUE)
+fit_ll <- fitdist(my_data, "llogis", discrete = TRUE)
+fit_uni <- fitdist(my_data, "unif", discrete = TRUE)
+fit_logis <- fitdist(my_data, "logis", discrete = TRUE)
+
+cdfcomp(list(fit_ln, fit_norm, fit_ll, fit_logis),
+        legendtext = c("lognormal", "normal", "log-logistic", "logis"), lwd=2)
+
+gofstat(list(fit_ln, fit_norm, fit_ll, fit_logis), fitnames = c("lognormal", "normal", "log-logistic", "logis"))
+
+
+```
+
+
+
+
+
+
+
+
+
